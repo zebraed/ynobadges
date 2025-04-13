@@ -517,9 +517,9 @@
       "condition": "ほうちょうのエフェクトを入手する、すでに入手している場合は暗闇の世界にもう一度行く。"
     },
     "nasu_ruby": {
-      "name": "Consolation Prize",
-      "description": "A cheap award made of plastic",
-      "condition": "Score exactly 290 points in the secret mode of NASU"
+      "name": "残念賞",
+      "description": "プラスチック製の安っぽい賞",
+      "condition": "NASUの隠れたモードで290点ちょうどを取る"
     }
   },
   "2kki": {
@@ -593,7 +593,8 @@
       "condition": "平行四辺形チェスの大広間に到達する"
     },
     "silver_whale": {
-      "name": "シルバーオーシャン",
+      "name": "Silver Whale",
+      "description": "Eternally swimming in an intergalactic infinite pool.",
       "condition": "銀洋館でクジラを見る"
     },
     "obentou": {
@@ -866,7 +867,8 @@
       "condition": "Time Trial Modeで{TIME}以内に錆び果てた塔の果ての部屋に到達する"
     },
     "sea_lily": {
-      "name": "虹のウミユリ",
+      "name": "Sparkling Sea Lily",
+      "description": "Funky and vibrant crinoids!",
       "condition": "クリノイデアに到達する"
     },
     "noranyan": {
@@ -999,8 +1001,8 @@
       "condition": "拒絶で赤い塊に話しかける"
     },
     "puni": {
-      "name": "５匹のぷに",
-      "description": "ああ、なんて愛らしい",
+      "name": "Friendly Companion",
+      "description": "Oh my, what a cute creature!",
       "condition": "夢卓でぷにに変身する"
     },
     "mechanical_heart": {
@@ -1180,7 +1182,8 @@
       "condition": "満潮のカルカリナ海を訪れる"
     },
     "alien_cellar": {
-      "name": "集合体恐怖症",
+      "name": "Alien Intelligence",
+      "description": "We're afraid that we can't let you go further.",
       "condition": "格納庫に到達する"
     },
     "sea_monster": {
@@ -3332,8 +3335,8 @@
       "condition": "雪恋墓卵で漁船と宇宙を見る"
     },
     "doppelganger_room": {
-      "name": "静かなドッペルゲンガー",
-      "description": "ちょっと視点を変えてみよう",
+      "name": "My Reflection",
+      "description": "A haven of silence in the sea of noise",
       "condition": "鏡の夢部屋に到達する"
     },
     "hallucination_laboratory": {
@@ -3397,8 +3400,8 @@
       "condition": "楽園の水色三つ足生物にふみきりを使う"
     },
     "green_neon_world": {
-      "name": "輝きの収穫",
-      "description": "明るく輝く光の畑",
+      "name": "Ethereal Lumifield",
+      "description": "Even forgotten, they glimmer like echoes of stardust.",
       "condition": "光畑に到達する"
     },
     "mountain_range_scenery": {
@@ -3565,10 +3568,6 @@
       "name": "満月",
       "description": "美しい星月夜。",
       "condition": "星見屋上でおおかみかうさみみで空を見上げる"
-    },
-    "luminous_lake_statue": {
-      "name": "頂の龍",
-      "condition": "夢徨龍リオドリムスを訪れ、望遠鏡で龍を見る"
     },
     "evergreen_woods_vm": {
       "name": "なぜこんなところに行くのですか?",
@@ -3819,8 +3818,8 @@
       "condition": "白い世界でシャボン玉をしている縞子を見つける"
     },
     "angler_depths_docks": {
-      "name": "闇に潜むアンコウ",
-      "description": "暗闇の深海を横切る友好的なアンコウ",
+      "name": "Diving in the Depths",
+      "description": "Where the abyssal blues drown out the red",
       "condition": "釣り堀のアンコウの深海に到達する"
     },
     "axolotl_abode": {
@@ -4189,7 +4188,7 @@
     },
     "sour_void": {
       "name": "レモン絞り",
-      "description": "サワーのようにさわやか！",
+      "description": "Lemons are pretty tasty, though they're a lil' sour!",
       "condition": "サワーに到達する"
     },
     "maiden_snowy_village": {
@@ -4630,8 +4629,8 @@
       "condition": "目薬川の目薬屋さんで、箱子の別の姿を見る"
     },
     "overgrown_gate": {
-      "name": "エデン",
-      "description": "「ガーデン」のゲート",
+      "name": "Daydream in the Forest Corridor",
+      "description": "Go beyond the light within the water's surface.",
       "condition": "光と水面に到達する"
     },
     "robot_hand_hub": {
@@ -5379,8 +5378,8 @@
       "condition": "バグ扉部屋イベントを見る。すでに見たことがある場合、扉部屋に戻る"
     },
     "hat_nexus_c_v_complete": {
-      "name": "シミュラクラ",
-      "description": "帽子…ええ、ただの\"帽子\"。それ以上のなにものでもない。",
+      "name": "Hat Collection",
+      "description": "Try them on and remember the time we've spent together",
       "condition": "六角タイル世界で、すべての帽子を集めてかぶる"
     },
     "aurora_lake": {
@@ -6296,6 +6295,69 @@
       "name": "回復力のあるバラ",
       "description": "\"工場内に点在する無数の機械たちの隙間から、黄昏の光に照らされたバラのつぼみが伸びている\"",
       "condition": "廃墟のバラ工場に到達する"
+    },
+    "chainlink_purple_world": {
+      "name": "窪地で踊ろう",
+      "description": "(シーッ、彼らはようせいが好きみたいだ)",
+      "condition": "紫地世界から植物と網に到達する"
+    },
+    "gachapon_plains": {
+      "name": "カプセル！カプセル！",
+      "description": "欲しかったのが出たよ！やったー！",
+      "condition": "カプセルに到達する"
+    },
+    "insect_clover_ponds": {
+      "name": "水生昆虫",
+      "description": "この興味深い虫たちはなんだろう…？",
+      "condition": "四葉池でむしのエフェクトを使用し、ピンク色の虫を出現させる"
+    },
+    "pastel_mall_thrift": {
+      "name": "トイレのおばけ",
+      "description": "トイレホールに住まう伝説の未確認生命体！",
+      "condition": "深淵マーケット:マーケット(トイレホール側)に到達する"
+    },
+    "gourd_metallic_plate_world": {
+      "name": "ひょうたん族",
+      "condition": "銀銅プレートの焚火に近づいてイベントを見る"
+    },
+    "lupin_legacy_of_ruin": {
+      "name": "それ、なんだ？",
+      "description": "らくがき？ぐちゃぐちゃ？それともバルーンアートの動物？",
+      "condition": "裏扉部屋遺構:赤色の部屋に到達する"
+    },
+    "outskirts_usugurai_residence": {
+      "name": "郊外を見守る翼狼人",
+      "description": "\"そんなところにずっといて、退屈しない？\"",
+      "condition": "無灯集落世界:高原の建物に到達する"
+    },
+    "chocolate_high_rise_building": {
+      "name": "DANGOとチョコレート",
+      "description": "最っ高に甘い組み合わせ！",
+      "condition": "DANGOからチョコレートの通路に到達する"
+    },
+    "sepia_cloud_gardens": {
+      "name": "100回も夢を見た",
+      "condition": "セピアの庭に到達する"
+    },
+    "jungle_grand_scientific_museum": {
+      "name": "ミュージアムの大自然を感じよう",
+      "description": "なんてファンキーな生き物たちなんだ！",
+      "condition": "科学展:ジャングルエリアに到達する"
+    },
+    "galactic_park": {
+      "name": "ちいさな星空の楽園",
+      "description": "星々が美しくきらめく公園 ☆",
+      "condition": "虚空に到達する"
+    },
+    "jigsaw_junction": {
+      "name": "パズルのピース",
+      "description": "私たちのピースはぴったりハマるね！",
+      "condition": "アヒルとジグソーに到達する"
+    },
+    "tree_of_life_b": {
+      "name": "生と死",
+      "description": "希望は木のようなもの。切り倒されても、また芽を出す。その若枝は絶えることはない。",
+      "condition": "srom:生命の樹で大樹をチェーンソーで斬る"
     }
   },
   "unconscious": {
@@ -6750,7 +6812,7 @@
     "phanton_wisteria_grove": {
       "name": "幻影のラストダンス",
       "description": "小さな幽霊よ、翼を下ろしたままにしないで。まだこの先にダンスが待っている。",
-      "condition": "藤の林の奥地で蝶羽の長髪幽霊を見つける"
+      "condition": "メニュータイプ「蝶」を入手する、すでに入手している場合は藤の林の見つけた場所に行く。"
     },
     "minna_punish_mono_msl": {
       "name": "無益な争い",
@@ -7066,14 +7128,99 @@
       "condition": "ネオンカラー浅瀬の家に到達する"
     },
     "april_september_sleep": {
-      "name": "Lengthy Slumber",
-      "description": "Just 5 more months...",
-      "condition": "Sleep from April into September"
+      "name": "ロングロングスリーパー",
+      "description": "まだあと５ヶ月……",
+      "condition": "春の町並みから夜の町並みまで眠る"
     },
     "rooftop_stonelit_hollow": {
-      "name": "Sunset Summit",
-      "description": "An eternal dusk.",
-      "condition": "Reach the rooftop of Stonelit Hollow"
+      "name": "一番上の夕焼け",
+      "description": "悠久の黄昏。",
+      "condition": "積石と夕日の屋上エリアに到達する"
+    },
+    "frozentsuki_snow_lake": {
+      "name": "救出失敗",
+      "description": "助けたかっただけなのに……",
+      "condition": "雪の池で凍り付いたみんなつきの救出を図る"
+    },
+    "bull_ritual_room": {
+      "name": "泥棒",
+      "description": "これで自由だ……ありがとう！",
+      "condition": "鮮紅の泉でタウロスを解放する、すでに解放している場合はタウロスの部屋にもう一度行く。"
+    },
+    "squid_divinity_eternal_communion": {
+      "name": "頭部",
+      "description": "イカ様をたたえよ",
+      "condition": "四季の庭園のイカを見る"
+    },
+    "blue_tile_complex": {
+      "name": "なんてめちゃくちゃなんだ！",
+      "description": "青い液体に覆われてる！",
+      "condition": "タイル施設の青い液体に覆われた部屋を見つける"
+    },
+    "rat_eidolon": {
+      "name": "しまった、ネズミだ！",
+      "description": "*チュウチュウ*",
+      "condition": "齧歯類のエイドラを入手する、すでに入手している場合はCityの見つけた場所に行く。"
+    },
+    "heart_flesh_walls_forest": {
+      "name": "鼓動フィーバー",
+      "description": "消えゆく鼓動を聞かせて",
+      "condition": "肉壁の森壁穴イベントを見る"
+    },
+    "basalt_fields": {
+      "name": "マミー、怖いよ！",
+      "description": "ぐるぐる巻きの魂が空中を飾る。",
+      "condition": "玄武岩草原に到達する"
+    },
+    "neon_light_exhibition": {
+      "name": "ネオンパーティー",
+      "description": "みんなパーティ大好き！",
+      "condition": "ネオンライト通路に到達する"
+    },
+    "dance_spiral_limb_passage": {
+      "name": "Dance of the Rokurokubi",
+      "description": "Come join the fun.",
+      "condition": "Trigger the Spiral Dance event in Spiral Limb Passage"
+    },
+    "red_friend_sabbatical_complex": {
+      "name": "Friend Shaped",
+      "description": "Don't cry big one!",
+      "condition": "Find the Red Friend in Sabbatical Complex"
+    },
+    "cephalo_hyper_road_maze": {
+      "name": "Tenta-Cool DJ",
+      "description": "This party got me all kraken up!",
+      "condition": "Interact with Cephalo P. in Hyper Road Maze"
+    },
+    "unconscious_toy_world": {
+      "name": "Nostophobia",
+      "description": "Childhood memories caked in soot.",
+      "condition": "Visit Toy World"
+    },
+    "joy_district": {
+      "name": "=)",
+      "description": "The local cuisine here is just exquisite. Have you tasted the leather shoes yet? =)",
+      "condition": "Visit Joy District"
+    },
+    "picnic_sylvan_trails": {
+      "name": "Amanitaceae",
+      "description": "When you listen to the musicaria of the agaric, do you see them too?",
+      "condition": "Find the mushroom girls' picnic in Sylvan Trails"
+    },
+    "statues_moth_garden": {
+      "name": "Statues in the Lanternlight",
+      "description": "Statues' last tour",
+      "condition": "Find the two white creatures at the end of the lantern-lit boardwalk in Moth Garden"
+    },
+    "bunny_monster_manuscripts": {
+      "name": "Buneye",
+      "description": "Eye see you!",
+      "condition": "Find the giant bunny in water in Monster Manuscripts"
+    },
+    "achromatic_positive_hellscape": {
+      "name": "White Happy",
+      "description": "IN THE END NONE OF THIS IS REAL",
+      "condition": "Visit Achromatic Positive Hellscape"
     }
   },
   "flow": {
@@ -7112,8 +7259,8 @@
       }
     },
     "dark_city": {
-      "name": "Psychedelic Visage",
-      "description": "A gift from a visitor from another plane of reality",
+      "name": "サイケデリックな姿",
+      "description": "別の次元からの来訪者の贈り物",
       "condition": "サイケデリック街にいる宇宙人に話しかける"
     },
     "red_eye": {
@@ -7305,9 +7452,14 @@
       "condition": "血液広間で神速のカイブツに捕まる"
     },
     "plant_action_flow": {
-      "name": "Floral Lungs",
-      "description": "Blegh.",
-      "condition": "Trigger the Plant effect's action in a rainy place"
+      "name": "花の肺",
+      "description": "はぁ。",
+      "condition": "雨が降る場所でしょくぶつのエフェクトの動作を見る"
+    },
+    "orange_slime_apartments": {
+      "name": "Blob Buddy",
+      "description": "A joyful jelly appears!",
+      "condition": "Interact with the orange slime in the Apartments"
     }
   },
   "prayers": {
@@ -8052,9 +8204,9 @@
       "condition": "Corroded Dreamで口から血を流している女性が映ったテレビを見る"
     },
     "anglerfish_the_abyss": {
-      "name": "Abyssal Lurker",
-      "description": "Do not fear the dark ocean depths, fear what hides within them.",
-      "condition": "Reveal the anglerfish in The Abyss"
+      "name": "深淵の潜行者",
+      "description": "暗い海の底を恐れるな、その中に潜むものを恐れよ。",
+      "condition": "The Abyssのチョウチンアンコウの姿を暴く"
     }
   },
   "braingirl": {
@@ -8514,6 +8666,11 @@
       "name": "むまとうさぎ",
       "description": "お友達になりませんか？",
       "condition": "First Stepsでうさぎを持ち上げる"
+    },
+    "maison_de_muma": {
+      "name": "ホワイトハウス",
+      "description": "誰がこんなところに住むんだ？",
+      "condition": "Houseに到達する"
     }
   },
   "genie": {
@@ -9156,8 +9313,8 @@
       "condition": "Vampire's Houseに入る"
     },
     "neptune": {
-      "name": "ポセイドン",
-      "description": "すべての鍵を握る氷の惑星、ヴェール。",
+      "name": "Vagus",
+      "description": "Could spring ever bloom in a planet of endless winter...?",
       "condition": "Neptuneに到達する"
     },
     "clock_cat": {
@@ -9251,8 +9408,8 @@
       "condition": "Wind Vane Girlを殺した末路に直面する"
     },
     "overlook_oil_world": {
-      "name": "オイル太陽",
-      "description": "山がオイルに満たされる",
+      "name": "迫り来る",
+      "description": "遠くに何かがいる。",
       "condition": "Oil Worldから行けるOverlookに到達する"
     },
     "noise_room": {
@@ -9340,23 +9497,23 @@
       "condition": "Vampirismのエフェクトを入手する、すでに入手している場合はGloomy Wetlandsの隔離エリアの見つけた場所に行く。"
     },
     "cardboard_basement_world": {
-      "name": "Secret Hideout",
-      "description": "They love their bunnies!",
-      "condition": "Reach the cartoon head guy in Basement World"
+      "name": "秘密の隠れ家",
+      "description": "この子はうさぎが大好き！",
+      "condition": "Basement Worldの箱頭の男がいる場所に到達する"
     },
     "sleepy_electro_metro": {
-      "name": "You're Electric!",
-      "description": "Can they stop glowing like that it's kind of creeping me out",
-      "condition": "Find the person sleeping in the workshop of Metro Zone and the head honcho of Electro Tower",
+      "name": "電撃のよう！",
+      "description": "気味が悪いから光るのやめてくれないかな",
+      "condition": "Metro Zoneの作業場で眠っている人とElectro Towerのトップを見つける",
       "checkbox": {
-        "sleepy_metro": "Find the person sleeping in the workshop of Metro Zone",
-        "sleepy_electro": "the head honcho of Electro Tower"
+        "sleepy_metro": "Metro Zoneの作業場で眠っている人",
+        "sleepy_electro": "Electro Towerのトップ"
       }
     },
     "radon_noble_gas_district": {
-      "name": "Jar o' Radon",
-      "description": "100% safe to ingest! Who doesn't love a free sample?",
-      "condition": "Buy a radon from the vending machine in the Noble Gas District"
+      "name": "ラドンの小瓶",
+      "description": "吸っても100%安全！無料サンプルおひとついかが？",
+      "condition": "Noble Gas Districtの自販機でラドンガスを買う"
     }
   },
   "tsushin": {
@@ -9511,8 +9668,8 @@
       "condition": "Body Part ExhibitionでGoth Dressのエフェクトを取得する"
     },
     "bar_ancient_civilization": {
-      "name": "Cheers!",
-      "description": "It's orange juice!",
+      "name": "乾杯！",
+      "description": "オレンジジュースだよ！",
       "condition": "Ancient Civilizationのbarに到達する"
     },
     "microwave_library": {
@@ -9623,6 +9780,24 @@
       "name": "おバカなメイド",
       "description": "あぁ、コップが割れちゃった！",
       "condition": "Maidのエフェクトで動作を見る"
+    },
+    "sushi_monitor_realm": {
+      "name": "海底ビュッフェ",
+      "description": "いい景色で、目覚めたくなくったかも。",
+      "condition": "Monitor Realmの寿司の水族館に行く"
+    },
+    "mascot_costume_effect": {
+      "name": "自己喪失",
+      "condition": "Mascot Suitのエフェクトを入手する、すでに入手している場合はAmusement Parkの見つけた場所に行く。"
+    },
+    "eyeball_foot_effect": {
+      "name": "NOUN\"ASHI\"",
+      "condition": "Eyeball Footのエフェクトを入手する、すでに入手している場合はResidential Buildingの見つけた場所に行く。"
+    },
+    "cow_office_building": {
+      "name": "冷凍肉",
+      "description": "あれは牛？",
+      "condition": "Office Buildingで凍った牛を見る"
     }
   },
   "nostalgic": {
@@ -9860,7 +10035,8 @@
       "condition": "不浄の地の崖にある金庫でガスマスクを入手する"
     },
     "silver_barrens": {
-      "name": "Temp Badge Name (Do not translate)",
+      "name": "シルバーのクイーン",
+      "description": "「チェスは私の心を忙しくしてくれるの。」",
       "condition": "不浄の地の採掘場でシルバーとチェスをする"
     },
     "dream_barrens": {
@@ -9892,6 +10068,11 @@
       "name": "Temp Badge Name (Do not translate)",
       "condition": "峡谷の村で羊飼いのラムの世話を手伝う"
     },
+    "plant_girl_ruins_glen": {
+      "name": "自己完結型宇宙",
+      "description": "「私の最後の願いを叶えてくれてありがとう、救世主さん…」",
+      "condition": "峡谷の遺跡にいる植物の少女に電球を貸す"
+    },
     "dream_glen": {
       "name": "美味しい夢",
       "description": "居心地の良い夢？",
@@ -9922,11 +10103,12 @@
       "condition": "ニコは世界を救った。"
     },
     "niko_home_ending": {
-      "name": "Temp Badge Name (Do not translate)",
+      "name": "世界にさようなら",
+      "description": "必然だったのかもしれない……",
       "condition": "救世主はいなくなった。この世界の全ての希望は消滅した。"
     },
     "flower_ending": {
-      "name": "Temp Badge Name (Do not translate)",
+      "name": "再生",
       "condition": "エンディングで花の成長を見届ける"
     }
   },
@@ -10003,6 +10185,74 @@
       "name": "昔のおばかボーイ",
       "description": "ちょっとパソコン見てみてよ。",
       "condition": "Classicの持ち物を入手する、すでに入手している場合はPC Gameの見つけた場所に行く。"
+    }
+  },
+  "fog": {
+    "leon_laptop_perk": {
+      "name": "N=1",
+      "description": "要チェック！最新型！",
+      "condition": "LeonでLaptopのperkを入手する、すでに入手している場合はLeon's Dream Bedroomにもう一度行く。"
+    },
+    "fedora_office_complex": {
+      "name": "Leonの霊",
+      "condition": "Office ComplexのWest WingでLeonに変装したFedoraを見つける"
+    },
+    "martha_perks": {
+      "name": "耐えられない思い出",
+      "description": "何をしたんだ？",
+      "condition": "TeganでMartha’s VoiceのperkとBloody Knifeのperkを入手し、LeonでMartha’s Beanieのperkを入手する。すでに入手している場合は、それぞれDreamer Lab、Nature WorldのCorpse Cabin、EGA Dead Endの見つけた場所にもう一度行く。",
+      "checkbox": {
+        "martha_voice_perk": "Martha’s Voiceのperk",
+        "bloody_knife_perk": "Bloody Knifeのperk",
+        "martha_beanie_perk": "Martha’s Beanieのperk"
+      }
+    },
+    "blue_creep_side_world": {
+      "name": "赤毛に見向きもしない生物",
+      "description": "「あれはな、自然なものじゃないんだ！」",
+      "condition": "TeganかEmoryのどちらかでSide WorldのBlue Creepを見る"
+    },
+    "main_room_office_complex": {
+      "name": "こっちみんな",
+      "condition": "Office Complexのメインルームに到達する"
+    },
+    "tegan_grayscale_effect": {
+      "name": "褪色",
+      "description": "一人じゃないけど、孤独だ……",
+      "condition": "TeganでGrayscaleのエフェクトを入手する、すでに入手している場合はNothingnessにもう一度行く。"
+    },
+    "glitch_world_error": {
+      "name": "配列変数の添字の値が指定の範囲を超えています",
+      "description": "指定されたイベントは存在しません",
+      "condition": "LeonかTeganのどちらかでの顔の生物を殺害してイベントを見る"
+    },
+    "tegan_leon_bedroom": {
+      "name": "イントゥ・バックドア",
+      "description": "そこは行っちゃダメ……",
+      "condition": "LeonでTegan's Dream Bedroomに入ろうとし、TeganでLeon's Dream Bedroomに入ろうとする",
+      "checkbox": {
+        "tegan_bedroom_leon": "LeonでTegan's Dream Bedroomに入ろうとし",
+        "leon_bedroom_tegan": "TeganでLeon's Dream Bedroomに入ろうとする"
+      }
+    },
+    "tegan_clown_effect": {
+      "name": "ただの道化",
+      "description": "ホッホー！",
+      "condition": "TeganでClownのエフェクトを入手する、すでに入手している場合はColor WorldのPower Roomにもう一度行く。"
+    },
+    "bed_spacey_area": {
+      "name": "孤高の空間",
+      "description": "……覚えてる？残ったのは自分だけ。",
+      "condition": "Space StationのCaptain's QuartersとLindsey's Bedroomのベッドで眠る",
+      "checkbox": {
+        "captain_quarters_space_station": "Space StationのCaptain's Quarters",
+        "bed_lindsey_bedroom": "Lindsey's Bedroom"
+      }
+    },
+    "good_bye_stranger": {
+      "name": "もう逃げられない",
+      "description": "どう逃げ出せって言うんだ？",
+      "condition": "Good-bye Strangerの最後のレベルで捕まる"
     }
   }
 }
