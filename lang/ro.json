@@ -40,11 +40,11 @@
     },
     "vm_bronze": {
       "name": "Bronze Vending Machine Finder",
-      "condition": "Complete 10 Vending Machine Finder expeditions"
+      "condition": "Complete 15 Vending Machine Finder expeditions"
     },
     "vm_silver": {
       "name": "Silver Vending Machine Finder",
-      "condition": "Complete 25 Vending Machine Finder expeditions"
+      "condition": "Complete 30 Vending Machine Finder expeditions"
     },
     "vm_gold": {
       "name": "Gold Vending Machine Finder",
@@ -52,11 +52,11 @@
     },
     "vm_platinum": {
       "name": "Platinum Vending Machine Finder",
-      "condition": "Complete 100 Vending Machine Finder expeditions"
+      "condition": "Complete 75 Vending Machine Finder expeditions"
     },
     "vm_diamond": {
       "name": "Diamond Vending Machine Finder",
-      "condition": "Complete 200 Vending Machine Finder expeditions"
+      "condition": "Complete 100 Vending Machine Finder expeditions"
     },
     "exp_amulet": {
       "name": "Expeditionist Amulet",
@@ -527,27 +527,27 @@
   "2kki": {
     "compass": {
       "name": "Expedition Completionist",
-      "condition": "Complete expeditions in 30% of available locations"
+      "condition": "Complete expeditions to 25 unique locations"
     },
     "compass_bronze": {
       "name": "Bronze Expedition Completionist",
-      "condition": "Complete expeditions in 50% of available locations"
+      "condition": "Complete expeditions to 50 unique locations"
     },
     "compass_silver": {
       "name": "Silver Expedition Completionist",
-      "condition": "Complete expeditions in 70% of available locations"
+      "condition": "Complete expeditions to 100 unique locations"
     },
     "compass_gold": {
       "name": "Gold Expedition Completionist",
-      "condition": "Complete expeditions in 80% of available locations"
+      "condition": "Complete expeditions to 200 unique locations"
     },
     "compass_platinum": {
       "name": "Platinum Expedition Completionist",
-      "condition": "Complete expeditions in 90% of available locations"
+      "condition": "Complete expeditions to 400 unique locations"
     },
     "compass_diamond": {
       "name": "Diamond Expedition Completionist",
-      "condition": "Complete expeditions in 95% of available locations"
+      "condition": "Complete expeditions to 800 unique locations"
     },
     "uro_trophy_bronze": {
       "name": "Bronze Urotsuki Trophy",
@@ -968,7 +968,7 @@
       "condition": "Using the Glasses or Grave effect, see the ghostly inhabitants of the Ancient Hydrangea City"
     },
     "originator_garden": {
-      "name": "Myths and Origins",
+      "name": "Secrets Unraveled",
       "condition": "Enter the main area of the Originator Garden"
     },
     "bsides": {
@@ -4863,8 +4863,8 @@
       "condition": "Reach the end of the puzzle in Scattered Sky Fields"
     },
     "penseur_crimson_chair": {
-      "name": "The Thinker",
-      "description": "What goes through this being's head?",
+      "name": "Lonely Sitter",
+      "description": "A person who thinks all the time has nothing to think about except thoughts.",
       "condition": "Find the pink humanoid creature in Crimson Chair Area"
     },
     "kiki_crossing_forest": {
@@ -5488,8 +5488,8 @@
       "condition": "Access Old Train Station from Old Train Station B or Old Train Station B from Old Train Station"
     },
     "bw_chaotic_buildings": {
-      "name": "Monochromatic Psyche",
-      "description": "Aligning the cables",
+      "name": "Black and White Byway",
+      "description": "Don't fall!",
       "condition": "Reach the black and white passage in Chaotic Buildings"
     },
     "bw_statue_forest": {
@@ -6165,7 +6165,7 @@
     "roux_art_exposition": {
       "name": "Eye of the Beholder",
       "description": "\"The human body is like a piece of art: many adore it, but the owner loathes it.\" -T",
-      "condition": "Find the warped painting of Urotsuki in the Art Exposition"
+      "condition": "Interact with the warped painting of Urotsuki in the Art Exposition"
     },
     "sea_sponge_path": {
       "name": "Lumen Cove",
@@ -6275,8 +6275,8 @@
       "condition": "Equip the Kagami Mochi mask in Golden Sunset Estate"
     },
     "sheep_mask": {
-      "name": "Sheep Asleep",
-      "description": "I wonder if it’s counting sheep?",
+      "name": "World's Sleepiest Sheep",
+      "description": "Zzz...",
       "condition": "Equip the sheep mask in Urotsuki's Dream Apartments"
     },
     "menu_styles_nerium_lab": {
@@ -6405,6 +6405,36 @@
       "name": "... And Now I'm a Wizard",
       "description": "A funky hat for a funky gal",
       "condition": "Equip the cone hat mask in Twisted Cone World"
+    },
+    "fox_kitsune_residence": {
+      "name": "The Watching Fox",
+      "description": "Is this your residence?",
+      "condition": "See the yellow fox in Kitsune Residence"
+    },
+    "superfan_hellish_village": {
+      "name": "No Flash Photography",
+      "description": "Big fan, Urotsuki!",
+      "condition": "Take a photo with the Urotsuki Superfan in the booth house of Hellish Village"
+    },
+    "clementine_pastel_mall": {
+      "name": "Silly Hats!",
+      "description": "Malls sure do sell some funny items.",
+      "condition": "See Clementine in Pastel Mall"
+    },
+    "ironashi_coast": {
+      "name": "Ironashi Coast",
+      "description": "Black and white and beach",
+      "condition": "Visit Ironashi Coast"
+    },
+    "beach_legacy_nexus": {
+      "name": "Room of Memories",
+      "description": "Time to get back to Nexus.",
+      "condition": "Reach the secret beach area of the Legacy Nexus"
+    },
+    "cluster_of_flowers": {
+      "name": "From Pipes to Lamp Posts and Flowers",
+      "description": "\"Whose idea it was to put twinkling lights in a damp, dark area like this? Well, whatever. At the very least, it highlights the beauty of these flowers\"",
+      "condition": "Visit Cluster of Flowers"
     }
   },
   "unconscious": {
@@ -7278,6 +7308,41 @@
       "name": "Hot Cocoa",
       "description": "Coming in from the cold just feels so nice.",
       "condition": "Equip the comfy costume in the Cabin of Snowy World"
+    },
+    "guitarist_sunset_woods": {
+      "name": "Sunset Serenade",
+      "description": "... I think I'll stay here.",
+      "condition": "Listen to the guitarist's song in the Sunset Woods"
+    },
+    "moon_clockwork_backstage": {
+      "name": "Mechanical Moon",
+      "description": "Above the stage, in golden tune, hovers the clockwork-crafted moon.",
+      "condition": "See the moon in Clockwork Backstage"
+    },
+    "mantis_shattered_realm": {
+      "name": "He Getting Jiggy with It!",
+      "description": "Dancing by their lonesome... well at least the music is catchy!",
+      "condition": "See the tall guy in the small room in Shattered Realm"
+    },
+    "zen_garden": {
+      "name": "Gardens of Sand",
+      "description": "A delicate and serene garden of rocks and white sand",
+      "condition": "Visit Zen Garden"
+    },
+    "fox_fantasy_forest": {
+      "name": "The Art of Taming",
+      "description": "If you tame me, you will be unique in all the world to me and I shall be unique in all the world to you.",
+      "condition": "Find and interact with the Mystic Fox in Fantasy Forest"
+    },
+    "tooth_menu_sickly_sweet": {
+      "name": "Sweet Temptation",
+      "description": "There's no escape now",
+      "condition": "Obtain the Tooth Decay menu theme. If you have already unlocked it, return where it can be found in Sickly Sweet."
+    },
+    "tree_flesh_pit": {
+      "name": "The Forest That Hates You",
+      "description": "Mess with the trees, SNAP go your knees.",
+      "condition": "Interact with the tree leading to Flesh Pit during the Tree Attack event in Untamed Forest"
     }
   },
   "flow": {
@@ -7517,6 +7582,35 @@
       "name": "Blob Buddy",
       "description": "A joyful jelly appears!",
       "condition": "Interact with the orange slime in the Apartments"
+    },
+    "guillotine_prison": {
+      "name": "Guilt & Execution",
+      "description": "Abandon hope all ye who enter here.",
+      "condition": "Access Hell using the guillotine in Prison"
+    },
+    "whistle_effect_flow": {
+      "name": "Rusty Referee",
+      "condition": "Obtain the Whistle effect. If you have already unlocked it, return where it can be found in Visceral World."
+    },
+    "viscera_effect": {
+      "name": "Spill Your Guts",
+      "description": "What a mess...",
+      "condition": "Obtain the Viscera effect. If you have already unlocked it, return where it can be found in Womb Maze."
+    },
+    "broom_effect_flow": {
+      "name": "Sabi's Delivery Service",
+      "description": "You'll truly feel alive every day.",
+      "condition": "Obtain the Broom effect. If you have already unlocked it, return where it can be found in Famicom World."
+    },
+    "uniform_effect_flow": {
+      "name": "Back at School!",
+      "description": "At least the uniform is nice!",
+      "condition": "Obtain the Uniform effect. If you have already unlocked it, return where it can be found in School."
+    },
+    "dress_effect_flow": {
+      "name": "Fragrance Snowy Dress",
+      "description": "A nice pretty dress I would've liked.",
+      "condition": "Obtain the Dress effect. If you have already unlocked it, return where it can be found in Snow World."
     }
   },
   "prayers": {
@@ -9089,6 +9183,11 @@
     "tabe_gold": {
       "name": "202-Karat Fruit",
       "condition": "Score 2000 points in TA_BE_"
+    },
+    "tv_dark_sewers": {
+      "name": "It Watches",
+      "description": "Is it... judging me?",
+      "condition": "Turn ON the TV in the Dark Sewers"
     }
   },
   "ultraviolet": {
@@ -9244,8 +9343,8 @@
       "condition": "See and attract the blonde girl outside of her box using the Rabbit or Cake effect in Old Storehouse World"
     },
     "emerald_square": {
-      "name": "Emerald Church",
-      "description": "A key point of the events",
+      "name": "Menacing",
+      "description": "No one can just visit the Emerald Square!",
       "condition": "Visit Emerald Square"
     },
     "sibunnies_glass_pipe": {
@@ -9274,6 +9373,11 @@
       "name": "Ghost Urbanization",
       "description": "There was a big blackout tonight down there",
       "condition": "See the view from the balcony in Banquet Hall"
+    },
+    "android_effect": {
+      "name": "Violet Andromeda",
+      "description": "Now you're dreaming with power.",
+      "condition": "Obtain the Android effect. If you have already unlocked it, return where it can be found in Space Station."
     }
   },
   "sheawaits": {
@@ -9575,6 +9679,16 @@
       "name": "Jar o' Radon",
       "description": "100% safe to ingest! Who doesn't love a free sample?",
       "condition": "Buy a radon from the vending machine in the Noble Gas District"
+    },
+    "gargoyle_effect": {
+      "name": "Brave Memory",
+      "description": "Within a maze of castle ramparts was a lonesome gargoyle statue. Even if their job is to sit there warding off evil, it must get lonely sometimes.",
+      "condition": "Obtain the Gargoyle effect. If you have already unlocked it, return where it can be found in Ramparts."
+    },
+    "wendigo_effect": {
+      "name": "Unwanted Memories",
+      "description": "Deep within a forest of scarlet trees was a tall monster. Its eyes glowed with a color similar to that of blood, unwanted memories arose in me.",
+      "condition": "Obtain the Wendigo effect. If you have already unlocked it, return where it can be found in Scarlet World."
     }
   },
   "tsushin": {

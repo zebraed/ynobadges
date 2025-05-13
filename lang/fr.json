@@ -40,11 +40,11 @@
     },
     "vm_bronze": {
       "name": "Chercheur de distributeurs automatiques de bronze",
-      "condition": "Compléter 10 expéditions de recherche de distributeurs automatiques"
+      "condition": "Compléter 15 expéditions de recherche de distributeurs automatiques"
     },
     "vm_silver": {
       "name": "Chercheur de distributeurs automatiques d'argent",
-      "condition": "Compléter 25 expéditions de recherche de distributeurs automatiques"
+      "condition": "Compléter 30 expéditions de recherche de distributeurs automatiques"
     },
     "vm_gold": {
       "name": "Chercheur de distributeurs automatiques d'or",
@@ -52,11 +52,11 @@
     },
     "vm_platinum": {
       "name": "Chercheur de distributeurs automatiques de platine",
-      "condition": "Compléter 100 expéditions de recherche de distributeurs automatiques"
+      "condition": "Compléter 75 expéditions de recherche de distributeurs automatiques"
     },
     "vm_diamond": {
       "name": "Chercheur de distributeurs automatiques de diamant",
-      "condition": "Compléter 200 expéditions de recherche de distributeurs automatiques"
+      "condition": "Compléter 100 expéditions de recherche de distributeurs automatiques"
     },
     "exp_amulet": {
       "name": "Amulette d'expéditionniste",
@@ -527,27 +527,27 @@
   "2kki": {
     "compass": {
       "name": "Complétionniste d'expéditions",
-      "condition": "Compléter des expéditions dans 30% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 25 lieux uniques"
     },
     "compass_bronze": {
       "name": "Complétionniste d'expéditions de bronze",
-      "condition": "Compléter des expéditions dans 50% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 50 lieux uniques"
     },
     "compass_silver": {
       "name": "Complétionniste d'expéditions d'argent",
-      "condition": "Compléter des expéditions dans 70% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 100 lieux uniques"
     },
     "compass_gold": {
       "name": "Complétionniste d'expéditions d'or",
-      "condition": "Compléter des expéditions dans 80% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 200 lieux uniques"
     },
     "compass_platinum": {
       "name": "Complétionniste d'expéditions de platine",
-      "condition": "Compléter des expéditions dans 90% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 400 lieux uniques"
     },
     "compass_diamond": {
       "name": "Complétionniste d'expéditions de diamant",
-      "condition": "Compléter des expéditions dans 95% des lieux disponibles"
+      "condition": "Compléter des expéditions dans 800 lieux uniques"
     },
     "uro_trophy_bronze": {
       "name": "Trophée Urotsuki de bronze",
@@ -968,7 +968,7 @@
       "condition": "En utilisant l'effet Lunettes ou Tombe, voir les habitants fantomatiques de l'Ancient Hydrangea City"
     },
     "originator_garden": {
-      "name": "Mythes et origines",
+      "name": "Secrets déterrés",
       "condition": "Entrer dans la zone principale de l'Originator Garden"
     },
     "bsides": {
@@ -4867,8 +4867,8 @@
       "condition": "Atteindre la fin du puzzle aux Scattered Sky Fields"
     },
     "penseur_crimson_chair": {
-      "name": "Le Penseur",
-      "description": "Que pourrait-il se passer dans sa tête ?",
+      "name": "Modèle assis isolé",
+      "description": "Une personne pensant tout le temps n'a rien à penser en dehors de pensées.",
       "condition": "Trouver la créature humanoïde rose à la Crimson Chair Area"
     },
     "kiki_crossing_forest": {
@@ -5492,8 +5492,8 @@
       "condition": "Accéder à l'Old Train Station depuis l'Old Train Station B ou à l'Old Train Station B depuis l'Old Train Station"
     },
     "bw_chaotic_buildings": {
-      "name": "Psyché monochrome",
-      "description": "Alignant les câbles",
+      "name": "Chemin de traverse monochrome",
+      "description": "Ne tombe pas !",
       "condition": "Atteindre le passage noir et blanc aux Chaotic Buildings"
     },
     "bw_statue_forest": {
@@ -6169,7 +6169,7 @@
     "roux_art_exposition": {
       "name": "Œil de l'observateur",
       "description": "« Le corps humain est comme une œuvre d'art : nombreux sont ces admirateurs, mais son créateur ne partage pas le même engouement. » -T. Uroh",
-      "condition": "Trouver la peinture distordue d'Urotsuki dans l'Art Exposition"
+      "condition": "Interagir avec la peinture distordue d'Urotsuki dans l'Art Exposition"
     },
     "sea_sponge_path": {
       "name": "Crique du lumen",
@@ -6279,8 +6279,8 @@
       "condition": "Équiper le masque Kagami Mochi au Golden Sunset Estate"
     },
     "sheep_mask": {
-      "name": "Mouton au dodo",
-      "description": "J'me demande si il compte les moutons ?",
+      "name": "Le mouton le plus fatigué du monde",
+      "description": "Zzz...",
       "condition": "Équiper le masque mouton aux Urotsuki's Dream Apartments"
     },
     "menu_styles_nerium_lab": {
@@ -6409,6 +6409,36 @@
       "name": "Icône des cônes",
       "description": "Quiconque ayant travaillé dans le BTP reconnaîtra ce chapeau singulier, aimé de toutes et tous pour sa sécurisation des lieux... bien qu'on préfère le voir partir au plus vite une fois les travaux finis.",
       "condition": "Équiper le masque chapeau cône au Twisted Cone World"
+    },
+    "fox_kitsune_residence": {
+      "name": "Renard attentif",
+      "description": "Est-ce ton lieu de vie ?",
+      "condition": "Voir le renard jaune à la Kitsune Residence"
+    },
+    "superfan_hellish_village": {
+      "name": "Photo sans flash",
+      "description": "Aaahhh, Urotsuki !!! Je suis ta plus grande fan !!!",
+      "condition": "Prendre une photo avec la fan d'Urotsuki dans la cabine photo de l'Hellish Village"
+    },
+    "clementine_pastel_mall": {
+      "name": "Chapeaux rigolos !",
+      "description": "Les centres commerciaux vendent de sacrés objets...",
+      "condition": "Voir Clémentine au Pastel Mall"
+    },
+    "ironashi_coast": {
+      "name": "Côte sans couleurs",
+      "description": "Plage monochrome",
+      "condition": "Visiter l'Ironashi Coast"
+    },
+    "beach_legacy_nexus": {
+      "name": "Salle des souvenirs",
+      "description": "Plus qu'à retourner au Nexus.",
+      "condition": "Atteindre la zone secrète de plage au Legacy Nexus"
+    },
+    "cluster_of_flowers": {
+      "name": "Fleurs et lumière",
+      "description": "« Qui a eu la brillante idée de mettre des lumières scintillantes dans une zone aussi humide et ténèbreuse ? Mouais bon. Au moins, tout ça révèle la beauté des fleurs. »",
+      "condition": "Visiter le Cluster of Flowers"
     }
   },
   "unconscious": {
@@ -7282,6 +7312,41 @@
       "name": "Chocolat chaud",
       "description": "Venir ici en sortant du froid de l'hiver, ça fait tellement du bien...",
       "condition": "Équiper la tenue bien au chaud au Chalet de Snowy World"
+    },
+    "guitarist_sunset_woods": {
+      "name": "Concert au crépuscule",
+      "description": "... je pense que je vais rester ici.",
+      "condition": "Écouter la musique du guitariste aux Sunset Woods"
+    },
+    "moon_clockwork_backstage": {
+      "name": "Astre artificiel",
+      "description": "Au-dessus de la scène, d'une lueur dorée, une douce lune mécanique se tient.",
+      "condition": "Voir la lune au Clockwork Backstage"
+    },
+    "mantis_shattered_realm": {
+      "name": "Danse isolée",
+      "description": "Dansant seul isolé de tous... mais au moins, la musique est entraînante !",
+      "condition": "Voir la grande créature dans la petite pièce de Shattered Realm"
+    },
+    "zen_garden": {
+      "name": "Jardins de sable",
+      "description": "Un délicat et serein jardin de rochers et de sable blanc",
+      "condition": "Visiter le Zen Garden"
+    },
+    "fox_fantasy_forest": {
+      "name": "L'art de dompter",
+      "description": "« Mais, si tu m'apprivoises, nous aurons besoin l'un de l'autre. Tu seras pour moi unique au monde. Je serai pour toi unique au monde... »",
+      "condition": "Trouver et interagir avec le Renard Mystique à la Fantasy Forest"
+    },
+    "tooth_menu_sickly_sweet": {
+      "name": "Douce tentation",
+      "description": "Tu ne peux plus sortir maintenant",
+      "condition": "Obtenir le thème de menu Carie. Si vous l'avez déjà débloqué, retournez là où il peut être trouvé à Sickly Sweet."
+    },
+    "tree_flesh_pit": {
+      "name": "La forêt qui te déteste",
+      "description": "Qui embête les arbres, fait ses adieux au monde.",
+      "condition": "Interagir avec l'arbre menant au Flesh Pit pendant l'événement de Vengeance des Arbres à l'Untamed Forest"
     }
   },
   "flow": {
@@ -7496,7 +7561,7 @@
     "cat_rainbow_maze": {
       "name": "Chat rouille",
       "description": "Oh, un adorable chaton aux couleurs de la neige !",
-      "condition": "Obtenir l'effet Chat. Si vous l'avez déjà obtenu, retournez là où l'effet peut être trouvé au Rainbow Maze."
+      "condition": "Obtenir l'effet Chat. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Rainbow Maze."
     },
     "oreko_hole_deadhole": {
       "name": "Écho abyssal",
@@ -7521,6 +7586,35 @@
       "name": "Slime sympathique",
       "description": "Une gelée gluante apparaît !",
       "condition": "Interagir avec le slime orange aux Apartments"
+    },
+    "guillotine_prison": {
+      "name": "Péché et exécution",
+      "description": "Abandonne tout espoir, toi qui en est venue là.",
+      "condition": "Accéder à Hell en utilisant la guillotine en Prison"
+    },
+    "whistle_effect_flow": {
+      "name": "Arbitre à l'ouest",
+      "condition": "Obtenir l'effet Sifflet. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Visceral World."
+    },
+    "viscera_effect": {
+      "name": "Boyaux à l'air libre",
+      "description": "Quel foutoir...",
+      "condition": "Obtenir l'effet Viscères. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Womb Maze."
+    },
+    "broom_effect_flow": {
+      "name": "Sabi la petite sorcière",
+      "description": "« Je m'appelle Sabi et je suis une sorcière ! »",
+      "condition": "Obtenir l'effet Balai. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Famicom World."
+    },
+    "uniform_effect_flow": {
+      "name": "Retour à l'école !",
+      "description": "Au moins l'uniforme ici est sympa !",
+      "condition": "Obtenir l'effet Uniforme. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé à la School."
+    },
+    "dress_effect_flow": {
+      "name": "Robe enneigée parfumée",
+      "description": "Une jolie robe que j'aurais aimée.",
+      "condition": "Obtenir l'effet Robe. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Snow World."
     }
   },
   "prayers": {
@@ -7829,7 +7923,7 @@
     "nostalgic_alter": {
       "name": "Anciens temps, certes, mais rêves passés",
       "description": "Essaies-tu de te rappeler de tes souvenirs dans le monde onirique ? Les anciens temps te manque, pas vrai ?",
-      "condition": "Obtenir l'alter Nostalgique. Si vous l'avez déjà obtenu, retournez là où il peut être obtenu à la Train Station."
+      "condition": "Obtenir l'alter Nostalgique. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé à la Train Station."
     }
   },
   "someday": {
@@ -9093,6 +9187,11 @@
     "tabe_gold": {
       "name": "Fruit aux 202 carats",
       "condition": "Marquer 2000 points à TA_BE_"
+    },
+    "tv_dark_sewers": {
+      "name": "Télécran observateur",
+      "description": "Est-ce qu'elle... me juge ?",
+      "condition": "Allumer la télévision aux Dark Sewers"
     }
   },
   "ultraviolet": {
@@ -9248,8 +9347,8 @@
       "condition": "Voir et attirer la fille blonde en dehors de sa boîte en utilisant l'effet Lapine ou Gâteau au Old Storehouse World"
     },
     "emerald_square": {
-      "name": "Église Émeraude",
-      "description": "Un lieu clé des événements",
+      "name": "Menaçante",
+      "description": "Personne ne peut juste visiter l'Emerald Square sans conséquences !",
       "condition": "Visiter l'Emerald Square"
     },
     "sibunnies_glass_pipe": {
@@ -9278,6 +9377,11 @@
       "name": "Urbanisation fantomatique",
       "description": "Il y avait une grosse coupure de courant cette nuit là-bas",
       "condition": "Voir la vue depuis le balcon du Banquet Hall"
+    },
+    "android_effect": {
+      "name": "Andromède violette",
+      "description": "Le vrai rêve de puissance.",
+      "condition": "Obtenir l'effet Gynoïde. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé à la Space Station."
     }
   },
   "sheawaits": {
@@ -9579,6 +9683,16 @@
       "name": "Canette radieuse",
       "description": "100% sans danger pour l'estomac ! Qui n'aime pas les échantillons gratuits ?",
       "condition": "Acheter un radon du distributeur automatique au Noble Gas District"
+    },
+    "gargoyle_effect": {
+      "name": "Brave souvenir",
+      "description": "Au sein d'un labyrinthe de remparts de château se trouvait une statue de gargouille solitaire. Même si son travail est de s'asseoir là pour éloigner le mal, elle doit parfois se sentir seule.",
+      "condition": "Obtenir l'effet Gargouille. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé aux Ramparts."
+    },
+    "wendigo_effect": {
+      "name": "Étrange souvenir",
+      "description": "Au fin fond d'une forêt d'arbres écarlates se trouvait un grand monstre. Ses yeux brillaient d'une lueur rouge sang, ravivant en moi des souvenirs refoulés.",
+      "condition": "Obtenir l'effet Wendigo. Si vous l'avez déjà obtenu, retournez là où il peut être trouvé au Scarlet World."
     }
   },
   "tsushin": {
