@@ -522,6 +522,21 @@
         "staircase_hands_4": "Candle World",
         "staircase_hands_5": "Number World"
       }
+    },
+    "hair_effects": {
+      "name": "乱发日记",
+      "description": "能有四个发型的话，为什么还要只梳一种？",
+      "condition": "获得效果长发、金发、大便头。若已解锁，请返回获得以上效果的地点。",
+      "checkbox": {
+        "long_hair_effect": "长发",
+        "blonde_hair_effect": "金发",
+        "poo_hair_effect": "大便头"
+      }
+    },
+    "big_red_sewers": {
+      "name": "饕餮恶魔",
+      "description": "服务员，再给我来点小孩！",
+      "condition": "在下水道被Big Red吃掉"
     }
   },
   "2kki": {
@@ -991,7 +1006,7 @@
     },
     "popula_toru": {
       "name": "眼珠仔",
-      "condition": "与三种不同形态的Popula-Toru互动（清醒，沉睡，低头，躺下）"
+      "condition": "与四种不同形态的Pupula-Toru互动（清醒，沉睡，低头，躺下）"
     },
     "glitch_sushi": {
       "name": "故障寿司",
@@ -1434,15 +1449,21 @@
     "phone": {
       "name": "MVP",
       "description": "最有价值电话",
-      "condition": "通过电话捷径从下列7个地点分别到达伪现实部屋: Aquatic Cube City, Fossil Lake, Sugar Road, Underground Garage, Water Reclamation Facility, Dark Museum, Dark Warehouse, Parking Zone",
+      "condition": "Use the phone shortcut to Urotsuki's Dream Apartments in 10 of the following locations: Aquatic Cube City, Fossil Lake, Sugar Road, Underground Garage, Water Reclamation Facility, Dark Museum, Dark Warehouse, Parking Zone, Eyeberry Orchard, Legacy Nexus, Lemonade Edifice, Originator Garden, RGB Spectral Passage",
       "checkbox": {
-        "phone_aquatic_cube_city|phone_fossil_lake": "Fossil Lake",
+        "phone_aquatic_cube_city": "Aquatic Cube City",
+        "phone_fossil_lake": "Fossil Lake",
         "phone_sugar_road": "Sugar Road",
         "phone_underground_garage": "Underground Garage",
         "phone_water_reclamation_facility": "Water Reclamation Facility",
         "phone_dark_museum": "Dark Museum",
         "phone_dark_warehouse": "Dark Warehouse",
-        "phone_parking_zone": "Parking Zone"
+        "phone_parking_zone": "Parking Zone",
+        "phone_eyeberry_orchard": "Eyeberry Orchard",
+        "phone_legacy_nexus": "Legacy Nexus",
+        "lemonade_office_phone": "Lemonade Edifice",
+        "phone_originator_garden": "Originator Garden",
+        "phone_rgb_spectral_passage": "RGB Spectral Passage"
       }
     },
     "butterfly_passage": {
@@ -1584,8 +1605,8 @@
       }
     },
     "garden_of_dreams": {
-      "name": "梦中庭",
-      "description": "迷梦一场，魂归庭前槐杨。生长，生长。撰者阴阳，今躺平译此徽章。好长，好长。",
+      "name": "梦中树木",
+      "description": "当你在梦中种下一棵树苗，它会和梦中人们一起成长。",
       "condition": "调查（或抵达）Mountaintop Ruins、Blood Cell Sea（及Qliphothic state）、Graffiti Maze、Shinto Shrine、Scenic Outlook、Evergreen Woods及Evergreen Woods的树木。",
       "checkbox": {
         "mountainview_ruins_tree": "Mountaintop Ruins",
@@ -6452,6 +6473,183 @@
       "name": "从管道到路灯杆到花海",
       "description": "\"把闪烁的路灯放在这样潮湿黑暗的地方是谁的主意？算了，怎样都好。至少，它们能够突出花朵的美丽。\"",
       "condition": "抵达Cluster of Flowers"
+    },
+    "cliff_forlorn_beach_house": {
+      "name": "诡异巨人",
+      "description": "……他是在等待你吗？",
+      "condition": "抵达Forlorn Beach House的悬崖"
+    },
+    "carlos_salsa_desert": {
+      "name": "Carlos the Nacho Cats",
+      "description": "¿Prefieres salsa roja o verde?",
+      "condition": "与Salsa Desert的任一Carlos cat互动"
+    },
+    "cliff_burgundy_flats": {
+      "name": "琥珀天景",
+      "description": "令人内心平静的景象。",
+      "condition": "在Burgundy Flats的悬崖处看风景"
+    },
+    "cheese_connoisseur": {
+      "name": "很高兴吃到奶酪！",
+      "description": "说“奶酪好吃”！",
+      "condition": "抵达Cheese World、Cheesecake Mountain、Dark Cheese Hell、Mouse Den、Toy World的Cheese House",
+      "checkbox": {
+        "cheese_world": "Cheese World",
+        "cheesecake_mountain": "Cheesecake Mountain",
+        "dark_cheese_hell": "Dark Cheese Hell",
+        "mouse_den": "Mouse Den",
+        "cheese_house": "Toy World的Cheese House"
+      }
+    },
+    "yellow_geometries": {
+      "name": "随着阳光生长的壁画",
+      "condition": "抵达Yellow Geometries"
+    },
+    "sniper_san_roof_bc": {
+      "name": "死本能",
+      "description": "我会决定这个故事如何结束。",
+      "condition": "在Blissful Clinic的屋顶上看到Sniper-san"
+    },
+    "snowfall_pier": {
+      "name": "昏暗的冬日栈桥",
+      "condition": "抵达Snowfall Pier"
+    },
+    "girl_grape_mall": {
+      "name": "学人精",
+      "description": "我不确定她喜不喜欢……",
+      "condition": "在Grape Mall的楼顶上的女孩身边使用眼镜或埴轮效果，"
+    },
+    "uro_static_noise_hell": {
+      "name": "我的替代品",
+      "description": "扫描线迷宫中跳动的心脏",
+      "condition": "在Static Noise Hell完成Possessed by Yourself事件"
+    },
+    "tissue_effect": {
+      "name": "与卫生纸同行",
+      "description": "找到归途的知名好办法。",
+      "condition": "获得效果卫生纸，若已获得，请返回White Fern World获得该效果处。"
+    },
+    "cyborg_windy_factory": {
+      "name": "义体娘",
+      "description": "在云雾笼罩的城市之上守望？等到，她去哪了？",
+      "condition": "在Windy Factory与Cyborg Daughter互动"
+    },
+    "tiled_canvas": {
+      "name": "令人怀念的方格",
+      "description": "关于这个世界中动听旋律和闪烁灯光的记忆",
+      "condition": "抵达Tiled Canvas"
+    },
+    "crimson_park": {
+      "name": "绯色公园",
+      "description": "没有绿色却葱郁",
+      "condition": "抵达Crimson Park"
+    },
+    "2kki_menu_100": {
+      "name": "大逃亡",
+      "description": "成功回避自作自受的恶果",
+      "condition": "获得菜单样式100。若已获得，请返回Glitched Digits获得该菜单样式处。"
+    },
+    "radiant_waters": {
+      "name": "生物照明灯",
+      "description": "散落的石灯笼承载着陪伴荧光蘑菇和植物的灯光。",
+      "condition": "抵达Radiant Waters"
+    },
+    "house_rockbound_beach": {
+      "name": "象鼻喷射",
+      "description": "他要拿这些东西做什么？",
+      "condition": "抵达Rockbound Beach的房屋"
+    },
+    "sink_catalog_eyelo": {
+      "name": "わ之眼",
+      "description": "我好想你。",
+      "condition": "在Sink Catalog使用墓碑效果与第四张图片互动"
+    },
+    "dragon_spirit_capital": {
+      "name": "妖精之王",
+      "description": "他在平静与安宁之中守望着它们。",
+      "condition": "在Spirit Capital的龙面前装备妖精效果"
+    },
+    "cat_floating_park": {
+      "name": "小小咬人猫",
+      "description": "你懂的喵！",
+      "condition": "与Floating Park的猫互动"
+    },
+    "serenade_girl_tricolor_room": {
+      "name": "珍藏的旧记忆",
+      "description": "希望有朝一日，我们能再次相见……",
+      "condition": "使用小孩效果与Tricolor Room：Serenade的女孩互动"
+    },
+    "blood_underground_base": {
+      "name": "诡异下水道",
+      "description": "这红色的是什么？",
+      "condition": "在Underground Base找到一片血迹"
+    },
+    "silhouette_autumn_pastel_ruins": {
+      "name": "黑色人影",
+      "description": "哈喽！你一直都在这里吗？",
+      "condition": "看到坐在秋千上的黑色剪影"
+    },
+    "alien_world": {
+      "name": "外星锐舞",
+      "description": "我从来都没想到过外星人会这么可爱！",
+      "condition": "抵达Alien World"
+    },
+    "lush_cells": {
+      "name": "被遗忘的公园",
+      "description": "终于，有了可供喘息的一瞬……",
+      "condition": "抵达Lush Cells"
+    },
+    "glitched_digits": {
+      "name": "故障肢体",
+      "description": "请向紧急出口前进。",
+      "condition": "抵达Glitched Digits"
+    },
+    "satellite_midnight_manor": {
+      "name": "清静卫星",
+      "description": "月光下的湖面看上去有些迷人……",
+      "condition": "找到Midnight Manor的Manor's Satellite"
+    },
+    "robot_robotic_slaves_tunnel": {
+      "name": "带！我！走！",
+      "description": "你会放它出来吗？",
+      "condition": "看到Robotic Slaves Tunnel的巨大机器人"
+    },
+    "opal_archives_tt": {
+      "name": "明矾宝石",
+      "condition": "在计时模式中在{TIME}以内开始Opal Archives的舞会事件"
+    },
+    "moonlit_pier": {
+      "name": "Bathe in Moonlight",
+      "description": "Moonlight sleeps veiled, river flows silent",
+      "condition": "Visit Moonlit Pier"
+    },
+    "inverted_pitch_black_plateau": {
+      "name": "Void in my Heart",
+      "description": "You... found me...?",
+      "condition": "Equip the inverted Urotsuki mask where it can be found in Pitch Black Plateau"
+    },
+    "lemon_jelly_citrus_springs": {
+      "name": "Sour Girl",
+      "description": "Don't turn her into lemonade, please.",
+      "condition": "Find lemon jelly in Citrus Springs"
+    },
+    "snake_monolith_jungle": {
+      "name": "Serpent of the Jungle",
+      "description": "Will you trust in him?",
+      "condition": "Find the snake in Monolith Jungle"
+    },
+    "waiya_usugurai_wire": {
+      "name": "Waiyamichi",
+      "condition": "Interact with Waiyamichi in Usugurai Residence and Interconnected Wire World",
+      "checkbox": {
+        "waiya_usugurai": "Usugurai Residence",
+        "waiya_wire": "Interconnected Wire World"
+      }
+    },
+    "sub_research_center_screen": {
+      "name": "Artificial Friend",
+      "description": "I l0v3 l34rn1ng 4b0ut y0u!",
+      "condition": "Use effects to see all the reactions from the face on the screen in Subterranean Research Center"
     }
   },
   "unconscious": {
@@ -7360,6 +7558,64 @@
       "name": "憎恨着你的森林",
       "description": "欺负树木，要进坟墓。",
       "condition": "在Untamed Forest中触发Tree Attack事件期间，与通向Flesh Pit的树互动"
+    },
+    "youth_alphabet_city": {
+      "name": "吧噗吧噗",
+      "description": "吧噗吧噗字母城",
+      "condition": "在Alphabet City装备幻象年少"
+    },
+    "hla_still_alive": {
+      "name": "挚爱之誓",
+      "description": "被恨意蒙蔽，被爱意淹溺。",
+      "condition": "在Hostile Love Abyss的夜晚生存5分钟。若已达到此时间纪录，请返回Hostile Love Abyss。"
+    },
+    "star_cosmic_woods": {
+      "name": "粉星",
+      "description": "记住，太阳也是一颗恒星！",
+      "condition": "与Cosmic Woods的星星互动"
+    },
+    "banana_apartment_towers": {
+      "name": "Sweet Companion",
+      "description": "It's peanut butter jelly time!",
+      "condition": "Interact with the banana in Apartment Towers"
+    },
+    "outline_girl_sandstone_resort": {
+      "name": "Mystique Resident",
+      "description": "Is this your room?",
+      "condition": "Find Outline Girl in Sandstone Resort"
+    },
+    "molly_moth_garden": {
+      "name": "Sage of the Dark Night",
+      "description": "I'm reading a book right now, could you please not bother me?",
+      "condition": "Interact with Molly in Moth Garden"
+    },
+    "stare_shattered_realm": {
+      "name": "Eyes on Me",
+      "description": "You just can't look away",
+      "condition": "Trigger The Stare event in Shattered Realm"
+    },
+    "sunrise_disintegrating_pillars": {
+      "name": "World's End Sunrise",
+      "description": "A glimmer of hope in a long-dead world",
+      "condition": "Trigger the Sunrise at the End of the World event in Disintegrating Pillars"
+    },
+    "soapy_baths_soap": {
+      "name": "*glub*",
+      "description": "It did not taste like strawberries...",
+      "condition": "Get the soap bar and soap water from a vending machine at Soapy Baths",
+      "checkbox": {
+        "soapy_baths_soap_1": "soap bar",
+        "soapy_baths_soap_2": "soap water"
+      }
+    },
+    "fall_forest": {
+      "name": "That Watching Eye",
+      "description": "It's already too late to undo what you've done.",
+      "condition": "Trigger the fall event in Forest"
+    },
+    "lottery_parlor": {
+      "name": "Shadow Minna Money Gang",
+      "condition": "Visit Lottery Parlor"
     }
   },
   "flow": {
@@ -8089,6 +8345,16 @@
       "name": "梦联结",
       "description": "他们是谁？",
       "condition": "在Meta-Nexus拜访所有梦中人的房间"
+    },
+    "bald_effect": {
+      "name": "秃头少年",
+      "description": "还会长出来的。",
+      "condition": "获得效果光头。若已获得，请返回Ice World中获得该效果处。"
+    },
+    "zapnef_glitch_world": {
+      "name": "卡入游戏",
+      "description": "赞美坠吼得游戏ZApNeF，和最强玩家一树，请，。",
+      "condition": "在Glitch World通过假的ZApNeF关卡"
     }
   },
   "unevendream": {
@@ -8191,8 +8457,8 @@
       "condition": "从自贩机内买到寄居蟹"
     },
     "mimic": {
-      "name": "模拟工程师",
-      "description": "此乃Dreamy Mime之道",
+      "name": "Upside-Down",
+      "description": "It's something isn't it?",
       "condition": "抵达Upside-Down事件的区域。"
     },
     "cube_racing": {
@@ -8281,7 +8547,7 @@
     "totsu_x_ray": {
       "name": "伦琴",
       "description": "我能看见一切。",
-      "condition": "在Kaomoji Mall获得X射线效果。"
+      "condition": "在Hat Park获得X射线效果。"
     },
     "enamored_yellow": {
       "name": "倾心",
@@ -8447,7 +8713,7 @@
     },
     "tanuki_woods_fox": {
       "name": "林中休憩",
-      "description": "“汪汪！”"",
+      "description": "“汪汪！”",
       "condition": "调查Tanuki Woods的狐狸"
     },
     "braingirl_graveyard": {
@@ -8622,6 +8888,10 @@
     "door_smugglers_hideout": {
       "name": "我轻轻地打开了门……",
       "condition": "抵达Smugglers' Hideout中有人上吊的房间"
+    },
+    "tv_roxane_japanese_area": {
+      "name": "哔哔噜哔噜哔噜哔哔噜哔~",
+      "condition": "在Japanese Area：Roxane's House打开电视"
     }
   },
   "muma": {
@@ -9706,6 +9976,11 @@
       "name": "不想要的记忆",
       "description": "在猩红森林的深处有着一只高大的怪物。它的双眼发出血色的光芒，让我想起不想要的记忆。",
       "condition": "获得效果Wendigo。若已获得，请返回Scarlet World中获得它的位置。"
+    },
+    "death_row_ventilation_passage": {
+      "name": "衔尾蛇的诞生",
+      "description": "在通气管道的深处，一只胚胎生物在活着的血肉中脉动。它的外观撕扯着观看者的灵魂。",
+      "condition": "从Ventilation Passage抵达Death Row"
     }
   },
   "tsushin": {
@@ -9990,6 +10265,30 @@
       "name": "冻肉",
       "description": "那是牛吗？",
       "condition": "在Office Building看到冷冻奶牛"
+    },
+    "lotus_marsh": {
+      "name": "Azure Bloom",
+      "description": "A peaceful place for fishing~",
+      "condition": "Visit Lotus Marsh"
+    },
+    "goth_doll_effects": {
+      "name": "Doll's Dress-Up",
+      "description": "Wearing pretty dresses is so fun, you might end up losing your head.",
+      "condition": "Combine the Goth Dress and Doll effects"
+    },
+    "rainy_islands_nini_detective": {
+      "name": "Her Face",
+      "condition": "Use the Detective effect next to Nini in Rainy Islands' house"
+    },
+    "rainy_islands_nini": {
+      "name": "Nini!",
+      "description": "She's literally a cowgirl!",
+      "condition": "Reveal Nini's normal, secret and true versions in Rainy Islands' house",
+      "checkbox": {
+        "rainy_islands_nini_normal": "normal",
+        "rainy_islands_nini_detective": "secret",
+        "rainy_islands_nini_vboa": "true"
+      }
     }
   },
   "nostalgic": {
@@ -10204,6 +10503,16 @@
       "name": "就来看看！",
       "description": "其实这里没有那么糟！",
       "condition": "与Prison Chambers中孤独的囚犯互动"
+    },
+    "curse_ice_temple": {
+      "name": "Break",
+      "description": "You are already dead.",
+      "condition": "Trigger the Ice Voodoo Curse event in Ice Temple"
+    },
+    "anchor_effect": {
+      "name": "Beyond the Horizon",
+      "description": "Captain Shimitsuki is here!",
+      "condition": "Obtain the Anchor effect. If you have already unlocked it, return where it can be found in Streetlamp World."
     }
   },
   "oneshot": {
@@ -10228,7 +10537,8 @@
       "condition": "抵达Barrens"
     },
     "gas_mask_barrens": {
-      "name": "Temp Badge Name (Do not translate)",
+      "name": "防毒面具",
+      "description": "戴上防毒面具，要进入毒气区域了！",
       "condition": "在Barrens的悬崖上获得防毒面具"
     },
     "silver_barrens": {
