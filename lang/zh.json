@@ -342,7 +342,7 @@
     "fc_moai": {
       "name": "摩艾墓",
       "description": "多么壮观的雕像！",
-      "condition": "进入FC Dungeon中的moai head room。"
+      "condition": "进入FC Dungeon中有着摩艾头的房间。"
     },
     "isee_path": {
       "name": "眸中视线",
@@ -443,8 +443,8 @@
       "condition": "从Block World进入White Desert A"
     },
     "mall_underground_link": {
-      "name": "电梯坏了",
-      "description": "某个屋顶等待着你的到来。",
+      "name": "Going Up?",
+      "description": "First floor",
       "condition": "从Underground World单向地到达Mall"
     },
     "crick_in_the_neck": {
@@ -506,11 +506,6 @@
       "description": "你看到它映出你的倒影",
       "condition": "获得菜刀效果。若已获得，请返回Dark World。"
     },
-    "nasu_ruby": {
-      "name": "安慰奖",
-      "description": "塑料制的便宜奖牌",
-      "condition": "在NASU秘技模式中刚好获得290分"
-    },
     "staircase_nikki": {
       "name": "降入梦魇",
       "description": "你真的为了得到这个徽章而睡在了所有的床上？真是个怪人",
@@ -537,6 +532,11 @@
       "name": "饕餮恶魔",
       "description": "服务员，再给我来点小孩！",
       "condition": "在下水道被Big Red吃掉"
+    },
+    "barracks_settlement": {
+      "name": "Dirt and Pylons",
+      "description": "Dirt and pylons, holes and houses...",
+      "condition": "Visit Barracks Settlement"
     }
   },
   "2kki": {
@@ -992,7 +992,7 @@
       "checkbox": {
         "downfall_garden_b": "Downfall Garden B",
         "sparkling_dimension_b": "Sparkling Dimension B",
-        "opal_ruins_b": "Opal Ruins B",
+        "opal_ruins_b|opal_ruins_b_b": "Opal Ruins B",
         "fuchsia_suburbs_b": "Fuchsia Suburbs B"
       }
     },
@@ -1018,8 +1018,8 @@
       "condition": "调查Despair Road上的红色肉块"
     },
     "puni": {
-      "name": "Friendly Companion",
-      "description": "Oh my, what a cute creature!",
+      "name": "友好陪伴",
+      "description": "诶呀妈呀，萌死我了！",
       "condition": "在梦想公园变身为Puni"
     },
     "mechanical_heart": {
@@ -1139,7 +1139,7 @@
     },
     "lobster": {
       "name": "Get Lobstered",
-      "description": "Lobster? I hardly know her...",
+      "description": "龙虾？没听说过……",
       "condition": "潜入Flooded Baths的水池"
     },
     "chandelier": {
@@ -1449,7 +1449,7 @@
     "phone": {
       "name": "MVP",
       "description": "最有价值电话",
-      "condition": "Use the phone shortcut to Urotsuki's Dream Apartments in 10 of the following locations: Aquatic Cube City, Fossil Lake, Sugar Road, Underground Garage, Water Reclamation Facility, Dark Museum, Dark Warehouse, Parking Zone, Eyeberry Orchard, Legacy Nexus, Lemonade Edifice, Originator Garden, RGB Spectral Passage",
+      "condition": "使用以下10个地点的电话捷径到达Urotsuki's Dream Apartments：Aquatic Cube City, Fossil Lake, Sugar Road, Underground Garage, Water Reclamation Facility, Dark Museum, Dark Warehouse, Parking Zone, Eyeberry Orchard, Legacy Nexus, Lemonade Edifice, Originator Garden, RGB Spectral Passage",
       "checkbox": {
         "phone_aquatic_cube_city": "Aquatic Cube City",
         "phone_fossil_lake": "Fossil Lake",
@@ -1555,10 +1555,6 @@
       "name": "三层蛋糕",
       "description": "……必须一个人吃完吗？",
       "condition": "从自贩机里买到婚庆蛋糕"
-    },
-    "green_monster": {
-      "name": "绿色怪物",
-      "condition": "调查Foliage Estate的绿色生物"
     },
     "nail_lady": {
       "name": "旋转螺钉",
@@ -2014,7 +2010,7 @@
       "condition": "找到Azure Garden，Forbidden Swamp，Foliage Estate，Dark Nexus和Garden of Treachery中的手",
       "checkbox": {
         "hands_azure": "Azure Garden",
-        "hands_foliage": "Foliage Estate",
+        "hands_foliage|hands_foliage_b": "Foliage Estate",
         "hands_forbidden": "Forbidden Swamp",
         "hands_dark": "Dark Nexus",
         "hands_treachery": "Garden of Treachery"
@@ -2454,7 +2450,7 @@
     },
     "ug_lake_singer": {
       "name": "相谈甚欢",
-      "description": "他想找个伴...",
+      "description": "他想找个伴……",
       "condition": "从两个方向和Underground Lake一楼的绿色生物搭话"
     },
     "appururi_bat": {
@@ -2521,7 +2517,7 @@
       "condition": "进入Sketch Plains连接的 GB Forest。"
     },
     "carousel_oriental": {
-      "name": "旋转木马",
+      "name": "Mood Swings",
       "description": "摇啊摇，摇啊摇...",
       "condition": "进入Oriental Pub与传送npc连接的六个连接点（Test Facility、Holiday Hell、Ice Cream Islands、Tribulation Complex、Platformer World、Abandoned Grounds）。",
       "checkbox": {
@@ -2576,7 +2572,7 @@
       "description": "漫漫归途。",
       "condition": "抵达下列有双峰山的区域：Foliage Estate，Flying Fish World，Mirror Room，Bleak Future，Saturated Eyeball Zone，Rainy Apartments，Red Sky Cliff (Splash Streetway)，Wind Turbine Plateau，Bathhouse。",
       "checkbox": {
-        "tw_foliage": "Foliage Estate",
+        "foliage_estate_scenery": "Foliage Estate",
         "tw_fish": "Flying Fish World",
         "tw_mirror": "Mirror Room",
         "tw_bleak": "Bleak Future",
@@ -2651,7 +2647,7 @@
     "vertigo_parasomnia": {
       "name": "睡眠异态",
       "description": "\"你说得对Urotsuki，我就是你，你就是我，这把链锯也是我的。\"",
-      "condition": "触发Urotsuki's Dream Room的 Vertigo 事件。"
+      "condition": "触发Urotsuki's Dream Room的Vertigo事件。"
     },
     "atlantis_city": {
       "name": "水下都市",
@@ -3140,7 +3136,8 @@
       "condition": "在Overgrown City找到尽头的遗迹。。"
     },
     "shinto_curse_chaser": {
-      "name": "复仇诅咒",
+      "name": "Deep Hatred",
+      "description": "I'll go to hell, but only if I can drag you along with me.",
       "condition": "在Shinto Shrine被挂画附近的追逐者抓住。"
     },
     "teru_teru_bozu_pond": {
@@ -3283,7 +3280,7 @@
     "halloween_urotsuki": {
       "name": "万圣节套装",
       "description": "非常合身~",
-      "condition": "调查 Halloween Forest 里的南瓜。"
+      "condition": "调查Halloween Forest里的南瓜。"
     },
     "green_shirt_man": {
       "name": "我在看书，你呢？",
@@ -3542,8 +3539,8 @@
       "description": "越陈越香",
       "condition": "在Japan Town，找到Ghost Maiko，用眼镜效果找到一个孤立房间里隐藏的生物，并与Kanban Otoko和News Man对话",
       "checkbox": {
-        "japan_town_hotel|japan_town_glasses": "逆さ宿",
-        "japan_town_otoko|japan_town_news_man": "Japan Town"
+        "japan_town_hotel|japan_town_glasses": "用眼镜效果找到一个孤立房间里隐藏的生物",
+        "japan_town_otoko|japan_town_news_man": "News Man"
       }
     },
     "himalayan_lighthouse": {
@@ -3911,7 +3908,7 @@
     "graffiti_passage_a": {
       "name": "纸上恐慌",
       "description": "一个染红的发现。",
-      "condition": "站上Graffiti Passage的红色あ"
+      "condition": "站上Doodle Path的红色あ"
     },
     "witch_heaven": {
       "name": "魔法天国",
@@ -4141,17 +4138,16 @@
       "condition": "锯掉Pleasure Street某座房屋里的蓝发女人"
     },
     "beach_challenge": {
-      "name": "海滩流浪者",
-      "description": "他们说盐水可以治愈一切",
-      "condition": "到达Mixed Beach、Dream Beach、Grand Beach、Realistic Beach、Blood Red Beach",
+      "name": "泳装回",
+      "description": "希望你在这里！",
+      "condition": "抵达Mixed Beach、Dream Beach、Grand Beach、Realistic Beach、Rockbound Beach、Blood Red Beach",
       "checkbox": {
         "beach_mixed_a|beach_mixed_b": "Mixed Beach",
-        "beach_dream": "Dream Beach",
-        "beach_dream_b": "Dream Beach",
+        "beach_dream|beach_dream_b": "Dream Beach",
         "beach_grand": "Grand Beach",
         "beach_realistic_a|beach_realistic_b|beach_realistic_c|beach_realistic_d|beach_realistic_e|beach_realistic_f": "Realistic Beach",
-        "beach_blood_red_a": "Blood Red Beach",
-        "beach_blood_red_b": "Blood Red Beach"
+        "beach_rockbound": "Rockbound Beach",
+        "beach_blood_red_a|beach_blood_red_b": "Blood Red Beach"
       }
     },
     "wintry_attendant": {
@@ -4291,7 +4287,7 @@
     "diary_graveyard_repent": {
       "name": "某人的日记",
       "description": "我想你了……",
-      "condition": "读到Graveyard of Repentance一个小房间里的日记"
+      "condition": "在Graveyard of Repentance：Prologue读到日记"
     },
     "cake_slime_village": {
       "name": "史莱姆糖果",
@@ -4300,7 +4296,7 @@
     },
     "chainsaw_library": {
       "name": "激光制导因果报应",
-      "description": "Play violent games, win violent prizes.",
+      "description": "通过玩暴力游戏获得的奖励也会是暴力。",
       "condition": "攻击Library阅读室里的女孩"
     },
     "butcher_chainsaw": {
@@ -4422,7 +4418,7 @@
     "red_haired_girl_thumbtack": {
       "name": "崩坏的孤独",
       "description": "只需要一个图钉……",
-      "condition": "与Thumbtack World的红发女孩互动"
+      "condition": "在Thumbtack World与Beniko互动"
     },
     "girl_colorful_rose_garden": {
       "name": "多彩少女",
@@ -4436,7 +4432,7 @@
     },
     "girl_colorless_rose_garden": {
       "name": "无色少女",
-      "condition": "获得菜单样式58。如果你已经解锁了它，请返回Colorless Rose Garden。"
+      "condition": "获得菜单样式58。若已解锁，请返回Colorless Rose Garden。"
     },
     "girl_candyfloss_sea": {
       "name": "棉花糖伙伴",
@@ -4446,7 +4442,7 @@
     "penguin_gb_corrupt": {
       "name": "终极神器",
       "description": "你不应该碰那个的……",
-      "condition": "调查Penguin GB Game的发光红色球体"
+      "condition": "调查Penguin Game的发光红色球体"
     },
     "house_abyssal_garden": {
       "name": "我没在看……",
@@ -4474,7 +4470,7 @@
     "penguin_gb_game": {
       "name": "虚拟企鹅",
       "description": "我虽然不是企鹅学专家，但这衣服是真舒服！",
-      "condition": "完成Penguin GB Game"
+      "condition": "完成Penguin Game"
     },
     "megusuri_uri_visine": {
       "name": "眼药水贩子",
@@ -4486,8 +4482,8 @@
       }
     },
     "rgb_passage": {
-      "name": "RGB地砖通路",
-      "description": "owari2 by sakai",
+      "name": "RGB硬核",
+      "description": "相当多彩，但有些过时。",
       "condition": "进入RGB Passage"
     },
     "debug_badge": {
@@ -4887,8 +4883,8 @@
       "condition": "在Sunset Road，装备小红帽效果之后与任意一个苹果生物互动"
     },
     "turquoise_city_lady": {
-      "name": "Cheri Cheri Lady",
-      "description": "在有着绿松石色屋顶的世界中居住的淑女",
+      "name": "绿衣女子",
+      "description": "只有你我。",
       "condition": "在Turquoise Cityscape找到绿松石色衣服的女士，并在她身边使用晴天娃娃和黑电话效果",
       "checkbox": {
         "turquoise_city_lady_teru": "晴天娃娃",
@@ -5084,8 +5080,7 @@
       "condition": "抵达Glitch Hell"
     },
     "alto_2kki": {
-      "name": "FM飞鱼",
-      "description": "蒸汽鱼波",
+      "name": "Flyin' Fresh Tunas!",
       "condition": "抵达Alto"
     },
     "flower_lily_path": {
@@ -5187,7 +5182,7 @@
     "yume_hell": {
       "name": "梦魇地狱",
       "description": "入此门者当舍弃一切希望。",
-      "condition": "抵达以下天堂相关场景：Dark Cheese Hell、Glitch Hell、Flamelit Wasteland：Hell Caverns、Holiday Hell、Oblique Hell、Rainbow Hell、Spear Hell Maze、Static Noise Hell",
+      "condition": "抵达以下地狱相关场景：Dark Cheese Hell、Glitch Hell、Flamelit Wasteland：Hell Caverns、Holiday Hell、Oblique Hell、Rainbow Hell、Spear Hell Maze、Static Noise Hell",
       "checkbox": {
         "dark_cheese_hell": "Dark Cheese Hell",
         "glitch_hell": "Glitch Hell",
@@ -5526,8 +5521,8 @@
       "condition": "从Old Train Station抵达Old Train Station B或从Old Train Station B抵达Old Train Station"
     },
     "bw_chaotic_buildings": {
-      "name": "Black and White Byway",
-      "description": "Don't fall!",
+      "name": "黑白通道",
+      "description": "别掉下去！",
       "condition": "抵达Chaotic Buildings的黑白通道"
     },
     "bw_statue_forest": {
@@ -5608,10 +5603,6 @@
       "name": "呼噜噜……咪咪咪……",
       "description": "辛苦了，Gakuran-kun。",
       "condition": "在Monster's Jaw使用学生制服效果并观看剧情。"
-    },
-    "space_2kki": {
-      "name": "虚空美景",
-      "condition": "抵达Space"
     },
     "hourglass_s_sky_coast": {
       "name": "高大计时器",
@@ -6137,7 +6128,7 @@
     "trombone_old_train_station": {
       "name": "一首名为静寂的歌在",
       "description": "某人的表演一定还在继续。",
-      "condition": "在Old Train Station找到长号"
+      "condition": "Find the trumpet in the Old Train Station"
     },
     "ghost_rose_manor": {
       "name": "苍白住人",
@@ -6145,7 +6136,7 @@
     },
     "green_dress_garden_festival": {
       "name": "庭园美人",
-      "description": "洋裙精致，庭园绮丽……玫瑰遍地……甚合我意！",
+      "description": "今天是个探索花园的好日子",
       "condition": "在Garden Festival装备绿裙子面具"
     },
     "wolf_vitamin_world": {
@@ -6203,7 +6194,7 @@
     "roux_art_exposition": {
       "name": "旁观之眼",
       "description": "\"人体就像一幅画：很多人喜爱，但主人却厌恶它。\" -T",
-      "condition": "Interact with the warped painting of Urotsuki in the Art Exposition"
+      "condition": "找到Art Exposition中扭曲的Urotsuki画像"
     },
     "sea_sponge_path": {
       "name": "辉光海湾",
@@ -6257,20 +6248,10 @@
       "name": "地外生物",
       "condition": "在Alien Wasteland装备外星人面具"
     },
-    "rabbelle_mask_hellish_village": {
-      "name": "美兔",
-      "description": "被锁在远离一切的笼中",
-      "condition": "在Hellish Village鸟笼中装备Rabbelle面具"
-    },
     "cheese_lady_cheese_world": {
       "name": "聪明的小司令",
       "description": "\"他们说奶酪无法和其他红色食物相比。\"",
       "condition": "在Cheese World装备cheese lady的面具"
-    },
-    "church_legacy_nexus": {
-      "name": "黑白教堂",
-      "description": "紫砂之中的无光世界",
-      "condition": "在Legacy Nexus看到教堂"
     },
     "kiwi_mask_alien_wasteland": {
       "name": "几维鸟",
@@ -6287,19 +6268,14 @@
       "description": "吞噬碎梦残片的奇点",
       "condition": "与Legacy of Ruin的黑洞互动"
     },
-    "mask_storage_mask_tst_map": {
-      "name": "完美结局",
-      "description": "没有什么比这样的奖励更适合如此的旅途",
-      "condition": "在TST MAP装备面具库面具"
-    },
     "museum_of_cur_connect": {
       "name": "好奇博物馆",
       "description": "欢迎来到博物馆！",
       "condition": "抵达Museum of Curiosities内部并解锁其全部连接"
     },
     "maiko_effect": {
-      "name": "展示尊敬",
-      "description": "非常实用的动作！",
+      "name": "My, My, Maiko",
+      "description": "You've shown some respect.",
       "condition": "获得舞姬效果。若已解锁，请返回Shinto Shrine。"
     },
     "light_graveyard_of _rep": {
@@ -6338,12 +6314,12 @@
       "condition": "抵达Gachapon Plains"
     },
     "insect_clover_ponds": {
-      "name": "水虫",
-      "description": "我想知道这些有趣的昆虫到底是什么？",
+      "name": "池中虫舞",
+      "description": "恭喜。你惹毛了水生甲虫。",
       "condition": "在Clover Ponds使用虫效果看到粉色甲虫"
     },
     "pastel_mall_thrift": {
-      "name": "Toiletbound",
+      "name": "厕缚灵",
       "description": "传说的厕所湖水怪！",
       "condition": "从Thrift Shop抵达Pastel Mall的孤立区域"
     },
@@ -6406,7 +6382,7 @@
       "condition": "抵达Neon Caves"
     },
     "snake_woman_snowdrop_garden": {
-      "name": "Snowy Hisstress",
+      "name": "雪蛇姬",
       "description": "请学点礼仪嘶。",
       "condition": "尝试锯掉Snowdrop Garden的蛇女"
     },
@@ -6619,37 +6595,281 @@
       "condition": "在计时模式中在{TIME}以内开始Opal Archives的舞会事件"
     },
     "moonlit_pier": {
-      "name": "Bathe in Moonlight",
-      "description": "Moonlight sleeps veiled, river flows silent",
-      "condition": "Visit Moonlit Pier"
+      "name": "沐浴月光",
+      "description": "月光在面纱后沉眠，河水在无声地流淌",
+      "condition": "抵达Moonlit Pier"
     },
     "inverted_pitch_black_plateau": {
-      "name": "Void in my Heart",
-      "description": "You... found me...?",
-      "condition": "Equip the inverted Urotsuki mask where it can be found in Pitch Black Plateau"
+      "name": "我内心的空虚",
+      "description": "你……找到我了……？",
+      "condition": "在Pitch Black Plateau找到并装备反色Urotsuki面具"
     },
     "lemon_jelly_citrus_springs": {
-      "name": "Sour Girl",
-      "description": "Don't turn her into lemonade, please.",
-      "condition": "Find lemon jelly in Citrus Springs"
+      "name": "酸娘",
+      "description": "请不要把他变成柠檬水。",
+      "condition": "在Citrus Springs找到lemon jelly"
     },
     "snake_monolith_jungle": {
-      "name": "Serpent of the Jungle",
-      "description": "Will you trust in him?",
-      "condition": "Find the snake in Monolith Jungle"
+      "name": "密林之蛇",
+      "description": "你会信任它吗？",
+      "condition": "找到Monolith Jungle的蛇"
     },
     "waiya_usugurai_wire": {
       "name": "Waiyamichi",
-      "condition": "Interact with Waiyamichi in Usugurai Residence and Interconnected Wire World",
+      "condition": "在Usugurai Residence和Interconnected Wire World与Waiyamichi互动",
       "checkbox": {
         "waiya_usugurai": "Usugurai Residence",
         "waiya_wire": "Interconnected Wire World"
       }
     },
     "sub_research_center_screen": {
-      "name": "Artificial Friend",
-      "description": "I l0v3 l34rn1ng 4b0ut y0u!",
-      "condition": "Use effects to see all the reactions from the face on the screen in Subterranean Research Center"
+      "name": "人造友人",
+      "description": "我喜欢了解你！",
+      "condition": "在Subterranean Research Center通过改变和使用效果看到屏幕上脸的所有反应"
+    },
+    "sunrise_drink": {
+      "name": "落日鸡尾酒",
+      "description": "*碰杯！*",
+      "condition": "抵达以下地点的酒吧：Japan Town、he Baddies Bar、yeball Archives、Cyber Bar、Cocktail Lounge、Aquamarine Cave、Spaceship、Oriental Pub、Water Reclamation Facility",
+      "checkbox": {
+        "underground_bar": "Japan Town",
+        "baddies_bar_bar": "The Baddies Bar",
+        "eyeball_archives_bar": "Eyeball Archives",
+        "cyber_bar": "Cyber Bar",
+        "aquamarine_cave_bar": "Aquamarine Cave",
+        "spaceship_bar": "Spaceship",
+        "orential_pub": "Oriental Pub",
+        "water_facility_bar": "Water Reclamation Facility",
+        "cocktail_lounge": "Cocktail Lounge"
+      }
+    },
+    "jester_mask_apartments": {
+      "name": "梦鬼牌",
+      "description": "我可以梦到一切。",
+      "condition": "在Blue Apartments或Fake Apartments装备弄臣面具"
+    },
+    "snail_coral_shoal": {
+      "name": "珊瑚蜗牛",
+      "description": "带壳的大朋友！",
+      "condition": "找到Coral Shoal的蜗牛"
+    },
+    "sea_challenge": {
+      "name": "穿越梦海",
+      "description": "沉溺在梦境深处……",
+      "condition": "抵达以下水下世界：Atlantis, Star Ocean, Ocean Floor, Depths, Neon Sea, Ocean Subsurface, Aquatic Cube City, Rotten Sea, Tomb of Velleities, Gentle Sea, Watching Waters, Streetlight Docks (Angler's Depths), Sunken Paradise, and Sunken Spore Sea",
+      "checkbox": {
+        "atlantis": "Atlantis",
+        "star_ocean": "Star Ocean",
+        "ocean_floor": "Ocean Floor",
+        "depths": "Depths",
+        "neon_sea": "Neon Sea",
+        "ocean_subsurface": "Ocean Subsurface",
+        "aquatic_cube_city": "Aquatic Cube City",
+        "rotten_sea": "Rotten Sea",
+        "tomb_of_velleities": "Tomb of Velleities",
+        "gentle_sea": "Gentle Sea",
+        "watching_waters": "Watching Waters",
+        "angler_depths_docks": "Streetlight Docks (Angler's Depths)",
+        "sunken_paradise": "Sunken Paradise",
+        "sunken_spore_sea": "Sunken Spore Sea"
+      }
+    },
+    "industrial_challenge": {
+      "name": "工业领域无处不在",
+      "condition": "抵达以下工业世界：Industrial Maze, Industrial Towers, Rusted Factory, Rusted City, Pollution District, Steam Engine, Suspended Steamworks, Rusty Urban Complex, and Aureate Clockworks",
+      "checkbox": {
+        "industrial_maze": "Industrial Maze",
+        "industrial_towers": "Industrial Towers",
+        "rusted_factory": "Rusted Factory",
+        "rusted_city": "Rusted City",
+        "pollution_district": "Pollution District",
+        "steam_engine": "Steam Engine",
+        "suspended_steamworks": "Suspended Steamworks",
+        "rusty_urban_complex": "Rusty Urban Complex",
+        "aureate_clockworks": "Aureate Clockworks"
+      }
+    },
+    "candlelit_factory_room": {
+      "name": "冷静室",
+      "description": "为什么那个雪人没有化？",
+      "condition": "抵达Candlelit Factory点着蜡烛的房间"
+    },
+    "fountain_butterfly_garden": {
+      "name": "草生之愿",
+      "description": "没想到愿望实现得这么快……",
+      "condition": "在Butterfly Garden的喷泉中丢下硬币"
+    },
+    "drum_effect": {
+      "name": "欢乐铁桶！",
+      "description": "Urotsuki大小的桶？还是桶大小的Urotsuki？",
+      "condition": "获得铁桶效果。若已获得，请返回Onyx Tile World。"
+    },
+    "eldritch_sands_of_self": {
+      "name": "梦境恐惧症之大天使",
+      "description": "成为你的幻象与梦魇的主神。",
+      "condition": "在Sands of Self看到古神Urotsuki"
+    },
+    "s_chan_s_hell_maze": {
+      "name": "反向处刑",
+      "description": "这很没趣，对吧？",
+      "condition": "在Spear Hell Maze锯掉Spear-chan"
+    },
+    "tree_spore_forest": {
+      "name": "你惊动了一棵树……",
+      "description": "惩罚……",
+      "condition": "在Spore Forest锯有脸的树，并承受行为的后果"
+    },
+    "graffiti_garage": {
+      "name": "标记",
+      "description": "创意与放松",
+      "condition": "抵达Graffiti Garage"
+    },
+    "dove_sweet_medical_utopia": {
+      "name": "和平鸽",
+      "description": "在混乱的世界中找到和平可不容易",
+      "condition": "在Sweet Medical Utopia使用小孩效果与鸽子互动"
+    },
+    "fire_world_music": {
+      "name": "燃曲",
+      "description": "他们说音乐点燃了世界。",
+      "condition": "改变Fire World的BGM"
+    },
+    "green_clawtree_forest": {
+      "name": "端坐的美人",
+      "description": "不被打扰地。在自己的路上。繁荣着。",
+      "condition": "看到Clawtree Forest的绿色生物"
+    },
+    "laugh_visine_world": {
+      "name": "怪笑",
+      "description": "笑声是最好的眼药！！ :)",
+      "condition": "在Visine World看到眼睛抽动的脸"
+    },
+    "rock_calico_forest": {
+      "name": "石猫之乡",
+      "description": "风景真好",
+      "condition": "抵达Calico Forest的岩石猫区域"
+    },
+    "hidden_glowing_stars_world": {
+      "name": "画中太阳",
+      "description": "手绘！",
+      "condition": "进入Glowing Stars World的隐藏房间"
+    },
+    "respite_2kki": {
+      "name": "水映天景",
+      "description": "蓝天倒影",
+      "condition": "抵达Respite"
+    },
+    "face_dark_museum": {
+      "name": "墙中尖啸",
+      "description": "最可怕的是哪个？",
+      "condition": "看到Dark Museum的恐怖鬼脸"
+    },
+    "luminous_lake_statue": {
+      "name": "龙之峰",
+      "description": "守望平静暮光之湖的神龙……",
+      "condition": "到达Luminous Lake的Dragon Peak并在望远镜里看到龙"
+    },
+    "2kki_menu_59": {
+      "name": "月华魔女",
+      "description": "她站在窗边，被温柔地流下的月光照亮",
+      "condition": "获得菜单样式59。若已获得，请返回Shadow Lady Estate中获得该菜单的地点。"
+    },
+    "lantern_rural_stfl_field": {
+      "name": "笼中黎明",
+      "description": "金色光辉、轻柔触碰、绒软牢笼",
+      "condition": "进入Rural Starflower Field中巨大灯笼的内部"
+    },
+    "deity_olympus_ruins": {
+      "name": "奥林波斯的守护者",
+      "description": "神圣的守护者观望着一度强盛，却早已被遗忘的都市……",
+      "condition": "看到Olympus Ruins的神灵"
+    },
+    "chainsaw_tv_tvland": {
+      "name": "关掉它！",
+      "description": "电视和暴力不怎么搭……",
+      "condition": "在TVLand尝试锯掉电视生物"
+    },
+    "maze_the_desktop": {
+      "name": "电脑之中",
+      "description": "在我的电脑桌面里走来走去……",
+      "condition": "抵达The Desktop的迷宫区域"
+    },
+    "creature_shallow_pathways": {
+      "name": "吸管桑",
+      "condition": "在Shallow Pathways看到饮水生物"
+    },
+    "spaceship_pollution_district": {
+      "name": "太空飞船观景区",
+      "description": "哇！好美的风景！",
+      "condition": "抵达Pollution District：Spaceship Viewing Area"
+    },
+    "dendra_crimson_park": {
+      "name": "芽生美人",
+      "description": "她头上是长了棵树吗……？",
+      "condition": "在Crimson Park与Dendra互动"
+    },
+    "moai_checkerboard_clubhouse": {
+      "name": "香蕉摩艾",
+      "description": "把它做成香蕉的形状，然后啪叽！",
+      "condition": "看到Checkerboard Clubhouse的摩艾"
+    },
+    "lady_photographic_field": {
+      "name": "完美风车",
+      "condition": "找到Photographic Field的巨大女性"
+    },
+    "cat_pillar_vivian_room": {
+      "name": "锐舞猫",
+      "description": "这个按钮是干什么用的……哇！",
+      "condition": "在Balloon Park：Vivian's Room中与猫柱互动"
+    },
+    "peach_teru_bridge_swamp_islands": {
+      "name": "桃子晴天娃娃",
+      "description": "无论晴雨，都在这里",
+      "condition": "在Bridge Swamp Islands看到桃子晴天娃娃"
+    },
+    "pink_udg_runo_warehouse": {
+      "name": "同款可爱小便帽",
+      "description": "现在我也变成传送符文了！",
+      "condition": "在Underground Runological Warehouse装备粉色小便帽面具"
+    },
+    "acoustic_lounge": {
+      "name": "日落时分的休息室",
+      "condition": "抵达Acoustic Lounge"
+    },
+    "golden_chinatown_maple_f": {
+      "name": "春节",
+      "description": "大街小巷喜庆地闪烁着。",
+      "condition": "抵达Maple Forest：Golden Chinatown"
+    },
+    "eye_window_tt": {
+      "name": "Scourge of the Past",
+      "description": "Black graffiti has woven the ocular curse that may be a tiny fraction of what once was, one day the primal insurrection will wake up",
+      "condition": "Go to Visine World from the Garden of Treachery in {TIME} or less in Time Trial Mode"
+    },
+    "glitch_kaprekar_number_zone": {
+      "name": "Kaprekar's Constant",
+      "description": "This must have been a fixed point in a specific mathematical algorithm...",
+      "condition": "Reach the glitched room in Kaprekar Number Zone"
+    },
+    "ancient_blue_battlefield": {
+      "name": "Medieval Legends",
+      "description": "And as the battle rages on and on, our warcries echo far and strong.",
+      "condition": "Visit Ancient Blue Battlefield"
+    },
+    "hall_of_flesh": {
+      "name": "Crimson-Stained Moon",
+      "description": "Above us, a vast crimson watches in silence.",
+      "condition": "Visit Hall of Flesh"
+    },
+    "vm_wheat_field": {
+      "name": "Observation",
+      "description": "Always watching...",
+      "condition": "Buy from the vending machine with an eye in Wheat Field"
+    },
+    "bed_spiders_nest": {
+      "name": "No Fangs- I Mean, No Thanks!",
+      "description": "He just wants to tuck you in...",
+      "condition": "Sleep in the bed in Spiders' Nest"
     }
   },
   "unconscious": {
@@ -7575,47 +7795,147 @@
       "condition": "与Cosmic Woods的星星互动"
     },
     "banana_apartment_towers": {
-      "name": "Sweet Companion",
-      "description": "It's peanut butter jelly time!",
-      "condition": "Interact with the banana in Apartment Towers"
+      "name": "甜美陪伴",
+      "description": "是花生黄油布丁时间！",
+      "condition": "与Apartment Towers的香蕉互动"
     },
     "outline_girl_sandstone_resort": {
-      "name": "Mystique Resident",
-      "description": "Is this your room?",
-      "condition": "Find Outline Girl in Sandstone Resort"
+      "name": "神秘住人",
+      "description": "这是你的房间吗？",
+      "condition": "在Sandstone Resort找到Outline Girl"
     },
     "molly_moth_garden": {
-      "name": "Sage of the Dark Night",
-      "description": "I'm reading a book right now, could you please not bother me?",
-      "condition": "Interact with Molly in Moth Garden"
+      "name": "暗夜贤者",
+      "description": "我在看书，请你不要打扰我，好吗？",
+      "condition": "在Moth Garden与Molly互动"
     },
     "stare_shattered_realm": {
-      "name": "Eyes on Me",
-      "description": "You just can't look away",
-      "condition": "Trigger The Stare event in Shattered Realm"
+      "name": "看着我",
+      "description": "你只是无法移开视线。",
+      "condition": "在Shattered Realm触发The Stare事件"
     },
     "sunrise_disintegrating_pillars": {
-      "name": "World's End Sunrise",
-      "description": "A glimmer of hope in a long-dead world",
-      "condition": "Trigger the Sunrise at the End of the World event in Disintegrating Pillars"
+      "name": "世末日出",
+      "description": "在早已死去的世界里窥见一瞥希望",
+      "condition": "在Disintegrating Pillars触发Sunrise at the End of the World事件"
     },
     "soapy_baths_soap": {
       "name": "*glub*",
-      "description": "It did not taste like strawberries...",
-      "condition": "Get the soap bar and soap water from a vending machine at Soapy Baths",
+      "description": "不是草莓味……",
+      "condition": "在Soapy Baths的自贩机买到肥皂块和肥皂水",
       "checkbox": {
-        "soapy_baths_soap_1": "soap bar",
-        "soapy_baths_soap_2": "soap water"
+        "soapy_baths_soap_1": "肥皂块",
+        "soapy_baths_soap_2": "肥皂水"
       }
     },
     "fall_forest": {
-      "name": "That Watching Eye",
-      "description": "It's already too late to undo what you've done.",
-      "condition": "Trigger the fall event in Forest"
+      "name": "观察之眼",
+      "description": "现在想反悔已经来不及了。",
+      "condition": "在Forest触发fall事件"
     },
     "lottery_parlor": {
-      "name": "Shadow Minna Money Gang",
-      "condition": "Visit Lottery Parlor"
+      "name": "暗影Minna货币帮",
+      "condition": "抵达Lottery Parlor"
+    },
+    "landscape_karoushi": {
+      "name": "暂缓工作",
+      "description": "办公室中必需的休憩。",
+      "condition": "抵达Karoushi的风景区"
+    },
+    "severance_bleeding_ladders": {
+      "name": "直至死亡拆散两人",
+      "description": "待到那时，我们将在来世相见。",
+      "condition": "在Bleeding Ladders触发Severance事件。"
+    },
+    "amanita_eidolon": {
+      "name": "毒蕈女士",
+      "description": "跟着小径上的蘑菇~",
+      "condition": "获得幻象Amanita。若已获得，请返回Sylvan Trails获得该效果处。"
+    },
+    "fairy_m_m_monster_manuscripts": {
+      "name": "疯狂法师",
+      "description": "你现在是老猫了，小笨蛋！",
+      "condition": "见到Cheshi之后在Monster Manuscripts与Fairy Mad Mother互动"
+    },
+    "autumnal_equinox": {
+      "name": "落叶遍地！",
+      "description": "咔嚓咔嚓",
+      "condition": "抵达Autumnal Equinox"
+    },
+    "cat_cafe_wintery_trails": {
+      "name": "持证撸猫",
+      "description": "猫咪！你怎么在这里？！",
+      "condition": "在Wintery Trails的咖啡吧里撸猫"
+    },
+    "spirit_parade_down": {
+      "name": "专业游行减速带",
+      "description": "不然你觉得会发生什么……",
+      "condition": "在Spirit Parade被踩踏"
+    },
+    "youth_eidolon_surreal_zoo": {
+      "name": "成年观点",
+      "description": "我记得这里不是这样的……",
+      "condition": "在Surreal Zoo使用年少幻象"
+    },
+    "mallard_platforms": {
+      "name": "嘎点钟",
+      "description": "嘎……嘎……嘎……",
+      "condition": "抵达Mallard Platforms"
+    },
+    "vm_lonely_citadel": {
+      "name": "嘿！别接近——咔嚓！",
+      "description": "……只是为了喝个饮料，这代价也太大了。",
+      "condition": "在Lonely Citadel看到倒下的自贩机"
+    },
+    "time_isles": {
+      "name": "时之种",
+      "description": "漏中沙，表上针\n时间总是前进着——滴答滴答",
+      "condition": "抵达Time Isles"
+    },
+    "inverted_park": {
+      "name": "微光",
+      "description": "穿越静寂的散步之旅",
+      "condition": "抵达Inverted Park"
+    },
+    "visage_eidolon": {
+      "name": "便携虚像",
+      "description": "真理是否会带上谎言的面具？",
+      "condition": "获得幻象Visage。若已获得，请返回Moonlit Path获得该效果处。"
+    },
+    "trashcan_gasoline_alleys": {
+      "name": "臭眼看人",
+      "description": "吓吐你！",
+      "condition": "在Gasoline Alleys打开垃圾桶，看到怪物"
+    },
+    "top_trepid_towers": {
+      "name": "世界之巅",
+      "description": "好高！",
+      "condition": "抵达Trepid Towers顶端"
+    },
+    "eggtopia_rainbow_being": {
+      "name": "暴露",
+      "description": "惊奇！你找到了真正特别的某人！",
+      "condition": "在Eggtopia找到黑色彩虹生物"
+    },
+    "imago_eidolon": {
+      "name": "Glimmering Lepidoptera",
+      "description": "Guiding lights of lamps and moths throughout the night.",
+      "condition": "Obtain the Imago eidolon. If you have already unlocked it, return where it can be found in Moth Garden."
+    },
+    "deity_ghost_village": {
+      "name": "Watcher in The Sky",
+      "description": "Do you see what I see?",
+      "condition": "Find the deity in Ghost Village"
+    },
+    "bubble_rave": {
+      "name": "Dancing Bubbles and Hearts",
+      "description": "Let's wash it all away",
+      "condition": "Visit Bubble Rave"
+    },
+    "oracle_menu_theme": {
+      "name": "Oquam",
+      "description": "He's got a watch with a minuite hand, millenium hand, and an eon hand.",
+      "condition": "Obtain the Oracle menu theme. If you have already unlocked it, return where it can be found in Optical Offices."
     }
   },
   "flow": {
@@ -7884,6 +8204,41 @@
       "name": "雪中衣裙",
       "description": "是我会喜欢的好裙子。",
       "condition": "获得裙子效果。若已解锁，请返回Snow World中获得它的地方。"
+    },
+    "dresses_submarine_village": {
+      "name": ".时尚",
+      "description": "我可能有病，但至少我可爱。",
+      "condition": "穿上Submarine Village的两条裙子"
+    },
+    "oreko_broken": {
+      "name": "永远是最坏的朋友",
+      "description": "这世上就没有好事了吗？",
+      "condition": "通过将好感度降低到-30杀死Oreko"
+    },
+    "revolver_effect": {
+      "name": "警告",
+      "description": "五声钟声高悬，随后阴影降临",
+      "condition": "获得效果手枪。若已获得，请返回Hole获得该效果处。"
+    },
+    "tv_effect_flow": {
+      "name": "频道冲浪",
+      "description": "这个能看寂静岭吗？",
+      "condition": "获得效果电视。若已解锁，请返回Machine Nation获得该效果处。"
+    },
+    "drawings_submarine_corridors": {
+      "name": "疯狂涂鸦",
+      "description": "这些标记是什么意思？",
+      "condition": "看到Submarine Corridors所有的画"
+    },
+    "gas_mask_effect_flow": {
+      "name": "Tactical Mask",
+      "description": "Keeps bad air out.",
+      "condition": "Obtain the Gas Mask effect. If you have already unlocked it, return where it can be found in Plant Corridors."
+    },
+    "arms_effect_flow": {
+      "name": "At Risk Mental State",
+      "description": "After a psychological collapse, there is no regression to innocence.",
+      "condition": "Obtain the Arms effect. If you have already unlocked it, return where it can be found in Microorganism World."
     }
   },
   "prayers": {
@@ -7911,7 +8266,8 @@
       "condition": "抵达Green World的隐藏区域。"
     },
     "chroma_cat": {
-      "name": "色键猫",
+      "name": "Glitchy Fluffball",
+      "description": "I can’t hear you, you’re breaking up- M̴̍͆e̷͛̒o̵͗͝ẅ̸́̆!",
       "condition": "抵达Glitch World的深处。"
     },
     "sunflower": {
@@ -8005,7 +8361,7 @@
       "condition": "进入Planetarium取得天界效果的房间。"
     },
     "hospital_event": {
-      "name": "患者 001",
+      "name": "患者001",
       "description": "我的老伙计Eric也是这样的。",
       "condition": "在Hospital见证事件。"
     },
@@ -8193,6 +8549,26 @@
       "name": "旧日，以及旧梦",
       "description": "你是在梦中回想记忆吗？我们都怀念以前，不是吗？",
       "condition": "获得怀旧效果。若已解锁，请返回Train Station获得该效果处。"
+    },
+    "dd_systems": {
+      "name": "为旅程插上书签",
+      "description": "当你为旅途插上书签，就再次出发吧。",
+      "condition": "获得所有菜单样式并返回自己的房间"
+    },
+    "dream_district": {
+      "name": "灯笼街道",
+      "description": "在进入更深的梦境去冒险之前的休息区。",
+      "condition": "抵达Dream District"
+    },
+    "verdant_alter": {
+      "name": "花之乌托邦",
+      "description": "自然界众灵的呼唤拥抱着你，逐渐让你成为它们的一部分。",
+      "condition": "获得青翠效果。若已解锁，请返回Old Factory获得该效果处。"
+    },
+    "dark_eden": {
+      "name": "枯萎天国",
+      "description": "蛇骗了我，所以我吃了果子。",
+      "condition": "抵达Dark Eden"
     }
   },
   "someday": {
@@ -8355,6 +8731,11 @@
       "name": "卡入游戏",
       "description": "赞美坠吼得游戏ZApNeF，和最强玩家一树，请，。",
       "condition": "在Glitch World通过假的ZApNeF关卡"
+    },
+    "sun_space_world": {
+      "name": "烙印眼中",
+      "description": "好吧……你在期待什么？",
+      "condition": "尝试与Space World的太阳互动"
     }
   },
   "unevendream": {
@@ -8457,8 +8838,8 @@
       "condition": "从自贩机内买到寄居蟹"
     },
     "mimic": {
-      "name": "Upside-Down",
-      "description": "It's something isn't it?",
+      "name": "上下颠倒",
+      "description": "不是吗？",
       "condition": "抵达Upside-Down事件的区域。"
     },
     "cube_racing": {
@@ -8521,8 +8902,8 @@
       "condition": "在Playing Card Maze触发Bloodshot Hall事件。"
     },
     "uneven_rheum": {
-      "name": "分泌物",
-      "description": "进入Sandman。",
+      "name": "风湿",
+      "description": "输入Sandman。",
       "condition": "拜访Eye Dust。"
     },
     "snoozing_rodent": {
@@ -8641,6 +9022,36 @@
       "name": "深渊潜伏者",
       "description": "不要恐惧海底深渊，要恐惧藏在那里的存在。",
       "condition": "在Abyss看到鮟鱇"
+    },
+    "anti_seer_puppet_theater": {
+      "name": "人偶大师",
+      "description": "被我蒙蔽的你什么都看不见",
+      "condition": "在Puppet Theater触发Anti-Seer事件"
+    },
+    "jelly_cube_lake": {
+      "name": "果冻块",
+      "description": "我想知道吃掉这么大块果冻需要多长时间。",
+      "condition": "抵达Jelly Cube Lake"
+    },
+    "peeper_winter_village": {
+      "name": "Peeper派对",
+      "description": "你现在正在被一堆毛绒绒的小鸟啄食，不要反抗，否则你就可能会变成它们的一员。",
+      "condition": "找到peeper们的房间"
+    },
+    "snail_effect": {
+      "name": "蹦！",
+      "description": "我是整个梦世界里最能蹦跶的蜗牛！",
+      "condition": "获得蜗牛效果。若已获得，请返回Snail Palace中获得该效果处。"
+    },
+    "star_cactus_desert": {
+      "name": "多刺的星状生命形式",
+      "description": "我最好别惹着仙人掌，否则它早晚让我眼冒金星！",
+      "condition": "抵达Star Cactus Desert"
+    },
+    "butterfly_effect_ud": {
+      "name": "I'm Your Little Butterfly",
+      "description": "The prettiest butterfly of them all",
+      "condition": "Obtain the Butterfly effect. If you have already unlocked it, return to Fast Food World."
     }
   },
   "braingirl": {
@@ -9113,6 +9524,26 @@
       "name": "Maison Blanche",
       "description": "谁会住在这种地方？",
       "condition": "抵达House"
+    },
+    "muma_fric_in_rich": {
+      "name": "记忆？不需要！",
+      "description": "世界上所有的金币！",
+      "condition": "在不收集任何记忆的条件下获得所有硬币，并在First Steps读到信息。"
+    },
+    "star_ride_muma": {
+      "name": "星空之梦",
+      "description": "感受如此真实……",
+      "condition": "在Bedroom的阳台上触发Star Ride事件"
+    },
+    "rabbit_blue_flow": {
+      "name": "兔兔吹风",
+      "description": "好舒服……",
+      "condition": "在Blue Flow看到坐在安乐椅上的兔子"
+    },
+    "rabbits_sugar_maze": {
+      "name": "Bunny Tea Time",
+      "description": "They are late! They are late! For a very important date!",
+      "condition": "See the two rabbits enjoying sugar in the Sugar Maze"
     }
   },
   "genie": {
@@ -9475,6 +9906,11 @@
       "name": "它在看",
       "description": "它是在……评判我吗？",
       "condition": "打开Dark Sewers的电视"
+    },
+    "cursed_room_migraine_hallways": {
+      "name": "Cursed Room",
+      "description": "A lone \"stranded\" box",
+      "condition": "Trigger the Cursed Room event in Migraine Hallways. If you have already completed it, try to return in the room."
     }
   },
   "ultraviolet": {
@@ -9665,6 +10101,16 @@
       "name": "紫罗兰天女",
       "description": "现在梦中的你有了力量。",
       "condition": "获得效果Android。若已获得，请返回Space Station中获得它的位置。"
+    },
+    "coat_and_muffler_effect": {
+      "name": "Warm & Cozy",
+      "description": "Now, if only I had some hot cocoa...",
+      "condition": "Obtain the Coat & Muffler effect. If you have already unlocked it, return to Pastel Block World."
+    },
+    "magician_effect_uv": {
+      "name": "Dreaming Magician",
+      "description": "There lived a girl, who dreamed to be a magician someday",
+      "condition": "Obtain the Magician effect. If you have already unlocked it, return where it can be found in Floating Library."
     }
   },
   "sheawaits": {
@@ -9731,6 +10177,21 @@
         "day_palace": "Day Palace",
         "night_palace": "Night Palace"
       }
+    },
+    "the_star_card": {
+      "name": "Noelia彗星",
+      "description": "这颗没有大到能让恐龙灭绝的程度……",
+      "condition": "见证Meteor Crash事件后进入The Nexus"
+    },
+    "the_fool_card": {
+      "name": "愚者",
+      "description": "愚蠢的愚者愚蠢地做着愚蠢的梦……",
+      "condition": "获得卡牌愚者。若已获得，请返回Hedge Maze中获得该效果处。"
+    },
+    "jester_path": {
+      "name": "王宫恶作剧",
+      "description": "噫嘻嘻，来引发混乱吧！",
+      "condition": "抵达Jester's Path"
     }
   },
   "oversomnia": {
@@ -9800,8 +10261,8 @@
       "condition": "找到Cold Storage的巨型兔子。"
     },
     "green_river": {
-      "name": "梦境衔尾蛇",
-      "description": "起点亦是终点？",
+      "name": "Green Water",
+      "description": "Good night, Irving.",
       "condition": "抵达Green River的尽头。"
     },
     "boiling_water_orchard": {
@@ -9981,6 +10442,11 @@
       "name": "衔尾蛇的诞生",
       "description": "在通气管道的深处，一只胚胎生物在活着的血肉中脉动。它的外观撕扯着观看者的灵魂。",
       "condition": "从Ventilation Passage抵达Death Row"
+    },
+    "ov_dream_journal": {
+      "name": "梦日记",
+      "description": "饱含着神秘世界和梦幻个体的漫长旅程结束了。",
+      "condition": "完成梦日记并阅读"
     }
   },
   "tsushin": {
@@ -10267,28 +10733,33 @@
       "condition": "在Office Building看到冷冻奶牛"
     },
     "lotus_marsh": {
-      "name": "Azure Bloom",
-      "description": "A peaceful place for fishing~",
-      "condition": "Visit Lotus Marsh"
+      "name": "天蓝花朵",
+      "description": "钓鱼的好地方~",
+      "condition": "抵达Lotus Marsh"
     },
     "goth_doll_effects": {
-      "name": "Doll's Dress-Up",
-      "description": "Wearing pretty dresses is so fun, you might end up losing your head.",
-      "condition": "Combine the Goth Dress and Doll effects"
+      "name": "换装人偶",
+      "description": "穿上漂亮裙子虽然很有趣，但你有可能因此掉脑袋。",
+      "condition": "组合哥特裙和洋娃娃效果"
     },
     "rainy_islands_nini_detective": {
-      "name": "Her Face",
-      "condition": "Use the Detective effect next to Nini in Rainy Islands' house"
+      "name": "她的容颜",
+      "condition": "在Rainy Islands的房屋里，在Nini身边使用侦探效果"
     },
     "rainy_islands_nini": {
       "name": "Nini!",
-      "description": "She's literally a cowgirl!",
-      "condition": "Reveal Nini's normal, secret and true versions in Rainy Islands' house",
+      "description": "她是字面意思上的奶牛娘！",
+      "condition": "在Rainy Islands的房屋里看到Nini的正常、隐藏、真实形态",
       "checkbox": {
-        "rainy_islands_nini_normal": "normal",
-        "rainy_islands_nini_detective": "secret",
-        "rainy_islands_nini_vboa": "true"
+        "rainy_islands_nini_normal": "正常",
+        "rainy_islands_nini_detective": "隐藏",
+        "rainy_islands_nini_vboa": "真实"
       }
+    },
+    "zombie_effect_tsushin": {
+      "name": "揭棺而起",
+      "description": "弓形虫，弓形虫！",
+      "condition": "获得僵尸效果。若已解锁，请返回Zombie Apartment获得该效果处。"
     }
   },
   "nostalgic": {
@@ -10390,6 +10861,11 @@
       "name": "吵闹蛋",
       "description": "我怀疑可能有个蛋动物园。",
       "condition": "与Breakfast World的两个吵闹蛋互动"
+    },
+    "tree_sleeping_flowers": {
+      "name": "晚安。",
+      "description": "你很快就能到那里了。",
+      "condition": "在Sleeping Flowers看到梦树"
     }
   },
   "if": {
@@ -10505,14 +10981,19 @@
       "condition": "与Prison Chambers中孤独的囚犯互动"
     },
     "curse_ice_temple": {
-      "name": "Break",
-      "description": "You are already dead.",
-      "condition": "Trigger the Ice Voodoo Curse event in Ice Temple"
+      "name": "破冰",
+      "description": "你已经死了。",
+      "condition": "在Ice Temple触发Ice Voodoo Curse事件"
     },
     "anchor_effect": {
-      "name": "Beyond the Horizon",
-      "description": "Captain Shimitsuki is here!",
-      "condition": "Obtain the Anchor effect. If you have already unlocked it, return where it can be found in Streetlamp World."
+      "name": "越过地平线",
+      "description": "Shimitsuki船长在此！",
+      "condition": "获得锚效果。若已获得，请返回Streetlamp World中获得该效果处。"
+    },
+    "parasol_effect_if": {
+      "name": "黎明神谕",
+      "description": "这阳光对我来说太亮了……",
+      "condition": "获得阳伞效果。若已获得，请返回Colored Block World获得该效果处。"
     }
   },
   "oneshot": {
@@ -10572,7 +11053,8 @@
       "condition": "尝试装备新潮T恤衫"
     },
     "shepherd_glen": {
-      "name": "Temp Badge Name (Do not translate)",
+      "name": "The Best Shepherd, EVER!",
+      "description": "Savior of the rams!",
       "condition": "在Glen的村庄帮牧羊人放羊"
     },
     "plant_girl_ruins_glen": {

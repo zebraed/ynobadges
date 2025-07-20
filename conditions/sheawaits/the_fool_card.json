@@ -1,0 +1,10 @@
+{
+  "map": 23,
+  "mapX1": 59,
+  "mapY1": 67,
+  "mapX2": 70,
+  "mapY2": 70,
+  "switchId": 68,
+  "switchValue": true,
+  "trigger": "coords"
+}

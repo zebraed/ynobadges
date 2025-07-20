@@ -1,0 +1,11 @@
+{
+  "map": 2886,
+  "varId": 10000,
+  "varValue": 100,
+  "varOp": ">=",
+  "trigger": "eventAction",
+  "values": [
+    "20",
+    "21"
+  ]
+}
