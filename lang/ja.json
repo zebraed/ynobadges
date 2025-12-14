@@ -121,10 +121,6 @@
       "description": "夢恐怖症的に研ぎ澄まされた闇の刃。",
       "condition": "ZolotlからAztecへ"
     },
-    "novaflow": {
-      "name": "NovAflow",
-      "condition": "NovAflowです"
-    },
     "unconscious_dev": {
       "name": "Collective Unconsciousツクラー",
       "description": "Collective Unconsciousツクラー専用バッジ",
@@ -7808,9 +7804,67 @@
       "condition": "ネオンボックスに到達する"
     },
     "black_sphere_world": {
-      "name": "Black Sphere",
-      "description": "Just a black sphere, in a vast white world.",
-      "condition": "Visit Black Sphere World"
+      "name": "黒い球体",
+      "description": "ただの黒い球体が、広大な白い世界にある。",
+      "condition": "崩壊新月に到達する"
+    },
+    "eyeball_flesh_world": {
+      "name": "Soaring Eyeball",
+      "condition": "See the flying eyeball creature cross the screen in Flesh World"
+    },
+    "purapura_dining_table": {
+      "name": "It's Snack Time!",
+      "description": "Gather around the table!",
+      "condition": "Find PuraPura in Dining Table"
+    },
+    "red_riding_hood_effect": {
+      "name": "No Picking and Eating!",
+      "description": "They're the apples we're supposed to deliver to Grandma...",
+      "condition": "Obtain the Red Riding Hood effect. If you have already unlocked it, return where it can be found in the Fairy Tale Woods or in the Birch Forest."
+    },
+    "plant_roadkill_forest": {
+      "name": "The Mournful Hue",
+      "condition": "Chainsaw the plant creature in Roadkill Forest"
+    },
+    "firework_pollution_district": {
+      "name": "Firework Rainfall",
+      "description": "A display of nonstop fireworks in the cityscape, I'm sure everyone is watching.",
+      "condition": "Reach the Fireworks Viewing Area in Pollution District"
+    },
+    "sunsets_room_spaceship": {
+      "name": "Comfy Space Travel",
+      "description": "Would you dream of Earth if you slept here? Maybe Sunset knows!",
+      "condition": "Visit Sunset's Room in Spaceship"
+    },
+    "bunny_cloud_astral_world": {
+      "name": "Soft As Can Be",
+      "description": "This one is shaped like a bunny!",
+      "condition": "Reveal the bunny cloud in Astral World"
+    },
+    "2kki_menu_80": {
+      "name": "Pulse of Revival",
+      "description": "Those were some malicious blobs...",
+      "condition": "Obtain the menu type 80. If you have already unlocked it, return where it can be found in City of Revival."
+    },
+    "yard_photographic_field": {
+      "name": "Strange Yard",
+      "description": "Did these creatures escape from the murals?",
+      "condition": "Reach the yard in Photographic Field"
+    },
+    "buried_city": {
+      "name": "City of Buried Memories",
+      "description": "Sunken lamentations.",
+      "condition": "Visit Buried City"
+    },
+    "plunge_sunken_city": {
+      "name": "There'll Be Another Time",
+      "description": "Dream on. Dream on.",
+      "condition": "Go to Atlantis from Sunken City"
+    },
+    "koala_eucalyptus_woodland": {
+      "name": "Sleepy Suit",
+      "description": "It's a very cute costume",
+      "condition": "Equip the koala suit mask where it can be found in Eucalyptus Woodland"
     }
   },
   "unconscious": {
@@ -9155,6 +9209,40 @@
       "name": "親愛なるきみへ",
       "description": "きみに溺れる深淵からのラブレター",
       "condition": "メニュータイプ「ラブリー」を入手する、すでに入手している場合はラブレター桟橋の見つけた場所に行く。"
+    },
+    "worm_blood_spine_zone": {
+      "name": "血の幼虫",
+      "description": "やあ、私はソイル。君の悪夢に住んでいるんだ。",
+      "condition": "血と棘の隠しエリアにいる赤い虫のような生き物を燃やす"
+    },
+    "stained_glass_reverie": {
+      "name": "ガラス越しの夢",
+      "description": "きらめくガラスが、世界を色づける。",
+      "condition": "夢想のステンドグラスに到達する"
+    },
+    "creature_overload": {
+      "name": "プロのクレーマー",
+      "description": "わぁ……これは……荒い",
+      "condition": "過負荷にいるグラフティの乱れた人型に話しかける"
+    },
+    "heart_menu_theme": {
+      "name": "縫い目の鼓動",
+      "description": "理性と欲望が交わる枢軸。",
+      "condition": "メニュータイプ「心臓」を入手する。入手済みの場合は再度心臓に到達する。"
+    },
+    "balloon_fields": {
+      "name": "風船農場",
+      "condition": "風船野原に到達する"
+    },
+    "green_unconscious": {
+      "name": "ビリジアンの深淵",
+      "description": "深淵はかすかな、緑がかった輝きであなたを癒やす……",
+      "condition": "緑の世界に到達する"
+    },
+    "cat_abnormal_sewers": {
+      "name": "パーティーキャット",
+      "description": "なんてキレイな目を見る",
+      "condition": "嵐の森のサングラスをかけた猫を見る"
     }
   },
   "flow": {
@@ -9195,7 +9283,7 @@
     "dark_city": {
       "name": "サイケデリックな姿",
       "description": "別の次元からの来訪者の贈り物",
-      "condition": "サイケデリック街にいる宇宙人に話しかける"
+      "condition": "サイケデリック街屋上にいる宇宙人に話しかける"
     },
     "red_eye": {
       "name": "赤目",
@@ -9223,7 +9311,7 @@
     "smile_channel": {
       "name": "笑顔ちゃんねる",
       "description": "Let's put a smile on that face!",
-      "condition": "さびつきの部屋にあるテレビで笑顔が表示されるまで操作する"
+      "condition": "フロウ中自室にあるテレビで笑顔が表示されるまで操作する"
     },
     "orange": {
       "name": "永遠の親友",
@@ -9331,7 +9419,7 @@
     "sugar_mirror_rust": {
       "name": "鏡面恐怖症",
       "description": "あなたには似ていない",
-      "condition": "Sweet Sugarの鏡を錆状態で見る"
+      "condition": "おなごの鏡を錆状態で見る"
     },
     "flow_machine_effect": {
       "name": "全自動メカニカル",
@@ -9349,7 +9437,7 @@
     "cleaner_sugar_hole": {
       "name": "優しいメイド",
       "description": "甘い歓迎",
-      "condition": "Sugar Holeでメイドにドレスのエフェクトを使う"
+      "condition": "同盟2でメイドにドレスのエフェクトを使う"
     },
     "shinsoku": {
       "name": "Shinsoku Neko: スタンダードエディション",
@@ -9491,7 +9579,12 @@
     "well_kaibutsu_famicom_world": {
       "name": "め井戸の土産",
       "description": "井や井や、それはひ戸井よ……",
-      "condition": "FC魔女の森の井戸でカイブツ弟に捕まる"
+      "condition": "井戸でカイブツ弟に捕まる"
+    },
+    "ghost_effect": {
+      "name": "錆びたベール",
+      "description": "電子の世界にとどまることを選んだ幽霊。",
+      "condition": "ゆうれいのエフェクトを入手する、すでに入手している場合は幽霊花広間の見つけた場所に行く。"
     }
   },
   "prayers": {
@@ -10054,6 +10147,11 @@
       "name": "とうに失われた平穏",
       "description": "あそこにいられたらいいのに……",
       "condition": "School WorldのRelaxing Roomに到達する"
+    },
+    "hatsuyume_end": {
+      "name": "Symbols of New Luck",
+      "description": "Lucky year for everyone!",
+      "condition": "Reach the end of Hatsuyume"
     }
   },
   "unevendream": {
@@ -10554,6 +10652,11 @@
       "name": "安らぐ夕暮れ",
       "description": "寒空の中から温まるには最高の方法",
       "condition": "Tanuki WoodsにあるHot Springsの景色に到達する"
+    },
+    "turnip_psychedelic_farm": {
+      "name": "狂ったカブ",
+      "description": "野菜は食べましょう。",
+      "condition": "Psychedelic Farmで顔があるカブを見つける"
     }
   },
   "amillusion": {
@@ -11402,6 +11505,11 @@
       "name": "役立たず",
       "description": "こんなのどうしろと？",
       "condition": "どうたいのエフェクトを入手する、すでに入手している場合はIron Plateにもう一度行く。"
+    },
+    "case_effect": {
+      "name": "もう二度と出られない、閉じ込められた。",
+      "description": "「箱の中に閉じ込められ、人生は虚ろになり、自分のために思い描いていたすべては、今や壊れてしまった。」",
+      "condition": "ケースのエフェクトを入手する、すでに入手している場合はAbandoned Rooftopの見つけた場所に行く。"
     }
   },
   "ultraviolet": {
@@ -11612,6 +11720,11 @@
       "name": "孤独な演奏会の残響",
       "description": "指先にひりひりとした感覚を覚え……まるで身体が勝手に動いているように……ヴァイオリンを構えて演奏の準備をしていた。",
       "condition": "バイオリンのエフェクトを入手する、すでに入手している場合はパーティ会場の見つけた場所にもう一度行く。"
+    },
+    "orange_window_type": {
+      "name": "風にそよぐオレンジの髪",
+      "description": "穏やかな冬とやさしい夏のあいだで、彼女のオレンジ色は残り続ける。",
+      "condition": "ウィンドウ「orange」を入手する、すでに入手している場合は神社の見つけた場所に行く。"
     }
   },
   "sheawaits": {
@@ -12840,6 +12953,10 @@
       "name": "モノクロのバー",
       "description": "役に立たない店跡へようこそ...",
       "condition": "RVlFJ3MgYmFyにいるEYEに話しかける"
+    },
+    "nan_cubic_puzzle": {
+      "name": "あなたの本当の色を魅せて!",
+      "condition": "Abstruse Lieから行けるTetris Puzzleの隔離エリアにいるNaNの真実の姿を見る"
     }
   },
   "fog": {
