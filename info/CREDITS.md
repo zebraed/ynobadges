@@ -27,11 +27,11 @@
 * <°(((<
 * A Jar Full of Loaves of Bread
 * AcceleratingWind
+* AduriteStar
 * akalog
 * Akiro
 * Akxzii
 * AlfaDream
-* Alicia
 * Amadeus
 * Ame
 * AmeTokage
@@ -48,7 +48,6 @@
 * Autumn
 * Average
 * axiom
-* Ayayaya
 * Aztec
 * Azuzu
 * b063
@@ -59,9 +58,7 @@
 * blacksig
 * BluBiscuit
 * Bonnie21343
-* BREBBY
 * BSL
-* Bunia
 * BunnyBoi
 * Carbonara
 * catling
@@ -79,7 +76,6 @@
 * CoolKid95
 * cosmicmoths
 * Cosrie
-* Countertop
 * Cris
 * dabe
 * DallyDEF
@@ -87,7 +83,6 @@
 * dawnchorrus
 * deadsquid
 * deg
-* Delly
 * denji9099
 * desktopghost
 * DolphinDan
@@ -104,7 +99,6 @@
 * emocore
 * Ena
 * Enola
-* eviled
 * eyeball
 * Fall
 * Flakeohelk
@@ -127,7 +121,6 @@
 * GunBun
 * guroneet
 * Hachio
-* Hasnever
 * Henry
 * higodoragon
 * Horse de Paus
@@ -147,16 +140,13 @@
 * JIVV
 * JohnYumeNiki
 * JSG5
-* jspecter
 * jue
 * juliemeal
 * Kantyo
-* karakut
 * Kasatate
 * Kazecita
 * Kekwet
 * klayfruit
-* ko-4
 * Kofu
 * Koishi Komeiji
 * kolteel
@@ -166,7 +156,6 @@
 * Kudadaze
 * kuraud
 * Lamda
-* lapis
 * latui
 * laura
 * Lester Vine
@@ -199,7 +188,6 @@
 * moodeity
 * moolk
 * Moomoomoofy
-* MorrySonando
 * Moth
 * mothtam
 * Moucky2333
@@ -262,7 +250,6 @@
 * ribon996
 * Riqo
 * rollaby
-* Roninnozlo
 * rooliette
 * Rooy
 * rosaregard
@@ -272,7 +259,6 @@
 * Río
 * S. Izumina
 * Sabi
-* sablesorceress
 * samiruko
 * SamsungFridg
 * sardines
@@ -327,13 +313,10 @@
 * TheRagingRowlet
 * Ticks
 * tj
-* Tob
 * Tomogeko
 * tophat
-* TubularBells
 * Twiscool
 * ufo
-* Umbrakinetic
 * uroyu
 * Vanna
 * VelvetKitty
@@ -357,7 +340,6 @@
 * Yarshmellow
 * YouArentDistorted
 * Youli
-* yuli
 * Yumebako
 * Yuni
 * Zaakarias
