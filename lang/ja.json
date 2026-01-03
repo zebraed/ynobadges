@@ -539,6 +539,15 @@
       "name": "透明なヴェール",
       "description": "夢にとどまることを選んだ幽霊。",
       "condition": "△ずきんのエフェクトを入手する、すでに入手している場合は、もう一度コンクリ廃墟に行く。"
+    },
+    "midget_effect": {
+      "name": "We Are the Madolings!",
+      "description": "We shall create an army to- oh, that one exploded...",
+      "condition": "こびとのエフェクトを入手する、すでに入手している場合は蝋燭の世界にもう一度行く。"
+    },
+    "severed_head_effect": {
+      "name": "Decapitation",
+      "condition": "Obtain the Severed Head effect. If you have already unlocked it, return to Guillotine World."
     }
   },
   "2kki": {
@@ -5046,7 +5055,7 @@
     "qxy_vm_challenge": {
       "name": "数学者",
       "description": "雪山にある製造者",
-      "condition": "以下の場所にある自販機でお菓子を買う:目覚めの森、目覚めの森(雪の小道)、迷子石、haven、ネオンケイブ、ハサミ、石切、赤黒迷路、ポリキューブ(木)、ポリキューブ(氷)、水の迷路、自販工場、クラシックホテル(バルコニー)、オーロラ湖、釣り堀、万華鏡の世界、六角タイル工場、徒花、赤い下水道、ダムのほとり、赤い迷路、バーチャルシティ(バー)",
+      "condition": "Find and buy a snack from 15 of the vending machines in the following locations:目覚めの森、目覚めの森(雪の小道)、迷子石、haven、ネオンケイブ、ハサミ、石切、赤黒迷路、ポリキューブ(木)、ポリキューブ(氷)、水の迷路、自販工場、クラシックホテル(バルコニー)、オーロラ湖、釣り堀、万華鏡の世界、六角タイル工場、徒花、赤い下水道、ダムのほとり、赤い迷路、バーチャルシティ(バー)、自販工場：展示スペース",
       "checkbox": {
         "qxy_vm_snowy_forest": "目覚めの森",
         "qxy_vm_winter_path": "目覚めの森(雪の小道)",
@@ -5069,7 +5078,8 @@
         "qxy_vm_red_sewers": "赤い下水道",
         "qxy_vm_wooded_lakeside_b": "ダムのほとり",
         "qxy_vm_oblique_hell": "赤い迷路",
-        "qxy_vm_virtual_city_bar": "バーチャルシティ(バー)"
+        "qxy_vm_virtual_city_bar": "バーチャルシティ(バー)",
+        "qxy_vm_snack_gallery": "自販工場：展示スペース"
       }
     },
     "tentacle_lamplit_stones": {
@@ -7525,38 +7535,86 @@
       "condition": "離宮で黒い羽の天使に捕まる"
     },
     "evil_slime_mask_slime_village": {
-      "name": "Menace Blob",
-      "description": "It's blue and full of hate for a devious reason",
-      "condition": "Equip the evil slime mask where it can be found in Slime Village"
+      "name": "猛威を振るうぷるぷる",
+      "description": "青くて、邪悪な理由から憎しみに満ちている",
+      "condition": "すらいむむらの大きな灰色の建物の奥で、青丸くんのお面を装備する"
     },
     "live_idol_world_performance": {
-      "name": "Bustling Idol",
-      "description": "Welcome to the glorious stage!",
-      "condition": "See the two performances of the idols in Live Idol World"
+      "name": "賑やかなアイドル",
+      "description": "栄光のステージへようこそ！",
+      "condition": "ライブハウスで2つのパターンのステージを見る"
     },
     "sherbet_snowfield": {
-      "name": "Sweet Shimmer",
-      "description": "The taste reminds you of a simpler time.",
-      "condition": "Visit Sherbet Snowfield"
+      "name": "甘くきらめいて",
+      "description": "その味は、もっと素朴だった頃を思い出させる。",
+      "condition": "クスリマスに到達する"
     },
     "tooth_tricolor_room": {
-      "name": "Teethy Beats",
-      "description": "No wires on those headphones, I guess they're Bluetooth!",
-      "condition": "Interact with the tooth creature with headphones in Tricolor Room"
+      "name": "歯みがきのビート",
+      "description": "あのヘッドホン、コードがないね。Bluetoothってやつかな！",
+      "condition": "雲の小部屋でヘッドフォンを付けた謎の生き物に話しかける"
     },
     "2kki_candy_shoal": {
-      "name": "Sweetness Overload!",
-      "description": "You should seek dental care after this...",
-      "condition": "Visit Candy Shoal"
+      "name": "Sweetness Overload!!!",
+      "description": "この後は歯医者に行ったほうがいいかも……",
+      "condition": "飴の橋立に到達する"
     },
     "cactus_desert": {
-      "name": "Dreaming of a Summer Afternoon",
-      "description": "There's beauty to be found in the harshest environments.",
-      "condition": "Visit Cactus Desert"
+      "name": "夏の午後の夢",
+      "description": "最も過酷な環境の中にも、美は宿る。",
+      "condition": "仙人掌砂漠に到達する"
     },
     "moss_world": {
-      "name": "Mossy Flowers",
-      "condition": "Visit Moss World"
+      "name": "苔むす花々",
+      "condition": "苔の世界:メインエリアに到達する"
+    },
+    "2kki_raincoat_effect": {
+      "name": "あの子の黄色いレインコート",
+      "description": "天気に合わせた服装が大事！",
+      "condition": "あかずきん、てるてるぼうずのエフェクトを入手する。すでに入手している場合は、見つけた場所に行く",
+      "checkbox": {
+        "red_riding_hood_effect_a|red_riding_hood_effect_b": "あかずきん",
+        "teru_teru_bozu_effect": "てるてるぼうず"
+      }
+    },
+    "dark_room_secret_society": {
+      "name": "明かり消してよ！",
+      "condition": "秘密結社:何もないで、カンテラのエフェクトを使用する"
+    },
+    "house_shape_world": {
+      "name": "どうぞ上がって！",
+      "description": "家賃は無料、しかも毎週お小遣い付き！",
+      "condition": "図形:家の中に到達する"
+    },
+    "room_burgundy_flats": {
+      "name": "困ったら、いつでもどうぞ。",
+      "description": "部屋の鍵が必要？いいよ、でも何も盗まないでね。",
+      "condition": "幻荘:情報屋の部屋に到達する"
+    },
+    "car_mask_parking_highway": {
+      "name": "* ブーブー *",
+      "description": "特別な……車……で夢の世界をドライブ！",
+      "condition": "地下駐車場でミニカーのお面を装備する"
+    },
+    "flower_ug_mall": {
+      "name": "枯れゆく薔薇",
+      "description": "この花瓶は、かわいそうな花たちの新しいお家にぴったり！",
+      "condition": "モータープールの紫のデパートにある素花瓶に花を生ける"
+    },
+    "main_lethal_dunes": {
+      "name": "画面越しの解剖砂漠",
+      "description": "テレビを見る時は部屋を明るくして離れて見てね！",
+      "condition": "不和:砂漠に到達する"
+    },
+    "spacecraft_visine": {
+      "name": "来ては去る彗星",
+      "description": "ここから見ると、みんなアリみたいだね！",
+      "condition": "未確認飛行物体で、上のドアから4つのエリアに行く"
+    },
+    "butterfly_passage": {
+      "name": "美しさに心奪われて",
+      "description": "もし変化なんてなければ、蝶なんて存在しなかった。",
+      "condition": "虫食いに到達する"
     }
   },
   "flow": {
@@ -7848,9 +7906,9 @@
       "condition": "モノアイのエフェクトを入手する、すでに入手している場合は奇形にもう一度行く。"
     },
     "watering_can_effect": {
-      "name": "Expert Gardener",
-      "description": "Uh, that seems like a lot of water for the plants...",
-      "condition": "Obtain the Watering Can effect. If you have already unlocked it, return to Plant World."
+      "name": "熟練の庭師",
+      "description": "あれ、ちょっと水やりにしては水が多すぎるような……",
+      "condition": "じょうろのエフェクトを入手する、すでに入手している場合は植物にもう一度行く。"
     }
   },
   "prayers": {
@@ -8294,9 +8352,9 @@
       "condition": "Glitch Endingを見る"
     },
     "tsukitsukis_bedroom": {
-      "name": "Tsukinception",
-      "description": "Are you just a character in someone else's story?",
-      "condition": "Visit Tsukitsuki's Bedroom"
+      "name": "つきに入り込むつき",
+      "description": "あなたは、誰かのお話の中の人にすぎないの？",
+      "condition": "Tsukitsuki's Bedroomに到達する"
     }
   },
   "unevendream": {
@@ -8660,8 +8718,13 @@
       "condition": "Starlight Bistroに到達する"
     },
     "triste_all_seeing_forest": {
-      "name": "No Pasa Nada",
-      "condition": "Find Triste in All-Seeing Forest"
+      "name": "なんてことないよ",
+      "condition": "All-Seeing ForestでTristeを見つける"
+    },
+    "marshmallow_effect": {
+      "name": "Dreaming of Sweetness",
+      "description": "Squishy... yummy... tasty... marshmallow...",
+      "condition": "Obtain the Marshmallow effect. If you have already unlocked it, return where it can be found in Tasty Plains."
     }
   },
   "braingirl": {
@@ -8930,6 +8993,11 @@
       "name": "破棄された基礎",
       "description": "彼女は何を研究しているのだろう？",
       "condition": "Nina's Outpostに到達する"
+    },
+    "pure_creativity": {
+      "name": "Inventing Myself on Canvas",
+      "description": "Painting my colors on a blank canvas",
+      "condition": "Visit Pure Creativity"
     }
   },
   "muma": {
@@ -9337,9 +9405,14 @@
       "condition": "Streetlights Cornerの少女に触れる"
     },
     "spear_of_fear_delusion": {
-      "name": "Fangs Against the Inevitable Order",
-      "description": "Do not falter. Fix your footing where you faced fear head-on. Remember the fear that pierced your heart, and here, the script of the fate that nearly broke you is rewritten.",
-      "condition": "Obtain the Spear of Fear delusion. If you have already unlocked it, return where it can be found in Narrow Apartments."
+      "name": "抗えぬ秩序への牙",
+      "description": "怯むな。恐怖と相対したその場所で、踏みとどまれ。心を貫く恐怖を胸に抱き、今ここで、壊れかけたあなたの運命の脚本は書き換えられる。",
+      "condition": "Spear of Fearのdelusionを入手する、すでに入手している場合はNarrow Apartmentsの見つけた場所に行く。"
+    },
+    "qiu_qin_wake_up_train": {
+      "name": "Where Another Me Sleeps",
+      "description": "Your awakening marks the end of my dream.",
+      "condition": "Trigger the wake up event in the Train"
     }
   },
   "mikan": {
@@ -9551,6 +9624,11 @@
       "name": "過去の雪",
       "description": "このジャケットを着ると、子どもの頃の寒さを思い出す",
       "condition": "ダウンジャケットのエフェクトを入手する、すでに入手している場合はMannequin Streetにもう一度行く。"
+    },
+    "knuckledusters_effect": {
+      "name": "Punch Your Lights Out!",
+      "description": "That punch is making me see stars dude...",
+      "condition": "Obtain the Knuckledusters effect. If you have already unlocked it, return where it can be found in the Park."
     }
   },
   "ultraviolet": {
@@ -10492,6 +10570,20 @@
     "egg_tart_effect": {
       "name": "「キミ」のおいしさ、「卵(らん)」タスティック！←「エッグ」スクラメーション",
       "condition": "Egg Tartのエフェクトを入手する、すでに入手している場合はDeep Forest Bの見つけた場所に行く。"
+    },
+    "white_dress_effect": {
+      "name": "Is It a Gift From the Rain?",
+      "description": "Sometimes the prettiest things are found in the most unexpected places~",
+      "condition": "Obtain the White Dress effect. If you have already unlocked it, return to Rainy Islands."
+    },
+    "slime_catgirl": {
+      "name": "Meow Meow Girls!",
+      "description": "Purr sweet, claw fierce.",
+      "condition": "Get caught by the Slime Catgirl in Hothouse and Red Totem Passage",
+      "checkbox": {
+        "slime_catgirl_hothouse_a|slime_catgirl_hothouse_b": "Hothouse",
+        "slime_catgirl_r_totem_a|slime_catgirl_r_totem_b": "Red Totem Passage"
+      }
     }
   },
   "nostalgic": {
