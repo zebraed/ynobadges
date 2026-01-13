@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 20,
+  "reqType": "tag",
+  "reqString": "journeys_road_purapura",
+  "map": 2816,
+  "art": "Henry",
+  "animated": true,
+  "batch": 196
+}

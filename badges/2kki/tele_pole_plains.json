@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "tele_pole_plains",
+  "map": 3732,
+  "art": "Piotr",
+  "animated": true,
+  "batch": 196
+}

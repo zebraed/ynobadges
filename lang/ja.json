@@ -7672,37 +7672,90 @@
       "condition": "Electronに到達する"
     },
     "kanashii_tan_stone_maze": {
-      "name": "No One Can Hear Me.",
-      "description": "With a stone heart.",
-      "condition": "See Kanashi-tan in Stone Maze"
+      "name": "誰にも聞こえない。",
+      "description": "石のように冷たい心で。",
+      "condition": "赤の十字路でトンネル内で眠る少女に会う"
     },
     "soldier_jigsaw_junction": {
-      "name": "Tidebound Marine",
-      "description": "Her heart is still bound to the battlefield.",
-      "condition": "See all of the reactions of the soldier in Jigsaw Junction"
+      "name": "海に縛られた海兵",
+      "description": "彼女の心は今も、戦場に囚われている。",
+      "condition": "アヒルとジグソーで海兵少女の全てのエフェクト反応を見る"
     },
     "2kki_bottles": {
-      "name": "Bottles, Cartons and Glasses",
-      "description": "Gotta drink 'em all!",
-      "condition": "Visit the following worlds: Tomato World, Citrus Springs, Burger Joint, Wine Cellar, Vinegar Vicinity, Soy Sauce World",
+      "name": "ボトル、カートン、それとグラス",
+      "description": "全部飲み干せッ！",
+      "condition": "以下のマップに到達する: 蕃茄、はちみつレモン、ポテ塔:バーガーショップ、ワイナリー、酢、醤油",
       "checkbox": {
-        "tomato_world": "Tomato World",
-        "citrus_springs": "Citrus Springs",
-        "burger_joint": "Burger Joint",
-        "wine_cellar": "Wine Cellar",
-        "vinegar_vicinity": "Vinegar Vicinity",
-        "soy_sauce_world": "Soy Sauce World"
+        "tomato_world": "蕃茄",
+        "citrus_springs": "はちみつレモン",
+        "burger_joint": "ポテ塔:バーガーショップ",
+        "wine_cellar": "ワイナリー",
+        "vinegar_vicinity": "酢",
+        "soy_sauce_world": "醤油"
       }
     },
     "drunk": {
-      "name": "A bAr aT tHe nIghT",
-      "description": "I think I've had four drinks... or did I have 57? I don't even know anymore...",
+      "name": "とぁるょるのバ～",
+      "description": "4杯飲んだと思ゥけど……57杯だったかなぁ？分かんなぃャ……",
       "condition": "BARで酔っぱらって気絶する"
     },
     "vending_machine_factory_balcony": {
-      "name": "Morning Smoke Break",
-      "description": "Taking break is great with a view",
+      "name": "朝の一服",
+      "description": "景色を眺めながらの休憩は最高だねぇ",
       "condition": "自販工場で絶景を見る。"
+    },
+    "nightmare_inn_chapel_event": {
+      "name": "MORTIS",
+      "description": "The chainsaw wasn't the Great Communicator for them.",
+      "condition": "Trigger the Tot tsi ttog event in Nightmare Inn"
+    },
+    "tarnished_ship_dead_shark": {
+      "name": "Gyotaku Shark Print",
+      "description": "It will take a lot of ink to print such a big fish.",
+      "condition": "Find a dead shark in ink in the Tarnished Ship"
+    },
+    "ice_cream_islands_sink": {
+      "name": "Sticky Situation",
+      "condition": "Sink through the ice cream at Ice Cream Islands"
+    },
+    "sushi_mask": {
+      "name": "I want to be sushi!",
+      "description": "Just eat it!",
+      "condition": "Equip the two Sushi masks in Sushi Roll Swamp"
+    },
+    "overwork_office": {
+      "name": "Unpaid Overtime",
+      "description": "You still haven't hit your quota!",
+      "condition": "Visit Overwork Office"
+    },
+    "lake_of_bones_bunny": {
+      "name": "The Innocent Bunny at the Lake of Bones",
+      "description": "A lake filled with bones. Only one heartbeat remains - hers.",
+      "condition": "Interact with the bunny ears girl in Lake of Bones and do the same while equipped with effects that she reacts to"
+    },
+    "sepia_factory": {
+      "name": "Sepia Skies from the Sepia Factory",
+      "description": "Incredibly cozy for a factory.",
+      "condition": "Visit Sepia Factory"
+    },
+    "tele_pole_plains": {
+      "name": "Purple Boots",
+      "condition": "Visit Tele-pole Plains"
+    },
+    "radioactive_garden": {
+      "name": "Sunflowers and Radiation",
+      "description": "What is this smell..?",
+      "condition": "Visit Radioactive Garden"
+    },
+    "chicken_world": {
+      "name": "Which Came First?",
+      "description": "The plot chickens...",
+      "condition": "Visit Chicken World"
+    },
+    "journeys_road_purapura": {
+      "name": "Now what do YOU Want?",
+      "description": "Can't you see I'm reading?",
+      "condition": "Interact with PuraPura in Journey's Road"
     }
   },
   "flow": {
@@ -8827,6 +8880,10 @@
     "washing_machine_bubble_lounge": {
       "name": "とつつき洗浄機",
       "condition": "Bubble Loungeの洗濯機に到達する"
+    },
+    "secret_woods_menu": {
+      "name": "一休み",
+      "condition": "メニュータイプ10を入手する、すでに入手している場合はSecret Woodsの見つけた場所に行く。"
     }
   },
   "braingirl": {
@@ -9923,6 +9980,11 @@
       "name": "血焔の魔術",
       "description": "灯りをともして。ここに残り、儀式の行方を見届けて。",
       "condition": "ウィンドウ「hexe」を入手する、すでに入手している場合は図書館　小部屋にもう一度行く。"
+    },
+    "streetlamp_effect": {
+      "name": "導きの街灯",
+      "description": "輝きとは光だ！",
+      "condition": "ほうでんとうのエフェクトを入手する、すでに入手している場合は公園にもう一度行く。"
     }
   },
   "sheawaits": {
@@ -10696,6 +10758,10 @@
         "slime_catgirl_hothouse_a|slime_catgirl_hothouse_b": "Hothouse",
         "slime_catgirl_r_totem_a|slime_catgirl_r_totem_b": "Red Totem Passage"
       }
+    },
+    "dining_table_effect": {
+      "name": "アタック・オブ・キラーテーブル",
+      "condition": "Dining Tableのエフェクトを入手する、すでに入手している場合はCake Towerの見つけた場所に行く。"
     }
   },
   "nostalgic": {
@@ -11277,6 +11343,16 @@
       "name": "[エラ/ー]",
       "description": "666174616c6572726f7221",
       "condition": "ERRORに到達する"
+    },
+    "snowy_inside_girl": {
+      "name": "雪の中で、彼女は黒をまとっていた",
+      "description": "彼女と雪と、ちいさなゆきだるまだけ。",
+      "condition": "Snowy Insideでゆきだるまを作っている女の子に話しかける"
+    },
+    "brothers_ward_pat": {
+      "name": "愛しい記憶",
+      "description": "あなたの温もりが心地よくて、恋しい",
+      "condition": "Brother's Wardでアルベンの兄に話しかける"
     }
   }
 }
