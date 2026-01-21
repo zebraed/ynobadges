@@ -553,6 +553,11 @@
       "name": "墜落オチ",
       "description": "着陸してから宇宙船の強度を確認するのは、さすがに判断ミスだったかも……",
       "condition": "セコムマサダ先生の宇宙船で火星に不時着する"
+    },
+    "poniko_cat": {
+      "name": "かわいこちゃん、こっちおいで！",
+      "description": "全てをマドツキに捧げよ",
+      "condition": "ポニ子にねこを使う"
     }
   },
   "2kki": {
@@ -7530,7 +7535,7 @@
       "description": "光は自然そのものから花開く",
       "condition": "メニュータイプ101を取得する。すでに入手している場合は、見つけた場所に行く"
     },
-    "vision_satellite_space_way": {
+    "sleepy_uro_event": {
       "name": "見覚えのある夢見る人？",
       "description": "失われた少女の帰還。",
       "condition": "周回軌道であるお面を装備して、巨大な人工衛星のイベントを見る"
@@ -7705,57 +7710,127 @@
       "condition": "自販工場で絶景を見る。"
     },
     "nightmare_inn_chapel_event": {
-      "name": "MORTIS",
-      "description": "The chainsaw wasn't the Great Communicator for them.",
-      "condition": "Trigger the Tot tsi ttog event in Nightmare Inn"
+      "name": "祈祷死",
+      "description": "彼らにとって、チェーンソーは偉大なる伝達エフェクトではなかった。",
+      "condition": "裏懐古の宿で祈祷師をチェーンソーで斬ってイベントを見る"
     },
     "tarnished_ship_dead_shark": {
-      "name": "Gyotaku Shark Print",
-      "description": "It will take a lot of ink to print such a big fish.",
-      "condition": "Find a dead shark in ink in the Tarnished Ship"
+      "name": "サメの魚拓",
+      "description": "こんなに大きなサメを刷るには、相当な量の墨が必要だ。",
+      "condition": "廃れた波止場で墨汁がかかったサメを見つける"
     },
     "ice_cream_islands_sink": {
-      "name": "Sticky Situation",
-      "condition": "Sink through the ice cream at Ice Cream Islands"
+      "name": "ベタベタな状況",
+      "condition": "スマイルアイスでミントアイスの床に全身で沈み込む"
     },
     "sushi_mask": {
-      "name": "I want to be sushi!",
-      "description": "Just eat it!",
-      "condition": "Equip the two Sushi masks in Sushi Roll Swamp"
+      "name": "寿司になりたい！",
+      "description": "さあ、食べて！",
+      "condition": "酢飯平野で2種類の寿司のお面を装備する"
     },
     "overwork_office": {
-      "name": "Unpaid Overtime",
-      "description": "You still haven't hit your quota!",
-      "condition": "Visit Overwork Office"
+      "name": "サービス残業",
+      "description": "まだノルマ達成してないよ！",
+      "condition": "連勤に到達する"
     },
     "lake_of_bones_bunny": {
-      "name": "The Innocent Bunny at the Lake of Bones",
-      "description": "A lake filled with bones. Only one heartbeat remains - hers.",
-      "condition": "Interact with the bunny ears girl in Lake of Bones and do the same while equipped with effects that she reacts to"
+      "name": "骨の湖の無垢なうさぎ",
+      "description": "骨で満ちた湖。残る鼓動は、ただひとつ――彼女のもの。",
+      "condition": "散骨で緑髪のうさみみ少女に話しかける。また、反応するエフェクトを装備して同様に話しかける"
     },
     "sepia_factory": {
-      "name": "Sepia Skies from the Sepia Factory",
-      "description": "Incredibly cozy for a factory.",
-      "condition": "Visit Sepia Factory"
+      "name": "鈍色工場から見える鈍色の空",
+      "description": "工場とは思えないほど居心地がいい",
+      "condition": "鈍色工場に到達する"
     },
     "tele_pole_plains": {
-      "name": "Purple Boots",
-      "condition": "Visit Tele-pole Plains"
+      "name": "紫のブーツ",
+      "condition": "電信柱の世界に到達する"
     },
     "radioactive_garden": {
-      "name": "Sunflowers and Radiation",
-      "description": "What is this smell..?",
-      "condition": "Visit Radioactive Garden"
+      "name": "ひまわりと放射線",
+      "description": "この匂いは……？",
+      "condition": "放射能ヒマワリの世界に到達する"
     },
     "chicken_world": {
-      "name": "Which Came First?",
-      "description": "The plot chickens...",
-      "condition": "Visit Chicken World"
+      "name": "どっちが先なんだろうね？",
+      "description": "話の筋が\"とりにく\"くなってきた…",
+      "condition": "ニワトリ世界に到達する"
     },
     "journeys_road_purapura": {
-      "name": "Now what do YOU Want?",
-      "description": "Can't you see I'm reading?",
-      "condition": "Interact with PuraPura in Journey's Road"
+      "name": "で、今度は何が欲しいの？",
+      "description": "読書中だって見て分からない？",
+      "condition": "雨の野道:最奥の道路で、本を読んでいる紫髪の少女の顔を、エフェクトを装備して一度隠させてから、再度顔を出させる"
+    },
+    "star_carpet_world": {
+      "name": "悲嘆のカーペット",
+      "description": "この絨毯、触っても大丈夫？",
+      "condition": "モールの星空に到達する"
+    },
+    "ethereal_garden_fountain": {
+      "name": "青い羽",
+      "description": "「虫って可愛いと思わない？」",
+      "condition": "無限の庭:青白い内観に到達する"
+    },
+    "lonely_uro_event": {
+      "name": "幼少期の恐怖",
+      "description": "誰も迎えに来てくれなかったあの夜……",
+      "condition": "カーニバルナイト:南：入り口の電光掲示板で2種類のイベントを見る"
+    },
+    "carnival_lady": {
+      "name": "深紅のカーニバルレディ",
+      "description": "悪いこと、しちゃだめ……いい？",
+      "condition": "見世物小屋でドレスを着た赤髪の女性をチェーンソーで何度も斬り、閉じ込められる"
+    },
+    "field_of_cosmos_shimako": {
+      "name": "初夏の日々の思い出",
+      "description": "思い出が、私たちを再び巡り合わせた。",
+      "condition": "コスモス峠で縞子に会う"
+    },
+    "serene_garden_isolated": {
+      "name": "甘美な静寂",
+      "description": "甘くて、清々しい空気……",
+      "condition": "一通の扉部屋からウパルパ庭園:一通の扉部屋側に到達する"
+    },
+    "fairy_effect": {
+      "name": "妖精のきらめきに包まれて",
+      "description": "囚われた妖精が、ふたたび光を取り戻す",
+      "condition": "ようせいのエフェクトを入手する。すでに入手している場合は、見つけた場所に行く"
+    },
+    "lamp_puddle_world_fortune": {
+      "name": "運命の前兆",
+      "description": "代償さえ払えば……未来を覗く窓を見せてあげよう。",
+      "condition": "しゃーまんはうすでしゃーまんさんに占ってもらう"
+    },
+    "car_crash": {
+      "name": "点火の鍵",
+      "description": "どうやら保険が効かないモデルみたい……",
+      "condition": "FCバグステージ(白黒):地下ガレージエリアで軽自動車を衝突させる"
+    },
+    "bent_screw": {
+      "name": "共鳴する夢",
+      "description": "歯車の共鳴が、ネジをどこか……ずいぶん緑豊かな場所へと繋げた。",
+      "condition": "歯車で折れているネジに触れる"
+    },
+    "march_of_progress": {
+      "name": "進化の行進",
+      "description": "幾多の永い時を経て、うろつきは魅力的な変化を遂げてきた。",
+      "condition": "平行四辺形チェス:小部屋で、玉座に座ってイベントを見る"
+    },
+    "fairy_hole": {
+      "name": "妖精の国",
+      "description": "波紋のほとりにある、冬の妖精たちの隠れ家",
+      "condition": "目覚めの森:花部屋に到達する"
+    },
+    "helmet_girl": {
+      "name": "星間飛行",
+      "description": "キューブと空飛ぶ魚の間をふわふわ漂う探検者",
+      "condition": "夜景ベランダ、白い部屋、四角四角で透明メットの女の子に会う",
+      "checkbox": {
+        "helmet_girl_moonlit_balcony": "夜景ベランダ",
+        "helmet_girl_apartment": "白い部屋",
+        "helmet_girl_square2_world": "四角四角"
+      }
     }
   },
   "flow": {
@@ -8165,6 +8240,11 @@
       "name": "雪とひまわり",
       "description": "幸せになれる場所",
       "condition": "Forest Worldにあるsunflower fieldに到達する"
+    },
+    "lookout_point": {
+      "name": "眼下の世界を見下ろして",
+      "description": "こんなに高いと、みんなちっちゃなアリみたい！",
+      "condition": "Symbols Mazeを通ってPlaygroundの二つ目の島に到達する"
     }
   },
   "deepdreams": {
@@ -8506,6 +8586,16 @@
       "name": "つきに入り込むつき",
       "description": "あなたは、誰かのお話の中の人にすぎないの？",
       "condition": "Tsukitsuki's Bedroomに到達する"
+    },
+    "hollow_head": {
+      "name": "世界の端っこ",
+      "description": "どんなに賢い頭脳でも、限界はある。",
+      "condition": "SubwayからVoidに到達する"
+    },
+    "bioluminescence": {
+      "name": "生い茂る光",
+      "description": "まるで地の奥の花火大会を見ているようだ……",
+      "condition": "Overgrown Cavesに到達する"
     }
   },
   "unevendream": {
@@ -10144,7 +10234,7 @@
     },
     "neptune": {
       "name": "Vagus",
-      "description": "果てしない冬の惑星に冬が訪れることはあるのだろうか……？",
+      "description": "果てしない冬の惑星に春が訪れることはあるのだろうか……？",
       "condition": "Neptuneに到達する"
     },
     "clock_cat": {

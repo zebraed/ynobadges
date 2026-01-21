@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "lamp_puddle_world_fortune",
+  "map": 2203,
+  "art": "Henry",
+  "animated": true,
+  "batch": 197
+}

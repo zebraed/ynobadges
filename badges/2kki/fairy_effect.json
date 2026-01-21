@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "fairy_effect",
+  "map": 68,
+  "mapY": 76,
+  "art": "Kantyo",
+  "batch": 197
+}
