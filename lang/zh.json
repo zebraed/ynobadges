@@ -545,9 +545,19 @@
       "condition": "观看火星飞船坠落事件"
     },
     "poniko_cat": {
-      "name": "C'mere Adorable!",
-      "description": "Forfeit all mortal possessions to the Mado.",
-      "condition": "Use the Cat effect near Poniko"
+      "name": "小可爱快过来！",
+      "description": "将凡尘的所有财产献给附窗子。",
+      "condition": "在Poniko身边使用猫效果"
+    },
+    "bottles": {
+      "name": "爱心饮品",
+      "description": "漫长梦游之后来上一杯令人舒爽的饮料",
+      "condition": "在以下所有场景的3个自贩机中买到饮料：Dense Woods A、Hell、Docks A"
+    },
+    "stabbing_room": {
+      "name": "By My Blade",
+      "description": "One down, more to go",
+      "condition": "Enter the Stabbing Room"
     }
   },
   "2kki": {
@@ -7211,11 +7221,6 @@
       "description": "水晶缓缓向光生长，吸收着、反射着光线。",
       "condition": "抵达Holographic Reef：Tiny House"
     },
-    "red_waters": {
-      "name": "过渡仪式",
-      "description": "闭上双眼，让魔法完成接下来的过程……",
-      "condition": "抵达Red Waters"
-    },
     "neon_vm_radiant_waters": {
       "name": "辉光洞穴中的超脱",
       "description": "这只绿色生物通过培养耐心的冥想抵达了一种可敬的状态",
@@ -7761,74 +7766,285 @@
       "condition": "在Journey's Road与PuraPura互动"
     },
     "star_carpet_world": {
-      "name": "The Carpet of Sorrow",
-      "description": "Are these carpets safe to touch?",
-      "condition": "Visit Star Carpet World"
+      "name": "哀伤地毯",
+      "description": "这些地毯摸上去是安全的吧？",
+      "condition": "抵达Star Carpet World"
     },
     "ethereal_garden_fountain": {
-      "name": "Blue Wings",
-      "description": "\"Don't you think bugs are cute?\"",
-      "condition": "Reach the fountain area in Ethereal Garden"
+      "name": "蓝色翅膀",
+      "description": "\"你不觉得虫子们很可爱吗？\"",
+      "condition": "抵达Ethereal Garden的喷泉区域"
     },
     "lonely_uro_event": {
-      "name": "Childhood Fears",
-      "description": "The night nobody came for me...",
-      "condition": "See the two versions of the Lonely Urotsuki event in Underwater Amusement Park"
+      "name": "童年恐惧",
+      "description": "那天晚上谁都没有来找我……",
+      "condition": "在Underwater Amusement Park见证Lonely Urotsuki事件的两个版本"
     },
     "carnival_lady": {
-      "name": "The Crimson Carnival Queen",
-      "description": "Don’t be bad... okay?",
-      "condition": "Chainsaw the Carnival Lady 6 times and get trapped in the Carnage Carnival"
+      "name": "嘉年华的绯色女王",
+      "description": "别做坏事……好吗？",
+      "condition": "在Carnage Carnival锯Carnival Lady六次并被抓住关小黑屋"
     },
     "field_of_cosmos_shimako": {
-      "name": "Memories of Early Summer Days",
-      "description": "Memories have let us meet again.",
-      "condition": "Run into Shimako in the Field of Cosmos"
+      "name": "初夏回忆",
+      "description": "记忆允许我们再次相见。",
+      "condition": "在Field of Cosmos撞上Shimako"
     },
     "serene_garden_isolated": {
-      "name": "Sweetened Tranquility",
-      "description": "Sweet, refreshing air...",
-      "condition": "Visit the isolated section of Serene Garden from Cocoa Trap Streets"
+      "name": "香甜舒畅",
+      "description": "甜美、清新的空气……",
+      "condition": "从Cocoa Trap Streets抵达Serene Garden的孤立区域"
     },
     "fairy_effect": {
-      "name": "Wrapped in Fairy Glow",
-      "description": "The captive fairy reclaims her light",
-      "condition": "Obtain the Fairy effect. If you have already unlocked it, return where it can be found in Black Building."
+      "name": "被妖精的辉光包裹",
+      "description": "笼中妖精重获光辉",
+      "condition": "获得妖精效果，若已获得，请返回Black Building中获得该效果处。"
     },
     "lamp_puddle_world_fortune": {
-      "name": "Fate's Harbinger",
-      "description": "I will show you a window into the future... for a price.",
-      "condition": "Receive a fortune from the fortune teller in the Lamp Puddle World."
+      "name": "命运先兆",
+      "description": "我会让你看一眼未来……但有代价。",
+      "condition": "在Lamp Puddle World的占卜师那里算一次命。"
     },
     "car_crash": {
-      "name": "Key in the Ignition",
-      "description": "I think it's a model that insurance doesn't cover...",
-      "condition": "Crash the car at the Hidden Garage"
+      "name": "点火钥匙",
+      "description": "我觉得保险没有包括这种情况……",
+      "condition": "撞坏Hidden Garage的车子"
     },
     "bent_screw": {
-      "name": "Resonant Dream",
-      "description": "The resonance in the cogs made the screw connect to some rather... verdant places.",
-      "condition": "Interact with the Bent Screw in Cog Maze"
+      "name": "共振之梦",
+      "description": "齿轮之间的共振让这个螺丝通向一个更加……翠绿的地方。",
+      "condition": "在Cog Maze与弯曲的螺丝互动"
     },
     "march_of_progress": {
-      "name": "Evolurotion",
-      "description": "Through countless eons the Uro has changed in fascinating ways.",
-      "condition": "Experience the March of Progress event"
+      "name": "Uro进化论",
+      "description": "经过亿万斯年，Uro发生了一些极其有趣的改变。",
+      "condition": "经历March of Progress事件"
     },
     "fairy_hole": {
-      "name": "Fairyland",
-      "description": "Winter fairy hideaway at the edge of the rippling maze",
-      "condition": "Find the Fairy Hole in Snowy Forest"
+      "name": "妖精之地",
+      "description": "漩涡迷宫末端的冬日妖精藏身处",
+      "condition": "找到Snowy Forest的Fairy Hole"
     },
     "helmet_girl": {
-      "name": "Spaceflight",
-      "description": "A species of explorers who wander among mosaic cubes and flying fish",
-      "condition": "Visit Helmet Girl in Square-Square World, her apartment, and in the Moonlit Purple Balcony",
+      "name": "太空飞行",
+      "description": "在飞鱼与马赛克立方体之间游荡的探索者种族",
+      "condition": "在以下地点与Helmet Girl见面：Square-Square World、她的公寓、Moonlit Purple Balcony",
       "checkbox": {
-        "helmet_girl_moonlit_balcony": "in the Moonlit Purple Balcony",
-        "helmet_girl_apartment": "her apartment",
+        "helmet_girl_moonlit_balcony": "Moonlit Purple Balcony",
+        "helmet_girl_apartment": "她的公寓",
         "helmet_girl_square2_world": "Square-Square World"
       }
+    },
+    "spring_breeze": {
+      "name": "风吹庭园",
+      "description": "在这样平静的一天里，感受风儿吹在皮肤上是如此舒适",
+      "condition": "抵达Windswept Fields"
+    },
+    "blossoming_brooch": {
+      "name": "昙花一现",
+      "description": "樱树满开，但它的美丽将会逝去……",
+      "condition": "抵达Adabana Gardens"
+    },
+    "seahorse_3d_underworld": {
+      "name": "心象风景",
+      "description": "无论梦境重启多少次，不变的真实都会出现。",
+      "condition": "找到3D Underworld的海马"
+    },
+    "popula_toru": {
+      "name": "若叶演播室",
+      "description": "看着你走过它面前的喇叭小生物。",
+      "condition": "与四种不同状态（清醒、睡眠、低头、躺下）的Pupula-Toru互动"
+    },
+    "space_2kki": {
+      "name": "迷失在宇宙中",
+      "condition": "抵达Space"
+    },
+    "dancing_queen": {
+      "name": "明日神话",
+      "description": "希望梦境继续舞动……",
+      "condition": "在Forest Pier看到Giant Dancing Eye"
+    },
+    "flying_fish_world": {
+      "name": "无脸之眼",
+      "description": "只要用一根钓竿，就能从一端抵达另一端！",
+      "condition": "走遍Flying Fish World的所有区域"
+    },
+    "white_creature": {
+      "name": "数字脑",
+      "description": "思考好痛，呼吸好痛，移动好痛，为什么他们要对我做这种事？",
+      "condition": "与Apartments的白色流口水生物互动"
+    },
+    "principal": {
+      "name": "留校察看",
+      "description": "我应该知道的",
+      "condition": "在School因为使用摩托车被校长抓住骂"
+    },
+    "teru_teru_bozu_effect": {
+      "name": "旧晴天娃娃",
+      "description": "希望天空放晴。",
+      "condition": "获得晴天娃娃效果。若已获得，请返回Dark Alleys的主区域。"
+    },
+    "guts_world_red_sewers": {
+      "name": "变回活性颜色的器官",
+      "description": "当生命之血在遗体之尘中苏醒，你就知道了。",
+      "condition": "从Red Sewers抵达Guts World"
+    },
+    "kitsune_carnival": {
+      "name": "狐祭",
+      "description": "Kon Kon!",
+      "condition": "抵达Kitsune Carnival"
+    },
+    "glitched_aquarium": {
+      "name": "如梦",
+      "description": "我在这里可以窥探边界之外。",
+      "condition": "抵达Glitched Aquarium"
+    },
+    "restored_vantablack_world": {
+      "name": "黑暗有时退去",
+      "description": "但它总会回来。",
+      "condition": "抵达Restored Vantablack World"
+    },
+    "nexus_rune": {
+      "name": "回家的传送符文",
+      "description": "现在我们只需要让这玩意开始工作……",
+      "condition": "在装备传送符文面具的情况下抵达门世界"
+    },
+    "blue_undergrowth": {
+      "name": "蓝色灌木",
+      "condition": "抵达Blue Undergrowth"
+    },
+    "dark_room_secret_book": {
+      "name": "Secret Reading",
+      "description": "Oh. That's not the most pleasant thing to read.",
+      "condition": "Interact with the bookshelf after killing Oni Musume and read the secret book"
+    },
+    "shrouded_arcadia": {
+      "name": "Hidden Paradise",
+      "condition": "Visit Shrouded Arcadia"
+    },
+    "cocktail_lounge": {
+      "name": "Flavorful Relaxation",
+      "description": "Give yourself a break from the nightmares and kick back with a nice drink!",
+      "condition": "Visit Cocktail Lounge"
+    },
+    "obstacle_course_2": {
+      "name": "The Sequel",
+      "description": "The original was so good, we made a second one!",
+      "condition": "Visit Obstacle Course 2"
+    },
+    "church_legacy_nexus": {
+      "name": "I WATCHED THE SUN'S CARAPACE SHATTER INTO DUST",
+      "description": "(And The Moon Followed)",
+      "condition": "See the church in Legacy Nexus"
+    },
+    "green_prince": {
+      "name": "The Court Of The Green Prince",
+      "description": "I walk a road, horizons change.....",
+      "condition": "Reach and interact with the Green Prince at the City Limits"
+    },
+    "surimuki": {
+      "name": "Scraped Words",
+      "description": "Lost and Scraped by Dreams",
+      "condition": "Find Surimuki everywhere she appears in the dream world (Broken Faces Area, a book in the Library, and the Monochrome School's rooftop)"
+    },
+    "crocodile_dog": {
+      "name": "Jaré",
+      "description": "They don't have a set time for the party to end, as you can see, the clock on the pole here has no hands.",
+      "condition": "Enter the Monster Party in Garden World"
+    },
+    "shinto_curse_chaser": {
+      "name": "Karma Mirage",
+      "description": "Something dangerous is coming from the undergrowth",
+      "condition": "Get caught by the chaser in Shinto Shrine"
+    },
+    "weeping_lake": {
+      "name": "Weeping Florae",
+      "description": "All those moments will be lost in time... like petals in the wind...",
+      "condition": "Visit Weeping Lake"
+    },
+    "dazzling_garden_statue": {
+      "name": "Lady of Lazurite",
+      "description": "Crafted in an Angel's image, gleaming so dazzlingly...",
+      "condition": "See the woman's statue in Dazzling Garden"
+    },
+    "red_desert_ruins_rainbow": {
+      "name": "A Quiet Place in the Sun",
+      "description": "A small world of warm light and whispering greens",
+      "condition": "Use the Rainbow effect at the isolated section of Red Desert Ruins"
+    },
+    "submerged_signs": {
+      "name": "S.S.",
+      "description": "Something, someone is laughing. Where am I?",
+      "condition": "Visit Submerged Signs World"
+    },
+    "lush_cells_diskette": {
+      "name": "What Are You Doing Here?",
+      "description": "It's dark in here. It's lush.",
+      "condition": "Interact with the diskette creature in Lush Cells"
+    },
+    "tcw_samishii": {
+      "name": "Aka To Kuro",
+      "description": "Foul Tarnished, in search of the hooded one",
+      "condition": "Interact with Samishii in Tarnished Chocolate World"
+    },
+    "sunlit_winter_woods_car": {
+      "name": "Hidden Accident",
+      "description": "Even in the dark, the bloody truth is still there.",
+      "condition": "See the bloodied car in Sunlit Winter Woods"
+    },
+    "vandalized_station_graffiti": {
+      "name": "An Idol Born in the Margins",
+      "description": "A super idol shining among the doodles!",
+      "condition": "See the graffiti of a girl in Vandalized Station"
+    },
+    "jazz_station": {
+      "name": "A courteous welcome",
+      "description": "That's the destination...",
+      "condition": "Visit Jazz Station"
+    },
+    "binary_world_fairies": {
+      "name": "Task Management Sisters",
+      "description": "Triple Sillies!",
+      "condition": "Interact with all three fairies in Binary World's Binary Tower with the Trombone effect"
+    },
+    "sunrise_road_outfits": {
+      "name": "A pure smile reflected in the sunrise",
+      "description": "She sometimes comes to greet you in a different outfit to surprise you.",
+      "condition": "Find PuraPura in her two outfits in Sunrise Road"
+    },
+    "party_colored": {
+      "name": "Rave of Rainbows",
+      "description": "A party that won't end and a host that never dies!",
+      "condition": "Interact with the music playing creature in the Party Room of the Neon Suburbs"
+    },
+    "gutter_secret": {
+      "name": "Imprisoned by Your Lies",
+      "condition": "Witness ???-tsuki's agony hidden within the Gutter's confines"
+    },
+    "dark_nexus": {
+      "name": "Buried Dreamscape",
+      "description": "Some memories are buried for a reason.",
+      "condition": "Enter the Dark Nexus"
+    },
+    "twisted_thickets_beasts": {
+      "name": "Guardians of the Thickets",
+      "description": "Strange entities lie within these woods... some friend, some foe.",
+      "condition": "Find the four beasts of the Twisted Thickets"
+    },
+    "nauseousness": {
+      "name": "Sick of it",
+      "description": "We're so sick of this everybody knows... bleeeccchhh...",
+      "condition": "Visit Nauseousness"
+    },
+    "gumball_world_npc": {
+      "name": "Sweet Bubbles",
+      "description": "SWEETSWEETSWEETLIKEBUBBLEGUM",
+      "condition": "Interact with Gigi in Gumball World using the Chainsaw, Child, Rainbow Effects"
+    },
+    "false_guardians_dream_rooms": {
+      "name": "Lethe diana",
+      "description": "Oh little one, you don't belong here, these rooms are not yours.",
+      "condition": "Visit all four rooms in False Guardians' Dream"
     }
   },
   "flow": {
@@ -8128,6 +8344,16 @@
       "name": "你是个有病的女孩，但我们还会再见面。",
       "description": "你丫说什么高钾洋葱呢？",
       "condition": "迫使Smile保护他的妹妹"
+    },
+    "red_eye": {
+      "name": "一双红眼",
+      "description": "你要不要对它也眨个眼？",
+      "condition": "找到Apartments的红色眼睛并让它眨眼"
+    },
+    "smile_channel": {
+      "name": "微笑电视",
+      "description": "往前走，拨打电话，也不会有人来救你的！！！",
+      "condition": "与Sabitsuki房间里的电视互动，直到屏幕上出现笑容"
     }
   },
   "prayers": {
@@ -8240,9 +8466,13 @@
       "condition": "抵达Forest World: Sunflower Field。"
     },
     "lookout_point": {
-      "name": "Looking At the World Below",
-      "description": "Everyone looks like tiny ants at this height!",
-      "condition": "Visit the second island of the playground via Symbols Maze"
+      "name": "俯瞰下方的世界",
+      "description": "从这么高的地方看，一切都像蚂蚁一样小！",
+      "condition": "从Symbols Maze抵达playground的第二个岛"
+    },
+    "answered_prayers_beyond": {
+      "name": "Beyond The Beginning",
+      "condition": "Visit \"Beyond\" through the Symbols Maze"
     }
   },
   "deepdreams": {
@@ -8470,6 +8700,11 @@
     "dd_ending_2": {
       "name": "我们一起，打开那扇门",
       "condition": "见证结局#2"
+    },
+    "hell_flower": {
+      "name": "The Red Spider’s Thread Hanging into Hell",
+      "description": "You pulled it in without a shred of doubt - never thinking it bait, did you? Cutting the thread would be such a waste. I’ll take the finger along with it.",
+      "condition": "Find Hellflower in the Red River and interact with her"
     }
   },
   "someday": {
@@ -8972,6 +9207,11 @@
     "secret_woods_menu": {
       "name": "喘息",
       "condition": "获得菜单样式10。若已解锁，请返回Secret Woods获得该效果处。"
+    },
+    "synthwave_central": {
+      "name": "复古天国",
+      "description": "霓虹光点亮了夜晚和你……",
+      "condition": "抵达Synthwave Central"
     }
   },
   "braingirl": {
@@ -9245,6 +9485,11 @@
       "name": "在画布上创造自我",
       "description": "把我的颜色涂在空白画布上",
       "condition": "抵达Pure Creativity"
+    },
+    "smuggler_bustin": {
+      "name": "Step Into the Beat!",
+      "description": "On this dance floor, I’m the only star!",
+      "condition": "Dance on the dance floor in Smugglers' Hideout"
     }
   },
   "muma": {
@@ -9458,6 +9703,16 @@
       "name": "跳过回收",
       "description": "在梦里待久了，难免遇到噩梦……",
       "condition": "在Above the Clouds调查Fake Memory。"
+    },
+    "blossoming_view": {
+      "name": "Bunnies of Blessed Union",
+      "description": "Two buns, one forever.",
+      "condition": "Encounter the Bunny Wedding in Yin Yang Lake"
+    },
+    "white_shores_sailboat": {
+      "name": "Off to Sea",
+      "description": "All I wanna do is leave.",
+      "condition": "View the passing sailboat at the White Shores."
     }
   },
   "genie": {
@@ -9665,6 +9920,11 @@
       "name": "Where Another Me Sleeps",
       "description": "Your awakening marks the end of my dream.",
       "condition": "Trigger the wake up event in the Train"
+    },
+    "crimson_lights": {
+      "name": "The Horizon That Reflects Fate",
+      "description": "What you call free will is merely a reflection of outcomes already written, triggered by external forces.\nYour arrival here was inevitable.",
+      "condition": "Reach the Distant Red Horizon"
     }
   },
   "mikan": {
@@ -9878,9 +10138,18 @@
       "condition": "获得效果Down Jacket。若已解锁，请返回Mannequin Street。"
     },
     "knuckledusters_effect": {
-      "name": "Punch Your Lights Out!",
-      "description": "That punch is making me see stars dude...",
-      "condition": "Obtain the Knuckledusters effect. If you have already unlocked it, return where it can be found in the Park."
+      "name": "打晕你！",
+      "description": "哥们你一拳给我干得眼冒金星……",
+      "condition": "获得效果Knuckledusters。若已解锁，请返回Park获得该效果处。"
+    },
+    "tv_dark_sewers": {
+      "name": "噪点之眼",
+      "description": "它动过吗？或者做过别的事情吗？",
+      "condition": "打开Dark Sewers的电视"
+    },
+    "mikan_envelope_effect": {
+      "name": "A letter to nobody",
+      "condition": "Obtain the Envelope effect. If you have already unlocked it, return where it can be found in the Abandoned House."
     }
   },
   "ultraviolet": {
@@ -10073,6 +10342,11 @@
       "name": "我的引路灯",
       "description": "智慧之光！",
       "condition": "获得Street Lamp效果。若已获得，请返回Streetlamp World。"
+    },
+    "stars_pastels": {
+      "name": "悬挂碎星",
+      "description": "看着它们让我逐渐犯困……",
+      "condition": "进入Pastel Blocks World的星空房间"
     }
   },
   "sheawaits": {
@@ -10841,7 +11115,7 @@
     "slime_catgirl": {
       "name": "喵喵少女！",
       "description": "呼噜声甜美，猫爪子凶狠。",
-      "condition": "在Hothouse和Red Totem Passage被史莱姆猫娘抓住贴贴",
+      "condition": "在Hothouse和Red Totem Passage分别被史莱姆猫娘抓住贴贴",
       "checkbox": {
         "slime_catgirl_hothouse_a|slime_catgirl_hothouse_b": "Hothouse",
         "slime_catgirl_r_totem_a|slime_catgirl_r_totem_b": "Red Totem Passage"
@@ -10850,6 +11124,16 @@
     "dining_table_effect": {
       "name": "进击的杀人桌",
       "condition": "获得餐桌效果。若已解锁，请返回Cake Tower获得该效果处。"
+    },
+    "sushi_monitor_realm": {
+      "name": "外表是寿司，内心是鱼……",
+      "description": "就叫它寿司鱼吧！",
+      "condition": "抵达Monitor Realm的寿司水族馆"
+    },
+    "goth_doll_effects": {
+      "name": "裙装穿搭",
+      "description": "做什么选择？我全都穿。",
+      "condition": "组合哥特装和洋娃娃效果"
     }
   },
   "nostalgic": {
@@ -10894,7 +11178,7 @@
       "condition": "吃掉所有的糖果并解锁Confection World的果冻罐头"
     },
     "radio_cow_house": {
-      "name": "Musicow",
+      "name": "音乐牛",
       "description": "Cow beats to chill to",
       "condition": "调查Breakfast World的Cow House里的收音机"
     },
@@ -10965,7 +11249,7 @@
   },
   "if": {
     "osoro_isolated_house": {
-      "name": "Matching Silver",
+      "name": "成对的银色",
       "description": "就像我一样！",
       "condition": "在Isolated House中装备Matching效果，并看Osoro的反应"
     },
@@ -11440,7 +11724,36 @@
     "brothers_ward_pat": {
       "name": "我亲爱的记忆",
       "description": "你的温暖对我来说如此舒适，让我如此想念。",
-      "condition": "在Brother's Ward与填海的兄弟互动"
+      "condition": "在Brother's Ward与填海的兄长互动"
+    },
+    "yno_dolls": {
+      "name": "小小梦中人！",
+      "description": "在一个共同的空间里，小小的玩偶们飘入不同的梦境。",
+      "condition": "使用玩偶盒效果在找到该玩偶的地方或收藏房间装备以下玩偶：附窗子、Urotsuki、附锈子、A、Itsuki、Mariana、Danaë、Kubotsuki、Totsutsuki、Mikan、Muma、秋琴、宗太郎、Sometsuki、Noelia、Irving、虫虫子、阴明",
+      "checkbox": {
+        "yno_dolls_mado|yno_dolls_mado_b": "附窗子",
+        "yno_dolls_uro|yno_dolls_uro_b": "Urotsuki",
+        "yno_dolls_sabi|yno_dolls_sabi_b": "附锈子",
+        "yno_dolls_a|yno_dolls_a_b": "A",
+        "yno_dolls_itsuki|yno_dolls_itsuki_b": "Itsuki",
+        "yno_dolls_mariana|yno_dolls_mariana_b": "Mariana",
+        "yno_dolls_danae|yno_dolls_danae_b": "Danaë",
+        "yno_dolls_kubo|yno_dolls_kubo_b": "Kubotsuki",
+        "yno_dolls_totsu|yno_dolls_totsu_b": "Totsutsuki",
+        "yno_dolls_mikan|yno_dolls_mikan_b": "Mikan",
+        "yno_dolls_muma|yno_dolls_muma_b": "Muma",
+        "yno_dolls_qiu|yno_dolls_qiu_b": "秋琴",
+        "yno_dolls_sou|yno_dolls_sou_b": "宗太郎",
+        "yno_dolls_some|yno_dolls_some_b": "Sometsuki",
+        "yno_dolls_noe|yno_dolls_noe_b": "Noelia",
+        "yno_dolls_irv|yno_dolls_irv_b": "Irving",
+        "yno_dolls_iko|yno_dolls_iko_b": "虫虫子",
+        "yno_dolls_yin|yno_dolls_yin_b": "阴明"
+      }
+    },
+    "hermit_crab_cone": {
+      "name": "My Cone Hat",
+      "condition": "Find the hermit crab hidden underneath one of the traffic cones"
     }
   }
 }

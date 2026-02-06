@@ -29,6 +29,7 @@
 * A Jar Full of Loaves of Bread
 * AcceleratingWind
 * AduriteStar
+* AduSR
 * akalog
 * Akiro
 * Akxzii
@@ -48,6 +49,7 @@
 * aukse
 * Autumn
 * Average
+* awoaa
 * axiom
 * Aztec
 * Azuzu
@@ -80,6 +82,7 @@
 * cosmicmoths
 * Cosrie
 * Cris
+* Crisptal
 * dabe
 * DallyDEF
 * dave
@@ -129,6 +132,7 @@
 * guroneet
 * Hachio
 * Henry
+* HenryAutumn
 * higodoragon
 * Horse de Paus
 * Hourai
@@ -172,6 +176,7 @@
 * lnd
 * lua
 * Lumanare
+* lunchpup
 * Lychee
 * Madlock
 * Madproject
