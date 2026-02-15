@@ -8062,7 +8062,7 @@
       "checkbox": {
         "orange_maze": "las habitaciones en Orange Maze",
         "orange_passage": "Orange Passage",
-        "orange_laboratory": "y Orange Laboratory que tengan tubos de ensayo"
+        "orange_laboratory": "y Orange Laboratory que tengan Tubos de Ensayo"
       }
     },
     "dark_city": {
@@ -10790,7 +10790,21 @@
     },
     "nexus_favorites": {
       "name": "Which Is Your Favorite?",
-      "condition": "Visit all the dream worlds accessible from the Nexus"
+      "condition": "Visit all the dream worlds accessible from the Nexus: Snowy Avenue, Meat World, Swamp World, Majestic Garden, Seaside, White Desert, Deep Forest A, Ancient Civilization, Moon, Spring World, Library, and Cubic Lamp Meadow",
+      "checkbox": {
+        "nexus_snowy_avenue": "Snowy Avenue",
+        "nexus_meat_world": "Meat World",
+        "nexus_swamp_world": "Swamp World",
+        "nexus_majestic_garden": "Majestic Garden",
+        "nexus_seaside": "Seaside",
+        "nexus_white_desert": "White Desert",
+        "nexus_deep_forest_a": "Deep Forest A",
+        "nexus_ancient_civ": "Ancient Civilization",
+        "nexus_moon": "Moon",
+        "nexus_spring_world": "Spring World",
+        "nexus_library": "Library",
+        "nexus_cubic_lamp": "Cubic Lamp Meadow"
+      }
     },
     "cheese_maze_slime_girl": {
       "name": "Slime Girl",
@@ -11728,6 +11742,51 @@
     "hermit_crab_cone": {
       "name": "My Cone Hat",
       "condition": "Find the hermit crab hidden underneath one of the traffic cones"
+    }
+  },
+  "loveyou": {
+    "scene_effect": {
+      "name": "Rave Party Girl",
+      "description": "Going back to 2009!",
+      "condition": "Obtain the Scene effect. If you already have it, return to where it can be found in the Bioluminescent Ocean."
+    },
+    "candle_effect": {
+      "name": "Living Candle",
+      "description": "\"It's better to light a candle,\nThan to wander in the dark.\"",
+      "condition": "Obtain the Candle effect. If you already have it, return to where it can be found in the Rosehip Garden."
+    },
+    "noir_effect": {
+      "name": "Noir",
+      "description": "ah...",
+      "condition": "Obtain the Noir effect. If you already have it, return to where it can be found in the Noir Garden."
+    },
+    "plague_doctor_effect": {
+      "name": "Folk Medicine",
+      "description": "Atra mors",
+      "condition": "Obtain the Plague Doctor effect. If you already have it, return to where it can be found in Her Decomposing Remains."
+    },
+    "rasta_effect": {
+      "name": "ILOVERASTA!!!!",
+      "condition": "Obtain the Rasta effect. If you already have it, return to where it can be found in the Cannabis Plains."
+    },
+    "black_lake": {
+      "name": "Did I Love You Too Much?",
+      "description": "My heart is an enormous lake, black with potion",
+      "condition": "Visit the Black Lake"
+    },
+    "strange_tea_party": {
+      "name": "Strange Tea Party",
+      "condition": "See the Tea Party event in Her Decomposing Remains"
+    },
+    "love_drains": {
+      "name": "H<3artbeats",
+      "description": "To call for hands of above, to lean on.. Wouldn't be good enough for me",
+      "condition": "Unlock the connection to Love Drains from the Nexus"
+    },
+    "sunset_railroad": {
+      "name": "Sunset Railroad",
+      "description": "The train came late today.",
+      "condition": "Visit Orange Railroad Crossing"
     }
   }
 }

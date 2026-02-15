@@ -565,9 +565,9 @@
       "condition": "道路沿いの樹海、地獄、湖回廊（自販機側）の３つの自動販売機全てで飲み物を買う"
     },
     "stabbing_room": {
-      "name": "By My Blade",
-      "description": "One down, more to go",
-      "condition": "Enter the Stabbing Room"
+      "name": "私の刃で",
+      "description": "一体はやった、もっとやろう",
+      "condition": "数字の世界の丸いのの部屋に到達する"
     }
   },
   "2kki": {
@@ -779,7 +779,7 @@
     },
     "singularity": {
       "name": "紅の混沌",
-      "condition": "Río氏の世界にいる全5人の人型オブジェクトに話しかける。既に見つけている場合は、見つけた場所に行く",
+      "condition": "Interact with all 5 Black Hole Girls in Río's worlds, or revisit the areas where they appear (Decrepit Dwellings, Verdant Promenade, Forgotten Megalopolis, Tomb of Velleities: Lunar Sanctuary, Luminous Lake: Dragon's Peak)",
       "checkbox": {
         "b_h_g_decrepit_dwellings": "集合住宅",
         "b_h_g_verdant_promenade": "森林公園",
@@ -1665,7 +1665,7 @@
     "urotsuki_pendant": {
       "name": "Pendant of Memories",
       "description": "「私」は　此処に在る。",
-      "condition": "沖、バク、ケンキュウジョ(巨大)、夢の夢部屋、逆さ宿(隠しエリア)、赤い空の崖、拒絶、頭、赤黒迷路、色の無い谷、繫茂でもう一人のうろつきを目撃する",
+      "condition": "沖、バク、ケンキュウジョ(巨大)、夢の夢部屋、逆さ宿(隠しエリア)、赤い空の崖、拒絶、頭、赤黒迷路、色の無い谷、繁茂でもう一人のうろつきを目撃する",
       "checkbox": {
         "uro_atlantis": "沖",
         "uro_tapir_place": "バク",
@@ -2962,7 +2962,7 @@
       "name": "ギャラクティカハネムーン",
       "description": "あなたの心を惑わせる",
       "condition": "宇宙、宇宙船、未確認飛行物体、映し雲、輝く庭園に到達する",
-      "": {
+      "checkbox": {
         "galactic_spaceship|galactic_spaceship_b": "宇宙船",
         "galactic_space": "宇宙",
         "galactic_visine": "未確認飛行物体",
@@ -3712,7 +3712,7 @@
     "red_monsters_qxy": {
       "name": "血色の鼓動",
       "description": "これらの災厄は怪物なのか、それとも兆しなのか？あなたは運命の道具なのか、それとも災厄の目撃者なのか？",
-      "condition": "釣り堀、万華鏡世界、ダムのほとり、六角タイル世界 (六角柱通路), 白い世界にいる赤い生物にチェーンソーを使う",
+      "condition": "釣り堀、万華鏡世界、湖のほとり、ダムのほとり、六角タイル世界 (六角柱通路), 白い世界にいる赤い生物にチェーンソーを使う",
       "checkbox": {
         "wooded_lakeside_1_monster": "湖のほとり",
         "wooded_lakeside_2_monster": "ダムのほとり",
@@ -3833,7 +3833,7 @@
         "beach_grand": "夢ビーチ",
         "beach_realistic_a|beach_realistic_b|beach_realistic_c|beach_realistic_d|beach_realistic_e|beach_realistic_f": "消波ブロックの砂浜",
         "beach_rockbound": "タフォニ",
-        "beach_blood_red_a|beach_blood_red_a": "薔薇色の浜辺"
+        "beach_blood_red_a|beach_blood_red_b": "薔薇色の浜辺"
       }
     },
     "wintry_attendant": {
@@ -7916,137 +7916,137 @@
       "condition": "青草の水脈に到達する"
     },
     "dark_room_secret_book": {
-      "name": "Secret Reading",
-      "description": "Oh. That's not the most pleasant thing to read.",
-      "condition": "Interact with the bookshelf after killing Oni Musume and read the secret book"
+      "name": "秘密の読書",
+      "description": "あー、これはあまり心地よい読書体験じゃない。",
+      "condition": "劇場:館長の娘の部屋で、館長の娘をチェーンソーで斬ったあと、本棚を調べる"
     },
     "shrouded_arcadia": {
-      "name": "Hidden Paradise",
-      "condition": "Visit Shrouded Arcadia"
+      "name": "ヒミツの楽園",
+      "condition": "曇天まほろばに到達する"
     },
     "cocktail_lounge": {
-      "name": "Flavorful Relaxation",
-      "description": "Give yourself a break from the nightmares and kick back with a nice drink!",
-      "condition": "Visit Cocktail Lounge"
+      "name": "風味豊かな休息",
+      "description": "悪夢からひと息ついて、美味しい一杯でくつろごう！",
+      "condition": "カクテルに到達する"
     },
     "obstacle_course_2": {
-      "name": "The Sequel",
-      "description": "The original was so good, we made a second one!",
-      "condition": "Visit Obstacle Course 2"
+      "name": "続編",
+      "description": "初代が大好評だったので、第二弾を制作しました！",
+      "condition": "ホロウォールに到達する"
     },
     "church_legacy_nexus": {
-      "name": "I WATCHED THE SUN'S CARAPACE SHATTER INTO DUST",
-      "description": "(And The Moon Followed)",
-      "condition": "See the church in Legacy Nexus"
+      "name": "\"I WATCHED THE SUN'S CARAPACE SHATTER INTO DUST\"",
+      "description": "\"(And The Moon Followed)\"",
+      "condition": "扉部屋遺構:チャペルで望遠鏡を覗き込む"
     },
     "green_prince": {
-      "name": "The Court Of The Green Prince",
-      "description": "I walk a road, horizons change.....",
-      "condition": "Reach and interact with the Green Prince at the City Limits"
+      "name": "まりもの王子の宮廷",
+      "description": "我は道を征く、地平は変わりゆく……",
+      "condition": "エスカレーターでまりも王に話しかける"
     },
     "surimuki": {
-      "name": "Scraped Words",
-      "description": "Lost and Scraped by Dreams",
-      "condition": "Find Surimuki everywhere she appears in the dream world (Broken Faces Area, a book in the Library, and the Monochrome School's rooftop)"
+      "name": "擦りむけた言葉",
+      "description": "夢に削られ、失われて",
+      "condition": "以下の夢世界に登場する擦り剥きちゃんを見つける:顔と腕の通路、夢幻図書館、モノクロ学校"
     },
     "crocodile_dog": {
-      "name": "Jaré",
-      "description": "They don't have a set time for the party to end, as you can see, the clock on the pole here has no hands.",
-      "condition": "Enter the Monster Party in Garden World"
+      "name": "ワニ犬！！",
+      "description": "見ての通り、この柱の時計には針がない。つまり、宴の終わりの時間は決まってないのさ！",
+      "condition": "ワニ犬フィーバー！を見る"
     },
     "shinto_curse_chaser": {
-      "name": "Karma Mirage",
-      "description": "Something dangerous is coming from the undergrowth",
-      "condition": "Get caught by the chaser in Shinto Shrine"
+      "name": "因果の蜃気楼",
+      "description": "茂みの奥から、何か危険なものが迫ってくる",
+      "condition": "和室迷路で緑の傘オバケに捕まる"
     },
     "weeping_lake": {
-      "name": "Weeping Florae",
-      "description": "All those moments will be lost in time... like petals in the wind...",
-      "condition": "Visit Weeping Lake"
+      "name": "涙する藤の花",
+      "description": "あの瞬間のすべては、やがて時の中に失われる……風に舞う花びらのように……",
+      "condition": "サカタノハナに到達する"
     },
     "dazzling_garden_statue": {
-      "name": "Lady of Lazurite",
-      "description": "Crafted in an Angel's image, gleaming so dazzlingly...",
-      "condition": "See the woman's statue in Dazzling Garden"
+      "name": "青金石の貴婦人",
+      "description": "天使の姿を模して作られたそれは、眩いほどに輝いている……",
+      "condition": "思索の浅瀬で合掌巨像を見る"
     },
     "red_desert_ruins_rainbow": {
-      "name": "A Quiet Place in the Sun",
-      "description": "A small world of warm light and whispering greens",
-      "condition": "Use the Rainbow effect at the isolated section of Red Desert Ruins"
+      "name": "陽だまりの中の静寂",
+      "description": "あたたかな光と、ささやく緑の小さな世界",
+      "condition": "ゼンマイ砂漠遺跡:谷間で、にじのエフェクトを使用する"
     },
     "submerged_signs": {
-      "name": "S.S.",
-      "description": "Something, someone is laughing. Where am I?",
-      "condition": "Visit Submerged Signs World"
+      "name": "水没した標識",
+      "description": "何かが、誰かが笑っている。ここはどこ？",
+      "condition": "水没世界に到達する"
     },
     "lush_cells_diskette": {
-      "name": "What Are You Doing Here?",
-      "description": "It's dark in here. It's lush.",
-      "condition": "Interact with the diskette creature in Lush Cells"
+      "name": "ここで何をしてるの？",
+      "description": "ここは暗い。けれど、生命に満ちている。",
+      "condition": "草生す通路でフロッピーディスクさんに話しかける"
     },
     "tcw_samishii": {
-      "name": "Aka To Kuro",
-      "description": "Foul Tarnished, in search of the hooded one",
-      "condition": "Interact with Samishii in Tarnished Chocolate World"
+      "name": "赤と黒",
+      "description": "忌まわしき褪せ人よ、フードの彼を求めて",
+      "condition": "赤チョコ世界で片耳黒フードの子に話しかける"
     },
     "sunlit_winter_woods_car": {
-      "name": "Hidden Accident",
-      "description": "Even in the dark, the bloody truth is still there.",
-      "condition": "See the bloodied car in Sunlit Winter Woods"
+      "name": "隠蔽された事故",
+      "description": "闇の中でも、血まみれの真実はそこにある。",
+      "condition": "大仏雪原:雨の森道で事故車を見る"
     },
     "vandalized_station_graffiti": {
-      "name": "An Idol Born in the Margins",
-      "description": "A super idol shining among the doodles!",
-      "condition": "See the graffiti of a girl in Vandalized Station"
+      "name": "余白に生まれたアイドル",
+      "description": "落書きの中で輝く、スーパーアイドル！",
+      "condition": "ルインステーションで少女のグラフィティを見る"
     },
     "jazz_station": {
-      "name": "A courteous welcome",
-      "description": "That's the destination...",
-      "condition": "Visit Jazz Station"
+      "name": "礼節なおもてなし",
+      "description": "こちらが目的地です……",
+      "condition": "ジャズステーションに到達する"
     },
     "binary_world_fairies": {
-      "name": "Task Management Sisters",
-      "description": "Triple Sillies!",
-      "condition": "Interact with all three fairies in Binary World's Binary Tower with the Trombone effect"
+      "name": "タスク管理シスターズ",
+      "description": "おっちょこちょい三姉妹！",
+      "condition": "タスク管理でOS三姉妹にトロンボーンのエフェクトを装備して話しかける"
     },
     "sunrise_road_outfits": {
-      "name": "A pure smile reflected in the sunrise",
-      "description": "She sometimes comes to greet you in a different outfit to surprise you.",
-      "condition": "Find PuraPura in her two outfits in Sunrise Road"
+      "name": "夕焼けに映る純粋な笑顔",
+      "description": "彼女は時々、違う服装であいさつに来てあなたを驚かせる",
+      "condition": "夕焼けの道で2種類の衣装の紫髪の少女に会う"
     },
     "party_colored": {
-      "name": "Rave of Rainbows",
-      "description": "A party that won't end and a host that never dies!",
-      "condition": "Interact with the music playing creature in the Party Room of the Neon Suburbs"
+      "name": "虹色のレイヴ",
+      "description": "終わらないパーティーと、絶対死なない主催者！",
+      "condition": "ネオン集落:ネオンルームで、ソファで踊る四本腕のネオン住人に話しかける"
     },
     "gutter_secret": {
-      "name": "Imprisoned by Your Lies",
-      "condition": "Witness ???-tsuki's agony hidden within the Gutter's confines"
+      "name": "あなたの嘘に囚われて",
+      "condition": "側溝の隠し通路の先で、ツインテ子の苦悶を目撃する"
     },
     "dark_nexus": {
-      "name": "Buried Dreamscape",
-      "description": "Some memories are buried for a reason.",
-      "condition": "Enter the Dark Nexus"
+      "name": "埋もれた夢景",
+      "description": "いくつかの記憶は、理由があって埋められる。",
+      "condition": "辺境の夢に到達する"
     },
     "twisted_thickets_beasts": {
-      "name": "Guardians of the Thickets",
-      "description": "Strange entities lie within these woods... some friend, some foe.",
-      "condition": "Find the four beasts of the Twisted Thickets"
+      "name": "霧の森の守護者たち",
+      "description": "この森には奇妙な存在が潜んでいる……友好的なヤツもいれば、そうじゃないのもいる。",
+      "condition": "霧の森で4体の黒い生き物を見つける"
     },
     "nauseousness": {
-      "name": "Sick of it",
-      "description": "We're so sick of this everybody knows... bleeeccchhh...",
-      "condition": "Visit Nauseousness"
+      "name": "もううんざり",
+      "description": "もう吐きたくないって、みんな知ってるよ……おえええ……",
+      "condition": "ハキモノに到達する"
     },
     "gumball_world_npc": {
-      "name": "Sweet Bubbles",
-      "description": "SWEETSWEETSWEETLIKEBUBBLEGUM",
-      "condition": "Interact with Gigi in Gumball World using the Chainsaw, Child, Rainbow Effects"
+      "name": "甘いカプセル",
+      "description": "あまいアマイ甘い！バブルガムみたい！",
+      "condition": "ガチャん機でツートンカラーの少女に、チェーンソー、こども、にじのエフェクトを装備して話しかける"
     },
     "false_guardians_dream_rooms": {
-      "name": "Lethe diana",
-      "description": "Oh little one, you don't belong here, these rooms are not yours.",
-      "condition": "Visit all four rooms in False Guardians' Dream"
+      "name": "クロヒカゲ",
+      "description": "小さき者よ。ここはあなたの居場所ではない。これらの部屋はあなたのものではない。",
+      "condition": "4つの世界から黒日陰の夢に到達し、すべての四創の部屋に入る"
     }
   },
   "flow": {
@@ -8473,8 +8473,8 @@
       "condition": "Symbols Mazeを通ってPlaygroundの二つ目の島に到達する"
     },
     "answered_prayers_beyond": {
-      "name": "Beyond The Beginning",
-      "condition": "Visit \"Beyond\" through the Symbols Maze"
+      "name": "始まりのその先へ",
+      "condition": "Symbols Mazeを通って「Beyond」に到達する"
     }
   },
   "deepdreams": {
@@ -9712,9 +9712,9 @@
       "condition": "Yin Yang LakeでBunny Weddingに遭遇する"
     },
     "white_shores_sailboat": {
-      "name": "Off to Sea",
-      "description": "All I wanna do is leave.",
-      "condition": "View the passing sailboat at the White Shores."
+      "name": "船出",
+      "description": "ただ、ここを出たいだけ。",
+      "condition": "White Shoresで通り過ぎる帆船を見る"
     }
   },
   "genie": {
@@ -10150,8 +10150,8 @@
       "condition": "Dark Sewersのテレビを点ける"
     },
     "mikan_envelope_effect": {
-      "name": "A letter to nobody",
-      "condition": "Obtain the Envelope effect. If you have already unlocked it, return where it can be found in the Abandoned House."
+      "name": "誰にも届かない手紙",
+      "condition": "ふうとうのエフェクトを入手する、すでに入手している場合はAbandoned Houseの見つけた場所に行く。"
     }
   },
   "ultraviolet": {
@@ -10248,7 +10248,7 @@
     "young_sometsuki": {
       "name": "小さな不名誉",
       "description": "それは何？あなたは何をしたの？",
-      "condition": "全ての若いそめつきに遭遇する",
+      "condition": "広場、教会路地裏、パーティ会場の全てで若いそめつきに遭遇する",
       "checkbox": {
         "emerald_square": "広場",
         "emerald_square_some": "教会路地裏",
@@ -10387,7 +10387,7 @@
     "eternal_love": {
       "name": "永遠の愛",
       "description": "「私はあなたに地の果てまでついていきます。\nそして、そこであなたに復活のキスを贈ります」",
-      "condition": "Alesandreと出会った場所でデートをする",
+      "condition": "Flooded Garden、Rave HallでAlesandreとデートをする",
       "checkbox": {
         "flooded_garden_kiss": "Flooded Garden",
         "rave_rooftop_lovers": "Rave Hall"
@@ -10804,7 +10804,7 @@
     },
     "nexus_favorites": {
       "name": "あなたのお気に入りはどれ？",
-      "condition": "Nexusから到達できるすべての夢の世界を訪れる",
+      "condition": "Nexusから行くことのできる以下の世界全てに到達する: Snowy Avenue、Meat World、Swamp World、Majestic Garden、Seaside、White Desert、Deep Forest A、Ancient Civilization、Moon、Spring World、Library、Cubic Lamp Meadow",
       "checkbox": {
         "nexus_snowy_avenue": "Snowy Avenue",
         "nexus_meat_world": "Meat World",
@@ -11754,8 +11754,53 @@
       }
     },
     "hermit_crab_cone": {
-      "name": "My Cone Hat",
-      "condition": "Find the hermit crab hidden underneath one of the traffic cones"
+      "name": "パイロンのぼうし",
+      "condition": "パイロンヤドカリを見つける"
+    }
+  },
+  "loveyou": {
+    "scene_effect": {
+      "name": "レイヴ・パーティ・ガール",
+      "description": "2009年にタイムスリップ！",
+      "condition": "シーンのエフェクトを入手する、すでに入手している場合はBioluminescent Oceanの見つけた場所に行く。"
+    },
+    "candle_effect": {
+      "name": "生きた蝋燭",
+      "description": "「闇をの中を彷徨うより、\n蝋燭で照らすほうがよい。」",
+      "condition": "ろうそくのエフェクトを入手する、すでに入手している場合はRosehip Gardenの見つけた場所に行く。"
+    },
+    "noir_effect": {
+      "name": "ノワール",
+      "description": "あ……",
+      "condition": "ノワールのエフェクトを入手する、すでに入手している場合はNoir Gardenの見つけた場所に行く。"
+    },
+    "plague_doctor_effect": {
+      "name": "民間療法",
+      "description": "Atra mors",
+      "condition": "ペスト医師のエフェクトを入手する、すでに入手している場合はHer Decomposing Remainsの見つけた場所に行く。"
+    },
+    "rasta_effect": {
+      "name": "ラスタ最高！！！",
+      "condition": "ラスタのエフェクトを入手する、すでに入手している場合はCannabis Plainsの見つけた場所に行く。"
+    },
+    "black_lake": {
+      "name": "貴方を愛しすぎた？",
+      "description": "巨大な湖の心は薬で黒く染まった",
+      "condition": "Black Lakeに到達する"
+    },
+    "strange_tea_party": {
+      "name": "奇妙なお茶会",
+      "condition": "Her Decomposing RemainsでTea Partyイベントを見る"
+    },
+    "love_drains": {
+      "name": "H<3artbeats",
+      "description": "差し伸べられる手を求め、そこに縋る……それだけじゃ、足りない",
+      "condition": "NexusからLove Drainsへのショートカットを開放する"
+    },
+    "sunset_railroad": {
+      "name": "日暮れの鉄道",
+      "description": "今日は電車が遅れていた。",
+      "condition": "Orange Railroad Crossingに到達する"
     }
   }
 }
