@@ -29,6 +29,8 @@
 * A Jar Full of Loaves of Bread
 * AcceleratingWind
 * AduriteStar
+* AduSR
+* AduSR and three33
 * akalog
 * Akiro
 * Akxzii
@@ -92,6 +94,7 @@
 * denji9099
 * desktopghost
 * Dmitry Pro
+* DmitryPro
 * DolphinDan
 * DreamBird
 * DreamScape
@@ -220,6 +223,7 @@
 * natl
 * Necrotic
 * neesaig
+* Neetifice
 * neetifice
 * nekhnona
 * Nexrob010
@@ -365,6 +369,7 @@
 * Zethyer
 * Zimnior12
 * ZLD1
+* Zolotl and Zaakarias
 <!-- CREDITS:END -->
 
 ## Translation
