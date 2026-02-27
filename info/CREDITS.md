@@ -328,6 +328,7 @@
 * Theero
 * TheInkBlot
 * TheRagingRowlet
+* three33
 * Ticks
 * tj
 * Tomogeko
@@ -365,6 +366,7 @@
 * Zethyer
 * Zimnior12
 * ZLD1
+* Zolotl
 <!-- CREDITS:END -->
 
 ## Translation
