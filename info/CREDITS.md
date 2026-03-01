@@ -62,6 +62,7 @@
 * Bonnie21343
 * BSL
 * BunnyBoi
+* Canio
 * Canto Mk. 6
 * Carbonara
 * catling
@@ -327,6 +328,7 @@
 * Theero
 * TheInkBlot
 * TheRagingRowlet
+* three33
 * Ticks
 * tj
 * Tomogeko

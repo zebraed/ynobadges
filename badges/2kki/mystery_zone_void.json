@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 20,
+  "reqType": "tag",
+  "reqString": "mystery_zone_void",
+  "map": 2246,
+  "art": "neetifice",
+  "animated": true,
+  "batch": 203
+}
