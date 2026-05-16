@@ -46,11 +46,11 @@
 * Arumita
 * Athoth
 * aukse
+* Aurora
 * Autumn
 * Average
 * awoaa
 * axiom
-* Aztec
 * Azuzu
 * b063
 * baubleBee
@@ -71,9 +71,11 @@
 * chiitriangle
 * Chimata
 * chiral
+* Chocoskittle
 * Chubu
 * CicadaP
 * cjdgus1782
+* Cla
 * Clohee
 * ClownTea
 * Cmax_
@@ -81,7 +83,6 @@
 * CoolKid95
 * cosmicmoths
 * Cosrie
-* Cris
 * Crisptal
 * dabe
 * DallyDEF
@@ -106,6 +107,7 @@
 * Ena
 * Enni
 * Enola
+* Etikals
 * eyeball
 * Fall
 * Flakeohelk
@@ -130,6 +132,8 @@
 * GunBun
 * guroneet
 * Hachio
+* happysun
+* Hazeframe
 * HenryAutumn
 * higodoragon
 * Horse de Paus
@@ -137,6 +141,7 @@
 * Hyo
 * iEcilpse
 * IronCam
+* Ivinous
 * Jameson
 * jams
 * JEAN
@@ -156,6 +161,7 @@
 * Kasatate
 * Kazecita
 * Kekwet
+* KitsuneYume
 * klayfruit
 * Kofu
 * Koishi Komeiji
@@ -185,6 +191,7 @@
 * Mar
 * MarshyMae
 * Marxotic
+* Masky1977
 * Mav
 * Mediochre_
 * memorisleep
@@ -240,6 +247,7 @@
 * Olive Deer
 * oliverribz
 * omoflop
+* ONLYMOSSS
 * openbreeze
 * Ouka
 * paper box
@@ -262,6 +270,7 @@
 * Raptarr8
 * raspien
 * rayinpixels
+* Ren
 * Rennatalia
 * ribon996
 * Riqo
@@ -285,6 +294,8 @@
 * Sekiranun
 * Shak3l1ght
 * Shakzass
+* Sheanicc
+* Shimogari
 * shirleycrow
 * shrimpy
 * sillyzawa
@@ -325,6 +336,7 @@
 * TehFlyingKyukon
 * Telebotz
 * Temwichi
+* thatdolphin
 * Theero
 * TheInkBlot
 * TheRagingRowlet
@@ -418,6 +430,7 @@
 * Exsper
 * nekocarpet
 * jacarandia28
+* Paraverdant
 * sakpica
 
 ### Korean

@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tag",
+  "reqString": "visit_autumn_park",
+  "map": 2419,
+  "art": "emocore",
+  "animated": true,
+  "batch": 213
+}

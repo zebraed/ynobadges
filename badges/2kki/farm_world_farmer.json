@@ -1,0 +1,16 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "farm_world_farmer_a",
+      "farm_world_farmer_b",
+      "farm_world_farmer_c"
+    ]
+  ],
+  "map": 291,
+  "art": "Paraverdant",
+  "animated": true,
+  "batch": 213
+}

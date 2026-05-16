@@ -4,5 +4,6 @@
   "reqString": "dead_woods",
   "map": 132,
   "art": "Komaki",
+  "animated": true,
   "batch": 187
 }

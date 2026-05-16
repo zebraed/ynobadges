@@ -1,0 +1,52 @@
+{
+  "group": "4_ch",
+  "bp": 50,
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "atlantis"
+    ],
+    [
+      "neon_sea"
+    ],
+    [
+      "calcarina_sea"
+    ],
+    [
+      "azure_depths"
+    ],
+    [
+      "alrescha_sea"
+    ],
+    [
+      "pastel_pools"
+    ],
+    [
+      "watching_waters"
+    ],
+    [
+      "shoal_coral"
+    ],
+    [
+      "peaceful_shoal"
+    ],
+    [
+      "flowery_pond"
+    ],
+    [
+      "goldfish_pond"
+    ],
+    [
+      "elysium_pools"
+    ],
+    [
+      "pastel_dream_sea_a",
+      "pastel_dream_sea_b"
+    ]
+  ],
+  "map": 56,
+  "secretMap": true,
+  "art": "HenryAutumn & Komaki",
+  "animated": true,
+  "batch": 210
+}

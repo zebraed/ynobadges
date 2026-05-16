@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tag",
+  "reqString": "nocturnal_grove_tv",
+  "map": 1140,
+  "art": "Canto Mk. 6",
+  "animated": true,
+  "batch": 212
+}

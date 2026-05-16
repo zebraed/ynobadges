@@ -1,0 +1,12 @@
+{
+  "group": "2_el",
+  "bp": 20,
+  "reqType": "tag",
+  "reqString": "visit_start_cubes",
+  "map": 3154,
+  "mapX": 17,
+  "mapY": 218,
+  "art": "Staghouse33",
+  "animated": true,
+  "batch": 210
+}

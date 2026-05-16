@@ -1,0 +1,11 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "ruby_forest_sky",
+  "map": 2256,
+  "mapY": 495,
+  "art": "CoolKid95",
+  "animated": true,
+  "batch": 212
+}

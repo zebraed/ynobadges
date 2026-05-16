@@ -1,0 +1,11 @@
+{
+  "group": "2_el",
+  "bp": 25,
+  "reqType": "tag",
+  "reqString": "fliperama_hall_basement",
+  "map": 1609,
+  "secretCondition": true,
+  "art": "Aurora",
+  "animated": true,
+  "batch": 211
+}

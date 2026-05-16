@@ -1,0 +1,15 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "rgb_passage",
+      "rgb_passage_2"
+    ]
+  ],
+  "map": 490,
+  "art": "Zaakarias & Canio",
+  "animated": true,
+  "batch": 117
+}

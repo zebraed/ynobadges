@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 20,
+  "reqType": "tag",
+  "reqString": "star_planetarium",
+  "map": 567,
+  "art": "Zaakarias & Canio",
+  "animated": true,
+  "batch": 20
+}

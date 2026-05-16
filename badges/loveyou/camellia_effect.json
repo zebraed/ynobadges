@@ -1,0 +1,10 @@
+{
+  "bp": 15,
+  "reqType": "tags",
+  "reqStrings": ["camellia_effect", "camellia_effect_equip"],
+  "reqCount": 1,
+  "map": 3,
+  "art": "thatdolphin",
+  "animated": true,
+  "batch": 207
+}

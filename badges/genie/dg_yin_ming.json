@@ -1,0 +1,17 @@
+{
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "dg_ying_ming",
+      "dg_colon_vertical_bar"
+    ],
+    [
+      "dg_ying_ming_delayed"
+    ]
+  ],
+  "map": 231,
+  "hidden": true,
+  "art": "Komaki",
+  "animated": true,
+  "batch": 211
+}

@@ -1,0 +1,9 @@
+{
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "dg_golden_armor_effect",
+  "map": 108,
+  "art": "IronCam",
+  "animated": true,
+  "batch": 212
+}

@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 25,
+  "reqType": "tag",
+  "reqString": "nonogram_sands_1_board",
+  "map": 4041,
+  "art": "Cla",
+  "animated": true,
+  "batch": 213
+}

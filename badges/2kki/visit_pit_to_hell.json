@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 20,
+  "reqType": "tag",
+  "reqString": "visit_pit_to_hell",
+  "map": 3600,
+  "art": "HenryAutumn",
+  "animated": true,
+  "batch": 210
+}

@@ -1,0 +1,15 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "shoal_coral_morita_1",
+      "shoal_coral_morita_2"
+    ]
+  ],
+  "map": 2058,
+  "art": "HenryAutumn",
+  "animated": true,
+  "batch": 211
+}

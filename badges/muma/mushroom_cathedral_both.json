@@ -1,0 +1,12 @@
+{
+  "bp": 15,
+  "reqType": "tags",
+  "reqStrings": [
+    "mushroom_cathedral_a",
+    "mushroom_cathedral_b"
+  ],
+  "map": 148,
+  "art": "Komaki",
+  "animated": true,
+  "batch": 213
+}

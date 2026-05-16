@@ -1,0 +1,10 @@
+{
+  "bp": 15,
+  "reqType": "tags",
+  "reqStrings": ["sailor_effect_aitsuki", "sailor_effect_aitsuki_equip"],
+  "reqCount": 1,
+  "map": 90,
+  "art": "Ticks",
+  "animated": true,
+  "batch": 206
+}

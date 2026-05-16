@@ -1,0 +1,16 @@
+{
+  "group": "4_ch",
+  "bp": 20,
+  "reqType": "tags",
+  "reqStrings": [
+    "visit_mushroom_world",
+    "visit_vibrant_mushroom_world",
+    "bleeding_mush_grd",
+    "visit_spore_forest",
+    "sunken_spore_sea"
+  ],
+  "map": 289,
+  "art": "HenryAutumn & Etikals",
+  "animated": true,
+  "batch": 211
+}

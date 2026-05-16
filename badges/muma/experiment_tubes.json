@@ -1,0 +1,9 @@
+{
+  "bp": 30,
+  "reqType": "tag",
+  "reqString": "experiment_tubes",
+  "map": 104,
+  "art": "Amadeus",
+  "animated": true,
+  "batch": 32
+}

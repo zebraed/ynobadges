@@ -1,0 +1,9 @@
+{
+  "group": "2_el",
+  "bp": 10,
+  "reqType": "tag",
+  "reqString": "visit_crosswalk_to_nowhere",
+  "map": 3088,
+  "art": "HenryAutumn",
+  "batch": 213
+}

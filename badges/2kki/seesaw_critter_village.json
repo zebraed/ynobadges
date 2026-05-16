@@ -1,0 +1,16 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tagArrays",
+  "reqStringArrays": [
+    [
+      "seesaw_critter_village_a",
+      "seesaw_critter_village_b"
+    ]
+  ],
+  "map": 1827,
+  "secretCondition": true,
+  "art": "Ren",
+  "animated": true,
+  "batch": 100
+}
