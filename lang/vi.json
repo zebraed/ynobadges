@@ -10451,64 +10451,64 @@
       "condition": "Đi đến House"
     },
     "muma_fric_in_rich": {
-      "name": "Memory? Not Needed!",
-      "description": "All the coins in the world!",
-      "condition": "Collect all of the coins without collecting any memory, then read the text in First Steps"
+      "name": "Ký ức ư? Chẳng cần đâu!",
+      "description": "Tất cả những đồng xu trên thế gian!",
+      "condition": "Thu thập tất cả các đồng xu mà không thu thập bất kỳ ký ức nà, rồi đọc dòng chữ ở First Steps"
     },
     "star_ride_muma": {
-      "name": "Starry Dream",
-      "description": "It feels so real...",
-      "condition": "Trigger the Star Ride event on the balcony of Bedroom"
+      "name": "Giấc mơ đầy sao",
+      "description": "Nó trông thật quá...",
+      "condition": "Kích hoạt sự kiện Star Ride ở ban công Bedroom"
     },
     "rabbit_blue_flow": {
       "name": "Bunwind",
-      "description": "So comfy...",
-      "condition": "See a rabbit on the lounge chair in Blue Flow"
+      "description": "Thật thư giãn...",
+      "condition": "Thấy con thỏ trên cái ghế ở Blue Flow"
     },
     "rabbits_sugar_maze": {
-      "name": "Bunny Tea Time",
-      "description": "They are late! They are late! For a very important date!",
-      "condition": "See the two rabbits enjoying sugar in the Sugar Maze"
+      "name": "Giờ trà của Thỏ",
+      "description": "Chúng đến quá trễ! Chúng đến quá trễ! Trong một buổi gặp mặt quan trọng!",
+      "condition": "Chứng kiến hai chú thỏ tận hưởng đồ ngọt ở Sugar Maze"
     },
     "music_room": {
-      "name": "Steps Along the Way",
-      "description": "Reflect on the steps you've taken, with music as your guide.",
-      "condition": "Visit the Music Room"
+      "name": "Những bước đi dẫn đường",
+      "description": "Phản chiếu những bước chân bạn đã đến, với âm nhạc là bản chỉ đường.",
+      "condition": "Tới Music Room"
     },
     "fake_rainbow": {
       "name": "Skipping the Sign-off",
-      "description": "Living the dream for too long, just for it to become a nightmare...",
+      "description": "Sống ở trong giấc mơ quá lâu, chỉ để nó trở thành một cơn ác mộng...",
       "condition": "Tương tác với Fake Memory tại Above the Clouds"
     },
     "blossoming_view": {
       "name": "Bunnies of Blessed Union",
       "description": "Two buns, one forever.",
-      "condition": "Encounter the Bunny Wedding in Yin Yang Lake"
+      "condition": "Chứng kiến Đám cưới Thỏ ở Yin Yang Lake"
     },
     "white_shores_sailboat": {
-      "name": "Off to Sea",
-      "description": "All I wanna do is leave.",
-      "condition": "View the passing sailboat at the White Shores."
+      "name": "Ra khơi",
+      "description": "Tất cả những gì tôi muốn làm là rời đi.",
+      "condition": "Chứng kiến con tàu trôi qua ở White Shores."
     },
     "another_white_badge": {
-      "name": "Whiteout Stairs",
-      "description": "In another white, these stairs remain.",
-      "condition": "Visit the staircase to Flower Field in Another White"
+      "name": "Bậc thang trắng",
+      "description": "Ở một màu trắng khác, những bậc thang này vẫn trường tồn.",
+      "condition": "Tới khu vực cầu thang tới Flower Field ở Another White"
     },
     "erased_muma": {
-      "name": "Goodbye Muma",
-      "description": "Muma is over",
-      "condition": "You helped Muma find a definitive end."
+      "name": "Vĩnh biệt Muma",
+      "description": "Muma đã kết thúc",
+      "condition": "Bạn đã giúp Muma tìm kết thúc tốt nhất."
     },
     "experiment_tubes": {
-      "name": "False self",
-      "description": "Who are I and them？",
-      "condition": "Fill up all of the Test Tubes in the Secret Lab"
+      "name": "Bản thể giả tạo",
+      "description": "Tôi và bọn chúng là gì？",
+      "condition": "Làm đầy các Ống Nghiệm ở Secret Lab"
     },
     "mushroom_cathedral_both": {
-      "name": "Mushroom Time Church",
-      "description": "Time really flew fast in here huh?",
-      "condition": "See both the day and night versions of Mushroom Cathedral"
+      "name": "Thời gian nhà thờ nấm",
+      "description": "Thời gian thực sự trôi nhanh ở đây nhỉ?",
+      "condition": "Xem cả hai phiên bản ngày và đêm ở Mushroom Cathedral"
     },
     "muma_realm_orb_empty": {
       "name": "Caution! Fragile!",
@@ -12884,33 +12884,33 @@
   "okuri": {
     "ordinary_day": {
       "name": "September 5",
-      "description": "Dear Ordinary day, From Ordinary day.",
-      "condition": "See Ending #1"
+      "description": "Gửi tới những ngày bình thường, từ những ngày tầm thường.",
+      "condition": "Xem Ending #1"
     },
     "first_anniversary": {
-      "name": "The one-year anniversary of...",
-      "description": "Winter comes, spring comes, summer comes, autumn comes, but you're still gone.",
-      "condition": "See Ending #2"
+      "name": "Kỉ niệm một năm của...",
+      "description": "Đông qua, xuân đến, hạ về, sang thu, nhưng bạn thì vẫn bặt vô âm tín.",
+      "condition": "Xem Ending #2"
     },
     "whiff": {
-      "name": "Whiff of",
-      "description": "Whiff of spring. Whiff of summer. Whiff of autumn. Whiff of winter.",
-      "condition": "Achieve all ending conditions and enter the door of the Flower Corridor"
+      "name": "Mùi hương",
+      "description": "Mùi hương của mùa xuân. Luồng khí của mùa hạ. Mùi hương của mùa thu. Luồng khí của mùa đông.",
+      "condition": "Hoàn thiện tất cả các điều kiện của ending và đi vào cánh cửa ở Flower Corridor"
     },
     "favorite_umbrella": {
-      "name": "Your Favorite Umbrella",
-      "description": "Would you like to see hydrangeas together?",
-      "condition": "Obtain the Hydrangea effect. If you've already unlocked it, return to Hydrangea Square."
+      "name": "Cái dù yêu thích của bạn",
+      "description": "Bạn có muốn cùng mình xem cẩm tú cầu không?",
+      "condition": "Sở hữu hiệu ứng Cẩm tú cầu. Nếu bạn đã sở hữu nó, trở lại Hydrangea Square."
     },
     "heat_haze": {
-      "name": "Heat Haze",
-      "description": "You can feel the atmosphere of summer.",
-      "condition": "Obtain the Heat Haze effect. If you've already unlocked it, return where it can be found in Seaside Town."
+      "name": "Khói nhiệt",
+      "description": "Bạn có thể cảm nhận được bầu không khí của mùa hạ.",
+      "condition": "Sở hữu hiệu ứng Khói nhiệt. Nếu bạn đã sở hữu nó, trở lại nơi nó có thể được tìm thấy ở Seaside Town."
     },
     "bouquet": {
-      "name": "Bouquet",
-      "description": "All your favorite flowers are here!",
-      "condition": "Obtain the Sakura, Chrysanthemum, Sunflower, and Hydrangea effects. If you have already unlocked them, return where they can be found respectively in Row of Cherryblossom Trees, Chrysanthemums and Water Surface, Field of Sunflowers, and Hydrangea Square.",
+      "name": "Vòng hoa",
+      "description": "Tất cả các loài hoa bạn yêu thích đều đã ở đây rồi!",
+      "condition": "Sở hữu các hiệu ứng Hoa anh đào, Cúc, Hướng dương, và Cẩm tú cầu. Nếu bạn đã sở hữu chúng, trở lại nơi nó có thể được tìm thấy lần lượt ở Row of Cherryblossom Trees, Chrysanthemums and Water Surface, Field of Sunflowers, và Hydrangea Square.",
       "checkbox": {
         "bouquet_sakura": "Row of Cherryblossom Trees",
         "bouquet_chrysanthemum": "Chrysanthemums and Water Surface",
@@ -12919,19 +12919,19 @@
       }
     },
     "snowbound_comfort": {
-      "name": "Snowbound Comfort",
-      "description": "Little snow friends bring the magic of winter.",
-      "condition": "Make a second cushion in the igloo of Bus Stop"
+      "name": "Thoải mái khi bị kẹt trong đống tuyết",
+      "description": "Người bạn tuyết bé nhỏ mang đến những điều kì diệu của mùa đông.",
+      "condition": "Làm cho cái đệm ngồi thứ hai xuất hiện ở trong cái lều tuyết ở Bus Stop"
     },
     "falling_blossom": {
-      "name": "Until the Last Petal Falls",
-      "description": "Petals drift to tell the story of spring's end.",
-      "condition": "Reach the picnic and see the falling blossom tree event in Row of Cherryblossom Trees"
+      "name": "Cho đến lúc những cánh hoa cuối cùng rơi",
+      "description": "Những cánh hoa đổi hướng để kể câu chuyện về sự kết thúc của mùa xuân.",
+      "condition": "Tới khu dã ngoại và xem sự kiện những cánh hoa anh đào rụng lá ở Row of Cherryblossom Trees"
     },
     "raindrops_and_blossoms": {
-      "name": "A Symphony of Raindrops and Blossoms",
-      "description": "Summer begins with the color of rain.",
-      "condition": "Witness the storm in Hydrangea Square"
+      "name": "Bản hòa tấu của Giọt mưa và Anh đào",
+      "description": "Mùa hè khởi đầu với màu sắc của những cơn mưa.",
+      "condition": "Chứng kiến cơn sấm chớp ở Hydrangea Square"
     }
   }
 }
