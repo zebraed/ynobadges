@@ -8822,6 +8822,205 @@
       "name": "そよ風の春",
       "description": "昔、ひまわりみたいな女の子と知り合いだったんだ。今ごろ元気にしてるかな……",
       "condition": "ヒマワリ畑に到達する"
+    },
+    "2kki_crossing_effect": {
+      "name": "そして……ストップ！！！",
+      "condition": "ふみきりのエフェクトを取得する。すでに入手している場合は、見つけた場所に行く"
+    },
+    "2kki_visit_museums": {
+      "name": "忘れられた夢見人の偶像",
+      "description": "この奇妙な偶像は、廃墟となった日本の寺院で発掘された。何を象っているのか誰にも分からないが、異様な光を放っている。現在は博物館に移され、なぜか常に2人の警備員が見張っている……",
+      "condition": "博物館と博物館リベンジに到達する",
+      "checkbox": {
+        "2kki_visit_dark_museum": "博物館リベンジ",
+        "2kki_visit_museum": "博物館"
+      }
+    },
+    "animated_hub_vm": {
+      "name": "白色不耐症",
+      "description": "あなたは ぎゅうにゅうの のみすぎで たおれて しまった！",
+      "condition": "パノラマアニメーション:白黒の道エリアで、自動販売機のイベントを見る"
+    },
+    "crossing_forest_apricot_wolf": {
+      "name": "本物のニセギツネ",
+      "description": "扉部屋のみんながあなたを大好きになるよ！",
+      "condition": "踏切森林でおおかみのエフェクトを装備して、アカギツネのケモミミっ子に話しかける"
+    },
+    "marble_ruins_balcony": {
+      "name": "大理石の空",
+      "description": "塔の頂上では、月明かりだけがその広間を照らしている。",
+      "condition": "大理石屋敷:バルコニーに到達する"
+    },
+    "olympus_ruins_man_statue": {
+      "name": "ヘラクレスの巨人",
+      "description": "古都が私の復讐を拒むなら、この地のすべてを滅ぼしてやる。",
+      "condition": "栄華の古蹟:深部の手を伸ばす巨像を見上げる"
+    },
+    "pastel_pools_star_surfer": {
+      "name": "星に魅せられたサーファー",
+      "description": "彼がサーフィン以上に愛しているもの……それはペンギンだ。",
+      "condition": "パステルプールにいるサーファーっぽい子にぺんぎんのエフェクトを使用する"
+    },
+    "rusted_city_computer": {
+      "name": "生き残る機械",
+      "description": "うん……今さら錆に飲まれたりしないでよ",
+      "condition": "錆びた街:錆びた街エリアにいるPCさんを調べる"
+    },
+    "visit_cloud_haven": {
+      "name": "雲想家",
+      "description": "「すごくふわっふわなピクニックスポットを見つけたんだ！」",
+      "condition": "雲上庭園に到達する"
+    },
+    "visit_dal_segno": {
+      "name": "変位するダルセーニョ",
+      "description": "雪が降り、蛍が舞う村でまた会おう。",
+      "condition": "レペティションに到達する"
+    },
+    "visit_white_lily_lab": {
+      "name": "ユリの花",
+      "description": "ここに辿り着くことがゴールではない。ユリたちは……邪悪な秘密を隠している。世界の導きに従い、最後の夢へと向かえ。",
+      "condition": "白花蓮研に到達する"
+    },
+    "2kki_visit_docks": {
+      "name": "どったの桟橋？",
+      "description": "君は桟橋か、あるいはボートが大好きなのかも。どちらにしても、これは桟橋愛好家のための記念バッジだ！",
+      "condition": "以下の桟橋の世界を訪れる: 霧の湖、レザック桟道、釣り堀、洪水桟橋、風車と穂波、桟橋の湖、夢孤島、フリッカー桟橋、屋敷外、九相図、宵の湖沼、燈籠の桟橋、甘幻密語"
+    },
+    "emerald_cave_yellow_creature": {
+      "name": "エメラルド洞窟探検家",
+      "description": "こいつが何であれ、大ファンだよ",
+      "condition": "地下道にいる黄色い顔付き生物を見つける"
+    },
+    "frozen_disco_reveal_lamplighter": {
+      "name": "痛みのディスコ",
+      "description": "痛みは決して終わらず、死後もなお私につきまとう",
+      "condition": "青の奈落:ワープエリアでめがねのエフェクトを使用して、ランプ点け男を見つける"
+    },
+    "neon_sewers_rooftop": {
+      "name": "残光が永遠に巡る場所",
+      "description": "世界の頂に辿り着けば、すべては遥か彼方。世界は永遠の残光とともに流れ続ける。",
+      "condition": "蛍光水処理場:屋上に到達する"
+    },
+    "rbw_tiles_creatures": {
+      "name": "カラフルなやつら",
+      "description": "彷徨う者すべてが、本当に迷っているわけではない。",
+      "condition": "ナインタイルにいるすべてのいろんな色の不思議生物に話しかける"
+    },
+    "visit_acerola_world": {
+      "name": "ポケット4(し)次元",
+      "description": "その花を恐れよ。",
+      "condition": "アセロラに到達する"
+    },
+    "visit_desktops": {
+      "name": "過去へのウィンドウ",
+      "description": "ノスタルジアは美しくも物悲しい感情だ。",
+      "condition": "以下のデスクトップをテーマにした世界を訪れる: デスクトップ、病みかわ世界:ゆめかわうぃんどう、水色かぷせる、シンクカタログ、アスキーアート、風考明比",
+      "checkbox": {
+        "file_viewer": "病みかわ世界:ゆめかわうぃんどう",
+        "sink_catalog": "シンクカタログ",
+        "tranquil_park": "風考明比",
+        "visit_ascii_symbol_zone": "アスキーアート",
+        "visit_azure_overdose_zone": "水色かぷせる",
+        "visit_the_desktop": "デスクトップ"
+      }
+    },
+    "visit_sprite_lake": {
+      "name": "水と空がひとつになる地",
+      "description": "最も辛抱強い冒険者だけが、最も美しい報酬を手にする。",
+      "condition": "氷点の湖に到達する"
+    },
+    "2kki_abyss_giant_monster": {
+      "name": "アナログ・うろホラー",
+      "description": "禁じられた地には近づくな",
+      "condition": "其処已観:赤蝕屋上にいる虚ろつきを見つける"
+    },
+    "2kki_child_effect": {
+      "name": "内なる子ども",
+      "description": "もっと純粋だった頃へ……",
+      "condition": "こどものエフェクトを取得する。すでに入手している場合は、見つけた場所に行く"
+    },
+    "2kki_rainy_town_ambush": {
+      "name": "もうランプを灯さない",
+      "description": "一生懸命働いてくれてありがとう……？",
+      "condition": "ランプ:バックヤードで強制起床イベントを見る"
+    },
+    "2kki_visit_cloud_tops": {
+      "name": "昨日より良い今日",
+      "description": "昼は夕暮れへ、夕暮れは夜へ、そして夜は夜明けへ。",
+      "condition": "空中に到達する"
+    },
+    "ghostly_interiors": {
+      "name": "魂の共鳴",
+      "description": "健全な精神は……健全な肉体に……そして健全な魂に宿る……",
+      "condition": "廃籠に到達する"
+    },
+    "pastel_sea_girl_reactions": {
+      "name": "穏やかな顔の下で、すべては食らわれる",
+      "description": "姫の微笑みを浮かべながら、深海の女王として狩る",
+      "condition": "沈没船マンションにいる貝に座る女性の全てのエフェクト反応を見る"
+    },
+    "red_monastery_chainsaw": {
+      "name": "泣き虫",
+      "description": "「だって、チェーンソーで斬りつけたんだからね。」",
+      "condition": "赤色現代美術館にいる肌色丸をチェーンソーで斬る"
+    },
+    "robotic_inst_glitch_event": {
+      "name": "バグった施設",
+      "condition": "institutionの強制起床イベントを見る"
+    },
+    "server_not_found_landlady": {
+      "name": "ふたつの世界を宿す双眸",
+      "description": "影を帯びた白の下、ふたつの色が目覚める",
+      "condition": "誤認で帽子をかぶった白髪の女性に話しかける"
+    },
+    "visit_farewell_residence": {
+      "name": "錆びついた静寂",
+      "description": "寂れた町に残る、最後の別れのこだま。",
+      "condition": "錆閑に到達する"
+    },
+    "visit_rockbound_beach": {
+      "name": "風化穴アイランド",
+      "condition": "タフォニに到達する"
+    },
+    "visit_the_skin": {
+      "name": "これが本当の私！",
+      "description": "もう隠すものなんて何もないよ",
+      "condition": "表皮に到達する"
+    },
+    "azure_odzsa_chainsaw": {
+      "name": "私のちいさな居場所",
+      "description": "人生に疲れたら、web上の暗い小さな場所で眠ろうよ",
+      "condition": "壊羽:隔離エリアにいる銃を携えた少年をチェーンソーで斬る"
+    },
+    "crimson_drains_dragon": {
+      "name": "朱色のヒュドラ",
+      "description": "それぞれの首は罪であり、それぞれの火炎は行動に移された罪である。",
+      "condition": "朱鉄水路にいる赤い双頭竜を見る"
+    },
+    "limestome_dam_reactions": {
+      "name": "虚空のプリズム",
+      "description": "夢見ることが怖いわけじゃない",
+      "condition": "来夢ダムにある磔のプリズム四面体に反応するすべてのエフェクトを使用する"
+    },
+    "monochrome_abyss_flier": {
+      "name": "モノクロームの空にて",
+      "description": "鳥だ！ 飛行機だ！ ……いや、どう見てもたこ風船じゃないか！",
+      "condition": "白黒深淵でたこ風船的なものを見る"
+    },
+    "stereo_station_bunny": {
+      "name": "音符",
+      "description": "なんて落ち着いたウサギなんだろう。ところで、その音はどこから聞こえてくるんだい？",
+      "condition": "ステレオステーション:ホームにいる灰色ウサギ人に話しかける"
+    },
+    "visit_blasted_cliffs": {
+      "name": "タービンの暴風",
+      "description": "崖の向こう、雲の上でそれらは回り続ける",
+      "condition": "煙霧の嶺上に到達する"
+    },
+    "visit_candlelight_void": {
+      "name": "消えない憂光",
+      "description": "きらめく灯りがあなたの行く先を照らし続ける",
+      "condition": "燭明に到達する"
     }
   },
   "flow": {
@@ -9164,6 +9363,16 @@
       "name": "本当に私だってバレない？",
       "description": "「ほら、信じろって、誰もあんたには気づかないよ。」",
       "condition": "くろフードのエフェクトを入手する。すでに入手している場合は、浴室の見つけた場所に行く。"
+    },
+    "flow_orekos": {
+      "name": "Every Version of Her",
+      "condition": "See Oreko in the Hospital, Orange Maze, Submarine World, and in the Deadhole sub-area of Hole",
+      "checkbox": {
+        "flow_oreko_deadhole": "Deadhole sub-area of Hole",
+        "flow_oreko_hospital": "Hospital",
+        "flow_oreko_orange_maze_1|flow_oreko_orange_maze_2": "Orange Maze",
+        "flow_oreko_submarine_world_1|flow_oreko_submarine_world_2|flow_oreko_submarine_world_3|flow_oreko_submarine_world_4": "Submarine World"
+      }
     }
   },
   "deepdreams": {
@@ -9400,6 +9609,16 @@
     "rainbow_theme": {
       "name": "虹の開花",
       "condition": "システム　虹を入手する、すでに入手している場合はRainbow Scratch Parkのトイレにもう一度行く。"
+    },
+    "dd_cathedral": {
+      "name": "The Cathedral of Your Dreams",
+      "description": "Cathedral of dreams, a sanctuary of eternal light where stained glass mirrors your forgotten memories.",
+      "condition": "Visit Cathedral"
+    },
+    "rafflesia_pin": {
+      "name": "Lady Rafflesia",
+      "description": "The bearer of a smile as unpleasant as the rafflesia's signature stench",
+      "condition": "Apartmentsの最奥の部屋に入る"
     }
   },
   "someday": {
@@ -9942,6 +10161,11 @@
       "name": "DUDE参上",
       "description": "あとKuboも。",
       "condition": "All-Seeing ForestでTurtle Holeイベントを見る"
+    },
+    "ud_dementia_wake_up": {
+      "name": "Lights Off",
+      "description": "I lost it all before I knew I had it.",
+      "condition": "Trigger the wake up event in Dementia"
     }
   },
   "braingirl": {
@@ -10279,6 +10503,11 @@
       "name": "背後から怒りのオーラ！",
       "description": "女王さま、どうかお怒りを鎮めて…お仕置きは勘弁！",
       "condition": "Chasers' VersaillesからAbyssに行く"
+    },
+    "ami_train_woman_music": {
+      "name": "Jazzy Tune",
+      "description": "But first, will you dance with me?",
+      "condition": "Interact with the woman who changes the music in Le Jazzy Train Bleu"
     }
   },
   "muma": {
@@ -10532,6 +10761,11 @@
       "name": "煉獄",
       "description": "なんてこった！Mumaが殺されちゃった！",
       "condition": "The Grinderに到達する"
+    },
+    "muma_ending_3": {
+      "name": "Nothing Inside",
+      "description": "Let's leave this world behind us...",
+      "condition": "See the Ending #3"
     }
   },
   "genie": {
@@ -10773,6 +11007,11 @@
       "name": "輝く鎧の騎士",
       "description": "いつでも君を守ってあげよう。",
       "condition": "Golden ArmorのDelusionを入手する。すでに入手している場合は、Golden Canopyの見つけた場所に行く。"
+    },
+    "dg_freezing_point_blob": {
+      "name": "Unbalanced Temperature",
+      "description": "Maybe it's not too bad.",
+      "condition": "Interact with the screaming chromatic blob thing in Freezing Point"
     }
   },
   "mikan": {
@@ -11666,6 +11905,11 @@
       "name": "仕事着スタイル",
       "description": "お仕事中もかわいく！",
       "condition": "フォーマルのエフェクトを入手する、すでに入手している場合はElectro Towerにもう一度行く。"
+    },
+    "visit_emerald_shrubland_iso": {
+      "name": "In the Quiet of Waiting for Something",
+      "description": "While the magpie waits for something, we share a quiet of our own.",
+      "condition": "Visit the isolated section of Emerald Shrubland from the Vile Tunnels"
     }
   },
   "tsushin": {
@@ -12066,6 +12310,20 @@
     "tsushin_visit_low_poly_town": {
       "name": "カクカクタウン",
       "condition": "PS世界に到達する"
+    },
+    "tsushin_forever_bus_stop": {
+      "name": "Forgotten Route",
+      "description": "This bus sure is taking forever.",
+      "condition": "See the bus stop in Forest Bus Stop"
+    },
+    "tsushin_seaside_night_light_bug": {
+      "name": "Bioluminescent Seashells",
+      "condition": "Use the Light Bug effect in the night version of Seaside"
+    },
+    "tsushin_snow_globe_effect": {
+      "name": "Cutest Little Snowglobe",
+      "description": "Happy Holidays from your beloved Wormiko!",
+      "condition": "Obtain the Snow Globe effect. If you have already unlocked it, return where it can be found in Snowy Avenue."
     }
   },
   "nostalgic": {
@@ -12623,6 +12881,11 @@
       "name": "LE(on)D",
       "description": "\"(phôs, phōtós)『光』\n\"",
       "condition": "レオンでこうしのエフェクトを入手する、すでに入手している場合はNeon Worldにもう一度行く。"
+    },
+    "fog_8ball_effect": {
+      "name": "Ask Me Anything",
+      "description": "Reply hazy, please try again.",
+      "condition": "Obtain the 8 Ball effect. If you have already unlocked it, return to the Path to Pyramid in Grass World."
     }
   },
   "cold": {
@@ -12750,6 +13013,11 @@
     "cold_ending_1": {
       "name": "これで十分ですか？",
       "condition": "End1を見る"
+    },
+    "cold_visit_school_rooftop": {
+      "name": "Sky of the Past",
+      "description": "The past flashing before your eye but you can't do anything about it.",
+      "condition": "Reach Rooftop in the School"
     }
   },
   "loveyou": {
@@ -12892,6 +13160,26 @@
       "name": "死を越えて輝く光",
       "description": "すべてが死に呑まれても、一本の灯火は希望を囁く。",
       "condition": "Death Worldでろうそくのエフェクトを使う"
+    },
+    "ly_railroad_smoker": {
+      "name": "Phantom Express",
+      "description": "A brawl is surely brewing! You're up!",
+      "condition": "Interact with the Smoking Motorman in Orange Railroad Crossing"
+    },
+    "ly_visit_red_corridors": {
+      "name": "Erythrophobia",
+      "description": "\"YOU WILL PERMIT IT TO PASS OVER YOU AND GO THROUGH YOU.\nAND WHEN IT HAS GONE PAST, YOU WILL TURN THE INNER EYE TO SEE IT'S PATH.\"",
+      "condition": "Visit Red Corridors"
+    },
+    "ly_visit_summer_house": {
+      "name": "Everything and Anything Between You and Me...",
+      "description": "... was never meant, 'cause you can't miss what you forget.",
+      "condition": "See the Summer House"
+    },
+    "ly_meat_cleaver_effect": {
+      "name": "Old Blood and Steel",
+      "description": "I loved you, but now I hate you...",
+      "condition": "Obtain the Meat Cleaver effect. If you have already unlocked it, return to Copper World."
     }
   },
   "okuri": {
@@ -12945,6 +13233,53 @@
       "name": "雨粒と紫陽花の交響曲",
       "description": "雨の色から、夏が始まる。",
       "condition": "紫陽花広場で嵐を目撃する"
+    },
+    "okuri_turtle_effect": {
+      "name": "Please Take Care of Me",
+      "description": "They little bit shy are they?",
+      "condition": "Obtain the Turtle effect. If you have already unlocked it, return where it can be found in Veranda."
+    },
+    "okuri_bells": {
+      "name": "Little Bell-Ringer",
+      "description": "Would you care to make a donation to the Subconscious Association?",
+      "condition": "Interact with every bell in Bell Passage"
+    },
+    "okuri_close_effect": {
+      "name": "Mini Butsudan",
+      "description": "How do you even walk with that?",
+      "condition": "Obtain the Close effect. If you have already unlocked it, return to Tatami Room."
+    },
+    "okuri_flower_effect": {
+      "name": "Chrysanthemums Adrift in Tranquility",
+      "description": "Chrysanthemums drift—and so do I.",
+      "condition": "Obtain the Chrysantheum effect. If you have already unlocked it, return to Chrysanthemums and Water Surface."
+    },
+    "okuri_sunflower_effect": {
+      "name": "Sun Petals",
+      "description": "Maybe it wouldn't hurt to look at the sun this time.",
+      "condition": "Obtain the Sunflower effect. If you have already unlocked it, return where it can be found in Field of Sunflowers."
+    },
+    "okuri_visit_veranda": {
+      "name": "Slow & Serene",
+      "description": "Relax and take it easy.",
+      "condition": "Visit Veranda"
+    }
+  },
+  "scarynikki": {
+    "sn_lightningtsuki": {
+      "name": "Lightningtsuki",
+      "description": "You interacted with him and got this stupid badge of him. Great job!",
+      "condition": "Interact with Lightningtsuki in his room"
+    },
+    "sn_pear_effect": {
+      "name": "Sanpearutsuki",
+      "description": "The happiest, most joyous specimen to ever live.",
+      "condition": "Equip the Pear effect where it was obtained in WIP"
+    },
+    "sn_school_flying": {
+      "name": "Violet Wings that Tear Through the Heavens",
+      "description": "Wings meant to break the boundaries of the world.",
+      "condition": "View the flying event at the school balcony"
     }
   }
 }

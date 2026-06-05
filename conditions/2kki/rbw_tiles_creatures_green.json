@@ -1,0 +1,10 @@
+{
+  "map": 1102,
+  "trigger": "eventAction",
+  "values": [
+    "3",
+    "6",
+    "7",
+    "63"
+  ]
+}
