@@ -1,0 +1,10 @@
+{
+  "group": "2_el",
+  "bp": 15,
+  "reqType": "tag",
+  "reqString": "statue_tov",
+  "secretCondition": true,
+  "art": "Michi",
+  "animated": true,
+  "batch": 230
+}

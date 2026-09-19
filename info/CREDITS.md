@@ -41,7 +41,9 @@
 * Anii
 * Animatic
 * Anju
+* Antarlik
 * ApeMan
+* Aring
 * arksynapse
 * aronek
 * Arumita
@@ -66,9 +68,11 @@
 * Canio
 * Canto Mk. 6
 * Carbonara
+* CatASI
 * catling
 * Catmat
 * Catsalotl
+* chanceswife
 * ChatteringTeethDemon
 * chiitriangle
 * Chimata
@@ -95,7 +99,6 @@
 * deg
 * denji9099
 * desktopghost
-* Dmitry Pro
 * DolphinDan
 * DreamBird
 * DreamScape
@@ -142,9 +145,7 @@
 * Horse de Paus
 * Hourai
 * Hyo
-* iEcilpse
 * Iesu
-* IronCam
 * Ivinous
 * Jameson
 * jams
@@ -154,23 +155,22 @@
 * Jetrotal
 * JFero
 * JGS5
+* jinyajin
 * Jirachi
 * JIVV
 * JohnYumeNiki
-* JSG5
-* jue
 * juliemeal
 * Kalail
 * Kantyo
 * Kasatate
 * Kazecita
 * Kekwet
+* Kirieshka
 * KitsuneYume
 * klayfruit
 * Kofu
 * Koishi Komeiji
 * kolteel
-* Komaki
 * krossower1
 * KSakura
 * Kudadaze
@@ -198,7 +198,6 @@
 * Marxotic
 * Masky1977
 * Mav
-* Mediochre_
 * memorisleep
 * meriamory
 * Mewzie
@@ -217,11 +216,11 @@
 * Moth
 * mothtam
 * Moucky2333
-* Moumekie
 * mrbloxxypants
 * MrSwag
 * Murasaki
 * Murasaki no Yume
+* mycringeswag7
 * Myshfelk
 * MZD
 * Nabisae
@@ -234,7 +233,6 @@
 * natl
 * Necrotic
 * neesaig
-* neetifice
 * nekhnona
 * Nexrob010
 * Ni
@@ -281,6 +279,7 @@
 * Rennatalia
 * ribon996
 * Riqo
+* Risena
 * rooliette
 * Rooy
 * rosaregard
@@ -297,7 +296,6 @@
 * saul
 * Sawney
 * SealOasis
-* SeashellC4
 * Sekiranun
 * Shak3l1ght
 * Shakzass
@@ -322,6 +320,7 @@
 * solnpass
 * Somsnosna
 * SpaceBug
+* spectrumcore
 * speeedysalad
 * Staghouse33
 * starbits
@@ -332,7 +331,6 @@
 * sugarbones
 * Sugarcan3333
 * summersn0w
-* sunny
 * systemaciel
 * taechan
 * taintedeve
@@ -346,6 +344,7 @@
 * Telebotz
 * Temwichi
 * thatdolphin
+* thatoneartistdude
 * Theero
 * TheInkBlot
 * TheRagingRowlet
@@ -357,12 +356,13 @@
 * Twiscool
 * ufo
 * uroyu
+* valkvv
 * Vanna
 * VelvetKitty
 * vena
-* vermilionangel
-* visc3ra
+* violetsita
 * VoislavJ
+* volta
 * vomitlaura
 * VoxlAlien
 * VoxSilentii
@@ -384,7 +384,7 @@
 * Yuni
 * Zaakarias
 * Zahyou
-* Zelthra
+* Zarkv
 * Zethyer
 * Zimnior12
 * ZLD1

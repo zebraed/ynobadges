@@ -3,6 +3,7 @@
   "reqType": "tag",
   "reqString": "tsushin_seaside_night_light_bug",
   "map": 13,
-  "art": "vena",
+  "art": "desktopghost",
+  "animated": true,
   "batch": 217
 }
